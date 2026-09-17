@@ -1,0 +1,18 @@
+{
+  "name": "@provod-ai/skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Versioned Provod skills and client rules",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:index": "node scripts/validate.mjs --write-index",
+    "test": "node --test",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "yaml": "2.9.1"
+  }
+}

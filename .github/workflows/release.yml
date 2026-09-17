@@ -1,0 +1,59 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions: {}
+
+jobs:
+  validate:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 20
+          cache: npm
+      - name: Require the tagged commit on public protected main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$(gh api "/repos/$GITHUB_REPOSITORY" --jq .visibility)" = "public"
+          gh api "/repos/$GITHUB_REPOSITORY/branches/main/protection" --silent
+          git fetch --no-tags origin main
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+      - run: npm ci
+      - run: npm test
+      - run: npm run validate
+      - name: Verify release version
+        run: test "v$(node -p "require('./package.json').version")" = "$GITHUB_REF_NAME"
+
+  publish:
+    needs: validate
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch the reviewed index without executing repository code
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api \
+            -H "Accept: application/vnd.github.raw+json" \
+            "/repos/$GITHUB_REPOSITORY/contents/index.json?ref=$GITHUB_SHA" \
+            > index.json
+          shasum -a 256 index.json > index.json.sha256
+      - name: Publish release artifact and digest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" index.json index.json.sha256 \
+            --generate-notes \
+            --title "$GITHUB_REF_NAME" \
+            --notes "index.json SHA-256: $(cut -d ' ' -f 1 index.json.sha256)"
