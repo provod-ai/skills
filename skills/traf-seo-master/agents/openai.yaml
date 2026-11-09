@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRAF SEO Master"
+  short_description: "SEO strategy, audits and measured acquisition"
+  default_prompt: "Use $traf-seo-master to select and verify the next SEO acquisition opportunity."

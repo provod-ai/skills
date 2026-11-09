@@ -78,7 +78,15 @@ function assertInvalid(cwd, message, args = ["--write-index"]) {
 
 test("validator accepts the complete release contract", () => {
   const output = run(root, "scripts/validate.mjs");
-  assert.match(output, /Validated 3 skills and 20 MCP tools\./);
+  assert.match(output, /Validated 4 skills and 20 MCP tools\./);
+});
+
+test("portable SEO metadata requires a semver version", () => {
+  const cwd = fixture();
+  alter(cwd, "skills/traf-seo-master/SKILL.md", (text) =>
+    text.replace('version: "0.1.0"', 'version: "latest"'),
+  );
+  assertInvalid(cwd, /version must be semver/);
 });
 
 test("frontmatter fields are mandatory", () => {

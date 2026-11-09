@@ -1,0 +1,15 @@
+# GEO, AI search and useful agent discovery
+
+Separate the observed surface: organic SERP, AI Overview, native source citation, URL merely written in answer prose, model API memory answer, consumer-search result, actual referral or self-reported discovery. Preserve exact provider/engine/model/version, prompt/query, search-tool availability/use, country/language/time, sampling and extraction method. Organic-result URLs and prose links are not automatically citations; an API call without web search does not measure consumer ChatGPT Search.
+
+Use actual own analytics and currently available search-platform data first. As reviewed2026-11-01, Google's [generative-AI impressions report](https://support.google.com/webmasters/answer/16984139) covers AI Overviews/AI Mode and overlaps Web Performance data. It is not an independent click/session total to add to ordinary search. Parent/child [Search generative-AI inclusion controls](https://support.google.com/webmasters/answer/16908024) can matter; Include is default. Keep inclusion, snippets and training controls distinct. Refresh owning sources rather than treating an older general AI-features page as the only authority.
+
+Report availability, aggregation, preliminary/final dates, privacy/truncation and exported unknown markers. A missing report may mean too few impressions; it does not establish collector failure or zero opportunity. Provider data that exports unavailable values as zero requires a source-aware unknown/status field.
+
+Monitor a justified set of decision/task prompts when own data leaves a concrete gap. State coverage and model variability; do not manufacture a universal visibility score. Available source tools include deterministic audits and consumer samplers, but each has auth, model-cost, browser and output-semantics limits. Never borrow another account/session or treat a library's anti-detection capability as permission. One adequate sampler is preferable to several unqualified dashboards.
+
+Acquisition comes from a useful asset/action and a reason to discover it: original source facts, complete product/docs/integration paths, meaningful comparisons, task examples and actual distribution in the user's workflow. Current public claims from operators are hypotheses about mechanisms, not transferable traffic forecasts. Attribution must separate native citations, identifiable referrals, self-report and revenue; anonymous direct traffic is not automatically AI traffic.
+
+For Google, no special AI-only schema/file or guaranteed citation trick is established; the current [optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) explains its treatment of llms.txt. Markdown/docs can improve tool usability without being a Google ranking guarantee. Bing/Copilot controls and reports are separate products; read search-engines.md before using them.
+
+Output a source-kind-qualified visibility/gap report and a falsifiable content/distribution experiment, with downstream acquired audience/useful actions where measured. Citation count, API answer frequency and agent tool calls never close the organic-visit target by themselves.

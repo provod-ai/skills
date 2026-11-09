@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "site_id": "example-static",
+  "profile_sha256": "ec04cf3f6b022692bfea81234d04bbfc75e2695ae08213ec5e7688f9b97f2069",
+  "registry_version": "2026-11-09-v5",
+  "as_of": "2026-11-02T00:00:00Z",
+  "artifacts": [],
+  "observations": [],
+  "fixture_only": true,
+  "scope": "Valid empty evidence demonstrates explicit missing checks, not a successful audit. No request or collection is represented."
+}

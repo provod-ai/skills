@@ -1,0 +1,1036 @@
+{
+  "schema_version": 1,
+  "package": "traf-seo-master",
+  "package_version": 3,
+  "reviewed_on": "2026-11-02",
+  "scope": "Unified agent workflow and selective helpers; no automatic provider activation",
+  "reference_claims": [
+    "audits",
+    "geo",
+    "texts",
+    "briefs",
+    "yandex",
+    "ai-search",
+    "markup",
+    "indexation",
+    "speed",
+    "keywords",
+    "nausea",
+    "de-ai-texts",
+    "one-prompt",
+    "claude",
+    "codex",
+    "cursor",
+    "landing-reference"
+  ],
+  "coverage_semantics": "Instruction route, shipped adapter, dependency availability, host runtime, live authentication and acquisition proof are separate.",
+  "capabilities": [
+    {
+      "id": "reach-strategy",
+      "title": "Reach Strategy",
+      "reference": "references/acquisition.md",
+      "source_ids": [
+        "doc-8cd1ab27911f",
+        "doc-14a41211e1e3",
+        "doc-8d7d5b412c81"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "keyword-corpus",
+      "title": "Keyword Corpus",
+      "reference": "references/intelligence.md",
+      "source_ids": [
+        "gh-dataforseo--mcp-server-typescript",
+        "gh-semrush--skills",
+        "doc-3ef3a12a92d9",
+        "gh-dgtlmoon--changedetection-io",
+        "gh-xnl-h4ck3r--waymore"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "keywords"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "serp-intent",
+      "title": "Serp Intent",
+      "reference": "references/intelligence.md",
+      "source_ids": [
+        "gh-dataforseo--mcp-server-typescript",
+        "gh-semrush--skills",
+        "doc-3ef3a12a92d9",
+        "gh-dgtlmoon--changedetection-io",
+        "gh-xnl-h4ck3r--waymore"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "competitor-spy",
+      "title": "Competitor Spy",
+      "reference": "references/intelligence.md",
+      "source_ids": [
+        "gh-dataforseo--mcp-server-typescript",
+        "gh-semrush--skills",
+        "doc-3ef3a12a92d9",
+        "gh-dgtlmoon--changedetection-io",
+        "gh-xnl-h4ck3r--waymore"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "trend-discovery",
+      "title": "Trend Discovery",
+      "reference": "references/intelligence.md",
+      "source_ids": [
+        "gh-dataforseo--mcp-server-typescript",
+        "gh-semrush--skills",
+        "doc-3ef3a12a92d9",
+        "gh-dgtlmoon--changedetection-io",
+        "gh-xnl-h4ck3r--waymore"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "technical-crawl",
+      "title": "Technical SEO and scoped crawling",
+      "reference": "references/technical-indexing.md",
+      "source_ids": [
+        "tool-lighthouse",
+        "doc-3a5e6cfc5d92",
+        "doc-a8ec062a6603",
+        "doc-192a4973ac3a",
+        "doc-dcd5730c013c",
+        "doc-287c6057c692"
+      ],
+      "implementation": "host workflow with a shipped single-page Lighthouse adapter",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "Lighthouse helper",
+        "dependency_availability": "qualified producer toolchain; consumer must provide pinned executable",
+        "host_model_runtime": "unverified",
+        "live_authentication": "not required for public lab audit; other scopes unverified",
+        "acquisition_result": "unproven",
+        "helper_runtime": "one actual public single-page Lighthouse13.6.0 run on macOS; not full crawl/index/GEO/Yandex/fielddata",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "audits"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools",
+        "Lighthouse13.6.0, Node>=22.19, existingChrome, POSIXaudit"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "render-canonical",
+      "title": "Render Canonical",
+      "reference": "references/technical-indexing.md",
+      "source_ids": [
+        "doc-3a5e6cfc5d92",
+        "doc-a8ec062a6603",
+        "doc-192a4973ac3a",
+        "doc-dcd5730c013c",
+        "doc-287c6057c692"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic incident/editing case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "structured-data",
+      "title": "Structured Data",
+      "reference": "references/technical-indexing.md",
+      "source_ids": [
+        "doc-3a5e6cfc5d92",
+        "doc-a8ec062a6603",
+        "doc-192a4973ac3a",
+        "doc-dcd5730c013c",
+        "doc-287c6057c692"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "markup"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "indexation",
+      "title": "Indexation",
+      "reference": "references/technical-indexing.md",
+      "source_ids": [
+        "doc-3a5e6cfc5d92",
+        "doc-a8ec062a6603",
+        "doc-192a4973ac3a",
+        "doc-dcd5730c013c",
+        "doc-287c6057c692"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic incident/editing case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "indexation"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "performance-cwv",
+      "title": "Page performance and Core Web Vitals",
+      "reference": "references/performance.md",
+      "source_ids": [
+        "tool-lighthouse",
+        "gh-googlechrome--lighthouse",
+        "doc-6ebd51fc204d"
+      ],
+      "implementation": "host workflow with a shipped single-page Lighthouse adapter",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "Lighthouse helper",
+        "dependency_availability": "qualified producer toolchain; consumer must provide pinned executable",
+        "host_model_runtime": "unverified",
+        "live_authentication": "not required for public lab audit; other scopes unverified",
+        "acquisition_result": "unproven",
+        "helper_runtime": "one actual public single-page Lighthouse13.6.0 run on macOS; not full crawl/index/GEO/Yandex/fielddata",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "speed"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools",
+        "Lighthouse13.6.0, Node>=22.19, existingChrome, POSIXaudit"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "content-brief",
+      "title": "Content Brief",
+      "reference": "references/content-briefs.md",
+      "source_ids": [
+        "gh-coreyhaines31--marketingskills",
+        "gh-thecraighewitt--seomachine",
+        "gh-assafelovic--gpt-researcher",
+        "doc-8d7d5b412c81",
+        "doc-85232b73c9be"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "briefs"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "content-facts",
+      "title": "Content Facts",
+      "reference": "references/content-briefs.md",
+      "source_ids": [
+        "gh-coreyhaines31--marketingskills",
+        "gh-thecraighewitt--seomachine",
+        "gh-assafelovic--gpt-researcher",
+        "doc-8d7d5b412c81",
+        "doc-85232b73c9be"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case",
+          "native Codex installed-copy synthetic incident/editing case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "texts"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "natural-editing",
+      "title": "Natural Editing",
+      "reference": "references/content-quality.md",
+      "source_ids": [
+        "doc-8d7d5b412c81",
+        "gh-textlint--textlint",
+        "gh-blader--humanizer",
+        "doc-f9ce1bceb054",
+        "doc-99947268cf0e",
+        "doc-85232b73c9be"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic incident/editing case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "de-ai-texts"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "text-statistics",
+      "title": "Text Statistics",
+      "reference": "references/content-quality.md",
+      "source_ids": [
+        "doc-8d7d5b412c81",
+        "gh-textlint--textlint",
+        "gh-blader--humanizer",
+        "doc-f9ce1bceb054",
+        "doc-99947268cf0e",
+        "doc-85232b73c9be"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic incident/editing case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "nausea"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "site-tools-pseo",
+      "title": "Site Tools Pseo",
+      "reference": "references/sites-publication.md",
+      "source_ids": [
+        "gh-codextde--autoseo",
+        "gh-emiliojohann--serpsmith",
+        "gh-swarmclawai--pseo-ai-kit",
+        "doc-8bfadee767fa",
+        "gh-wordpress--mcp-adapter"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "landing-design",
+      "title": "Landing Design",
+      "reference": "references/landing-design.md",
+      "source_ids": [
+        "doc-739b5d19add9",
+        "doc-4ad49da94b33",
+        "doc-267ce05b20e9",
+        "gh-pbakaus--impeccable",
+        "doc-603546002b23",
+        "doc-fbccfb967f9d",
+        "gh-microsoft--playwright",
+        "gh-dequelabs--axe-core",
+        "doc-1f2734e7294c"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "landing-reference"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "publication",
+      "title": "Publication",
+      "reference": "references/sites-publication.md",
+      "source_ids": [
+        "gh-codextde--autoseo",
+        "gh-emiliojohann--serpsmith",
+        "gh-swarmclawai--pseo-ai-kit",
+        "doc-8bfadee767fa",
+        "gh-wordpress--mcp-adapter"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case",
+          "native Codex installed-copy synthetic incident/editing case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "google-bing",
+      "title": "Google and Bing search reporting",
+      "reference": "references/search-engines.md",
+      "source_ids": [
+        "gh-googleanalytics--google-analytics-mcp",
+        "doc-90e35aea269c",
+        "doc-a2f622bda7c9",
+        "doc-6e77a1c43371",
+        "doc-9fc739c98504",
+        "doc-98bd9bb79aa7",
+        "doc-fdf61edca474",
+        "doc-b241e3c6c99f",
+        "doc-e47505396dbe",
+        "doc-3307e148712a",
+        "doc-6fe2317039f5",
+        "doc-5e8774886a74",
+        "doc-d9771a6de8ec",
+        "doc-5776a1165245",
+        "doc-5cb97c4baded",
+        "doc-40c3c125c321",
+        "doc-ed58c3a014c4",
+        "doc-bad164a9475c",
+        "doc-3a5e6cfc5d92",
+        "doc-50e8d107c624"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "yandex",
+      "title": "Yandex Webmaster, Metrika and Wordstat",
+      "reference": "references/search-engines.md",
+      "source_ids": [
+        "gh-googleanalytics--google-analytics-mcp",
+        "doc-90e35aea269c",
+        "doc-a2f622bda7c9",
+        "doc-6e77a1c43371",
+        "doc-9fc739c98504",
+        "doc-98bd9bb79aa7",
+        "doc-fdf61edca474",
+        "doc-b241e3c6c99f",
+        "doc-e47505396dbe",
+        "doc-3307e148712a",
+        "doc-6fe2317039f5",
+        "doc-5e8774886a74",
+        "doc-d9771a6de8ec",
+        "doc-5776a1165245",
+        "doc-5cb97c4baded",
+        "doc-40c3c125c321",
+        "doc-ed58c3a014c4",
+        "doc-bad164a9475c",
+        "doc-3a5e6cfc5d92",
+        "doc-50e8d107c624"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "yandex"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "analytics",
+      "title": "Analytics",
+      "reference": "references/search-engines.md",
+      "source_ids": [
+        "gh-googleanalytics--google-analytics-mcp",
+        "doc-90e35aea269c",
+        "doc-a2f622bda7c9",
+        "doc-6e77a1c43371",
+        "doc-9fc739c98504",
+        "doc-98bd9bb79aa7",
+        "doc-fdf61edca474",
+        "doc-b241e3c6c99f",
+        "doc-e47505396dbe",
+        "doc-3307e148712a",
+        "doc-6fe2317039f5",
+        "doc-5e8774886a74",
+        "doc-d9771a6de8ec",
+        "doc-5776a1165245",
+        "doc-5cb97c4baded",
+        "doc-40c3c125c321",
+        "doc-ed58c3a014c4",
+        "doc-bad164a9475c",
+        "doc-3a5e6cfc5d92",
+        "doc-50e8d107c624"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "ai-search",
+      "title": "GEO and AI search",
+      "reference": "references/ai-search.md",
+      "source_ids": [
+        "doc-5e8774886a74",
+        "doc-d9771a6de8ec",
+        "doc-6fe2317039f5"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "geo",
+        "ai-search"
+      ],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "authority-links",
+      "title": "Authority Links",
+      "reference": "references/distribution-authority.md",
+      "source_ids": [
+        "doc-0a1c82c044ac",
+        "doc-ae93fb765ce4",
+        "doc-fcd0163376e7",
+        "doc-340a8609a520"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "arbitrage-research",
+      "title": "Arbitrage Research",
+      "reference": "references/distribution-authority.md",
+      "source_ids": [
+        "doc-0a1c82c044ac",
+        "doc-ae93fb765ce4",
+        "doc-fcd0163376e7",
+        "doc-340a8609a520"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "distribution",
+      "title": "Distribution",
+      "reference": "references/distribution-authority.md",
+      "source_ids": [
+        "doc-0a1c82c044ac",
+        "doc-ae93fb765ce4",
+        "doc-fcd0163376e7",
+        "doc-340a8609a520"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "localization",
+      "title": "Localization",
+      "reference": "references/localization.md",
+      "source_ids": [
+        "gh-tolgee--tolgee-platform",
+        "doc-72aa2c31b683",
+        "doc-ae04f14132bc",
+        "doc-dcd5730c013c"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "media-seo",
+      "title": "Media Seo",
+      "reference": "references/media-seo.md",
+      "source_ids": [
+        "doc-47aa306229a8",
+        "doc-c88012d86ed1",
+        "doc-287c6057c692"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "Recovery",
+      "reference": "references/recovery.md",
+      "source_ids": [
+        "gh-nalyk--gsccli",
+        "gh-octopuson--octopusonpageseo",
+        "gh-corgicorner--bisibility"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic incident/editing case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "cost-control",
+      "title": "Cost Control",
+      "reference": "references/acquisition.md",
+      "source_ids": [
+        "doc-8cd1ab27911f",
+        "doc-14a41211e1e3",
+        "doc-8d7d5b412c81"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "exercised on listed synthetic cases; live data/tool effect not implied",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "Codex explicit-file skill use on synthetic inputs; auto-discovery unobserved",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "behavior_cases": [
+          "native Codex installed-copy synthetic acquisition case"
+        ],
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "install-portability",
+      "title": "Project-local skill installation",
+      "reference": "bootstrap.md",
+      "source_ids": [
+        "doc-a07c3ce0767d",
+        "doc-542f21c1085b",
+        "doc-eff2f558b60c"
+      ],
+      "implementation": "shipped project-local copy/doctor/coverage helper plus host skill instructions",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "Python helper: doctor, coverage, conservative install",
+        "dependency_availability": "Python3 required; core copy/diagnostics are offline",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "helper_runtime": "29 black-box tests include idempotent three-host-layout copy and preservation; actual model discovery is separate",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [
+        "one-prompt",
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "dependencies": [
+        "Python3",
+        "read/write access to existing selected project",
+        "documented host skill discovery layout"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    },
+    {
+      "id": "source-updates",
+      "title": "Source Updates",
+      "reference": "references/upstream-maintenance.md",
+      "source_ids": [
+        "doc-a07c3ce0767d",
+        "doc-542f21c1085b",
+        "doc-eff2f558b60c"
+      ],
+      "implementation": "task-routed host workflow; ready integrations conditional",
+      "verification": {
+        "instructions": "authored; static route/source bindings checked; live task behavior unverified",
+        "shipped_adapter": "none specific; host-native tools selected per task",
+        "dependency_availability": "discover actual host tools",
+        "host_model_runtime": "unverified",
+        "live_authentication": "depends on requested live scope; unverified",
+        "acquisition_result": "unproven",
+        "evidence_reference": "validation/verification.json"
+      },
+      "reference_claims": [],
+      "dependencies": [
+        "selected project inputs and actual available host tools"
+      ],
+      "limits": [
+        "Instruction/source presence is not runtime or acquisition acceptance."
+      ]
+    }
+  ],
+  "scope_exclusions": [
+    "Short-video production is excluded by the current owner brief."
+  ],
+  "host_status": {
+    "codex": "documented project layout and copy tests; native explicit-file behavior exercised on synthetic cases; automatic discovery not observed",
+    "claude": "documented project layout and helper copy tests; model runtime unverified",
+    "cursor": "documented project layout and helper copy tests; model runtime unverified"
+  },
+  "actual_traffic_improvement": "unproven",
+  "all_github_exhaustive": false,
+  "measured_10x_improvement": false,
+  "site_audit_master": {
+    "registry": "references/checks.json",
+    "source_graph": "references/source-coverage.json",
+    "check_count": 145,
+    "canonical_current_source_records": 1190,
+    "nonadditive_source_disposition_rows": 2530,
+    "actual_execution": "native Codex skill with mature collectors and expert/account/time evidence; CLI is immutable import/report projection",
+    "fleet": "site-missing --sites sites; all enrolled and never-audited profiles considered",
+    "traffic_improvement": "unproved"
+  }
+}

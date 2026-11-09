@@ -1,0 +1,1 @@
+Use the installed skill to diagnose indexation and publication, produce an actionable incident note, and rewrite the draft naturally with a fact-change summary. Explain what text-statistic conclusions are actually supportable. Inputs are synthetic. No external calls, publication or source changes.

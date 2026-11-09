@@ -19,6 +19,12 @@
       "description": "Use when selecting a live Provod generation model.",
       "path": "skills/provod-provider/SKILL.md",
       "sha256": "86e1fe71ed1bad8412992d6daf755a411420ef3f701be61cec2577a65713e26f"
+    },
+    {
+      "name": "traf-seo-master",
+      "description": "Use when auditing SEO or preparing a search-ready release.",
+      "path": "skills/traf-seo-master/SKILL.md",
+      "sha256": "68fa06829b67681b8be0fc6e5220f17d68ce86a81161397763d5a2c4fa2c236f"
     }
   ]
 }

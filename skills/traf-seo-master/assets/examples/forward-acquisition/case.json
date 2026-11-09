@@ -1,0 +1,85 @@
+{
+  "fixture": true,
+  "brand": "ExampleAI",
+  "site": "https://example.org/",
+  "goal": {
+    "metric": "monthly_organic_sessions",
+    "target": 1000000
+  },
+  "permission": {
+    "provider_calls": 0,
+    "publications": false,
+    "source_changes": false
+  },
+  "own_final_28d": {
+    "current_sessions": 80000,
+    "prior_sessions": 75000,
+    "current_nonbrand_clicks": 62000,
+    "prior_nonbrand_clicks": 59000
+  },
+  "pages": [
+    {
+      "url": "https://example.org/docs/client-setup",
+      "impressions": 180000,
+      "clicks": 3600,
+      "avg_position": 5.2,
+      "prior_impressions": 175000,
+      "prior_clicks": 3500,
+      "indexed_observed": true,
+      "successful_actions": 140,
+      "source": "synthetic own GSC+analytics"
+    },
+    {
+      "url": "https://example.org/tools/request-validator",
+      "impressions": 40000,
+      "clicks": 4000,
+      "avg_position": 3.1,
+      "indexed_observed": true,
+      "successful_actions": 1500,
+      "source": "synthetic own GSC+analytics"
+    },
+    {
+      "url": "https://example.org/blog/api-news",
+      "impressions": 120000,
+      "clicks": 700,
+      "avg_position": 4.7,
+      "indexed_observed": true,
+      "successful_actions": 2,
+      "source": "synthetic own GSC+analytics"
+    }
+  ],
+  "competitor_records": [
+    {
+      "url": "https://competitor.example/tools/token-estimate",
+      "metric": "estimated_organic_traffic",
+      "value": 2000000,
+      "market": "US",
+      "window": "not supplied",
+      "source": "synthetic vendor estimate",
+      "raw_analytics_available": false
+    },
+    {
+      "url": "https://competitor.example/docs/client-setup",
+      "metric": "reported_search_clicks",
+      "value": 90000,
+      "window": "one month in2022",
+      "source": "synthetic operator report",
+      "first_traction_timing": "unknown"
+    }
+  ],
+  "known_product_facts": [
+    "Existing request-format validator accepts user-supplied JSON and returns field-level validation.",
+    "No verified price table or free-inference offer has been supplied."
+  ],
+  "proposed_backlog": [
+    "Generate1000modelnamecomparisonpages",
+    "Improveexistingclientsetupguide",
+    "Replicatevalidatorutilityforadistinctobservedtask"
+  ],
+  "unknowns": [
+    "currenttargetSERP",
+    "qualifiedfuturequerydemand",
+    "fullproduction/distribution/upkeepcost",
+    "newpagecohortyield"
+  ]
+}

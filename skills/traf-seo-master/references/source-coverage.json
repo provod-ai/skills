@@ -1,0 +1,1382 @@
+{
+  "schema_version": 1,
+  "coverage_version": "2026-11-09-v5",
+  "generated_at": "2026-11-09",
+  "sources": [
+    {
+      "source_id": "S0299",
+      "check_ids": [
+        "seo-technical-facets-qualified-space",
+        "seo-technical-http-status-soft404",
+        "seo-technical-pagination-identity"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/crawling/docs/faceted-navigation",
+      "title": "Managing crawling of faceted navigation",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0300",
+      "check_ids": [
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/apis/indexing-api/v3/quickstart",
+      "title": "Google Indexing API quickstart",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0310",
+      "check_ids": [
+        "seo-technical-render-byte-cutoff",
+        "seo-technical-vertical-pdf-documents"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/blog/2026/03/crawler-blog-post",
+      "title": "Inside Googlebot: demystifying crawling, fetching, and the bytes we process  |  Google Search Central Blog  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "discovered"
+    },
+    {
+      "source_id": "S0319",
+      "check_ids": [
+        "seo-geo-passages-and-original-need",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-technical-access-public-private",
+        "seo-technical-agent-purpose-access",
+        "seo-technical-crawl-robots-groups"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "title": "AI Features and Your Website | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0326",
+      "check_ids": [
+        "seo-technical-media-asset-preview-access",
+        "seo-technical-media-image-meaning",
+        "seo-technical-media-responsive-delivery"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/appearance/google-images",
+      "title": "Google image SEO best practices",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0331",
+      "check_ids": [
+        "seo-vertical-dataset-search"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/dataset",
+      "title": "Dataset structured data",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0333",
+      "check_ids": [
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
+      "title": "How To Add Merchant Listing Structured Data | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0343",
+      "check_ids": [
+        "seo-technical-vertical-video-watch"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/appearance/video",
+      "title": "Video SEO best practices",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0348",
+      "check_ids": [
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-locale-hreflang-graph",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-render-initial-index-controls",
+        "seo-technical-schema-breadcrumbs",
+        "seo-technical-sitemap-canonical-membership"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "title": "How to Specify a Canonical with rel=\"canonical\" and Other Methods | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0352",
+      "check_ids": [
+        "seo-technical-index-noindex-vs-crawl",
+        "seo-technical-links-crawlable-anchors",
+        "seo-technical-pagination-identity",
+        "seo-technical-render-field-parity",
+        "seo-technical-render-initial-index-controls",
+        "seo-technical-render-resource-failure"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "title": "Understand JavaScript SEO Basics | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0354",
+      "check_ids": [
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-mobile-primary-parity",
+        "seo-technical-mobile-usable-layout",
+        "seo-technical-vertical-video-watch"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing",
+      "title": "Mobile-first Indexing Best Practices | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0357",
+      "check_ids": [
+        "seo-domains-history-and-equivalence",
+        "seo-technical-redirects-equivalence-and-chain"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "title": "Site Moves and Migrations | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0360",
+      "check_ids": [
+        "seo-abuse-observed-incident-and-policy",
+        "seo-arbitrage-separate-finalized-pnl",
+        "seo-domains-history-and-equivalence",
+        "seo-technical-notification-eligible-receipts",
+        "seo-vertical-agentic-commerce",
+        "seo-vertical-local-maps",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "title": "Spam Policies for Google Web Search | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0362",
+      "check_ids": [
+        "seo-technical-http-status-soft404",
+        "seo-technical-index-noindex-vs-crawl",
+        "seo-technical-scope-publication-policy",
+        "seo-technical-sitemap-canonical-membership"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/essentials/technical",
+      "title": "Google Search Technical Requirements | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "discovered"
+    },
+    {
+      "source_id": "S0363",
+      "check_ids": [
+        "seo-technical-agent-markdown-discovery",
+        "seo-technical-agent-optional-protocols"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "title": "Google's Guide to Optimizing for Generative AI Features on Google Search | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0364",
+      "check_ids": [
+        "seo-content-answer-and-information-gain",
+        "seo-content-authorship-and-process",
+        "seo-geo-passages-and-original-need"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "title": "Creating Helpful, Reliable, People-First Content | Google Search Central  |  Documentation  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0374",
+      "check_ids": [
+        "seo-technical-engine-regional-discovery",
+        "seo-technical-locale-actual-inventory",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "title": "Tell Google about localized versions of your page",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0375",
+      "check_ids": [
+        "seo-technical-engine-regional-discovery",
+        "seo-technical-locale-actual-inventory",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+      "title": "Managing multi-regional and multilingual sites",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0377",
+      "check_ids": [
+        "seo-technical-schema-feature-eligibility"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/updates",
+      "title": "Latest Google Search Documentation Updates | Google Search Central  |  What's new  |  Google for Developers",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0585",
+      "check_ids": [
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://indexnow.org/faq",
+      "title": "FAQ | IndexNow.org",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S0907",
+      "check_ids": [
+        "seo-vertical-scholarly"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://scholar.google.com/intl/en-US/scholar/inclusion.html",
+      "title": "Google Scholar inclusion guidelines",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S1075",
+      "check_ids": [
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/business/answer/13762416",
+      "title": "Overview of Google Business Profile policies",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S1076",
+      "check_ids": [
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/merchants/answer/6150006",
+      "title": "Unsupported Shopping content",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S1077",
+      "check_ids": [
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/merchants/answer/7169130",
+      "title": "Best practices for advertising software subscriptions",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S1082",
+      "check_ids": [
+        "seo-technical-agent-search-gai-control"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/webmasters/answer/16908024",
+      "title": "Search generative AI control - Search Console Help",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "S1083",
+      "check_ids": [
+        "seo-technical-agent-gai-report-null-semantics"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/webmasters/answer/16984139",
+      "title": "Generative AI performance report (Search) - Search Console Help",
+      "observed_at": "2026-11-01",
+      "original_read_status": "page-read"
+    },
+    {
+      "source_id": "primary-robots-spec-2026-11-02",
+      "check_ids": [
+        "seo-technical-access-public-private",
+        "seo-technical-crawl-robots-groups",
+        "seo-technical-crawl-robots-response",
+        "seo-technical-http-edge-origin-errors",
+        "seo-technical-index-noindex-vs-crawl"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec",
+      "observed_at": "2026-11-02",
+      "original_read_status": "fresh primary section read, lines108-118"
+    },
+    {
+      "source_id": "primary-sitemap-2026-11-02",
+      "check_ids": [
+        "seo-technical-sitemap-canonical-membership",
+        "seo-technical-sitemap-discovery-completion",
+        "seo-technical-sitemap-format-limits",
+        "seo-technical-sitemap-modification-truth",
+        "seo-technical-vertical-news-feed"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "observed_at": "2026-11-02",
+      "original_read_status": "fresh primary section read, lines159-169"
+    },
+    {
+      "source_id": "primary-vitals-2026-11-02",
+      "check_ids": [
+        "seo-technical-performance-cls-cause",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-performance-inp-cause",
+        "seo-technical-performance-lcp-cause"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://web.dev/articles/vitals",
+      "observed_at": "2026-11-02",
+      "original_read_status": "fresh primary section read, lines65-89"
+    },
+    {
+      "source_id": "primary-schema-policy-2026-11-02",
+      "check_ids": [
+        "seo-technical-media-asset-preview-access",
+        "seo-technical-schema-breadcrumbs",
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-schema-identity-dates",
+        "seo-technical-schema-price-units",
+        "seo-technical-schema-syntax-graph",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-technical-vertical-dataset-research",
+        "seo-technical-vertical-merchant"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "observed_at": "2026-11-02",
+      "original_read_status": "fresh primary section read, lines157-193"
+    },
+    {
+      "source_id": "primary-inspection-2026-11-02",
+      "check_ids": [
+        "seo-technical-index-cohort-observation",
+        "seo-technical-index-engine-canonical",
+        "seo-technical-recovery-outcome-followthrough"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/webmaster-tools/v1/urlInspection.index/UrlInspectionResult",
+      "observed_at": "2026-11-02",
+      "original_read_status": "fresh primary section read, lines116-148"
+    },
+    {
+      "source_id": "local:book",
+      "check_ids": [
+        "seo-technical-a11y-native-controls",
+        "seo-technical-agent-gai-report-null-semantics",
+        "seo-technical-agent-markdown-discovery",
+        "seo-technical-agent-optional-protocols",
+        "seo-technical-agent-search-gai-control",
+        "seo-technical-cache-authoritative-freshness",
+        "seo-technical-catalog-availability-failure",
+        "seo-technical-crawl-robots-groups",
+        "seo-technical-engine-regional-discovery",
+        "seo-technical-facets-qualified-space",
+        "seo-technical-index-cohort-observation",
+        "seo-technical-index-manual-actions-security",
+        "seo-technical-links-crawlable-anchors",
+        "seo-technical-links-graph-and-orphans",
+        "seo-technical-locale-actual-inventory",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-media-image-meaning",
+        "seo-technical-mobile-overlay-confirmation",
+        "seo-technical-mobile-primary-parity",
+        "seo-technical-mobile-usable-layout",
+        "seo-technical-pagination-identity",
+        "seo-technical-performance-blocking-resources",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-recovery-failure-hypothesis",
+        "seo-technical-recovery-outcome-followthrough",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-render-byte-cutoff",
+        "seo-technical-render-field-parity",
+        "seo-technical-render-initial-index-controls",
+        "seo-technical-schema-breadcrumbs",
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-schema-identity-dates",
+        "seo-technical-schema-price-units",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-technical-scope-coverage-denominator",
+        "seo-technical-scope-identity",
+        "seo-technical-scope-publication-policy",
+        "seo-technical-sitemap-format-limits",
+        "seo-technical-sitemap-modification-truth",
+        "seo-technical-sources-expiry-and-conflicts",
+        "seo-technical-utility-calculation-units",
+        "seo-technical-utility-download-parity",
+        "seo-technical-vertical-dataset-research",
+        "seo-technical-vertical-local-business",
+        "seo-technical-vertical-merchant",
+        "seo-technical-vertical-news-feed",
+        "seo-technical-vertical-pdf-documents"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:technical-lane",
+      "check_ids": [
+        "seo-technical-agent-gai-report-null-semantics",
+        "seo-technical-agent-purpose-access",
+        "seo-technical-agent-search-gai-control",
+        "seo-technical-cache-authoritative-freshness",
+        "seo-technical-logs-verified-crawl",
+        "seo-technical-render-field-parity"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:international-source-ledger",
+      "check_ids": [
+        "seo-technical-engine-regional-discovery"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:deep-indexing",
+      "check_ids": [
+        "seo-technical-agent-purpose-access",
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-collector-bounds",
+        "seo-technical-crawl-robots-response",
+        "seo-technical-facets-qualified-space",
+        "seo-technical-http-edge-origin-errors",
+        "seo-technical-http-status-soft404",
+        "seo-technical-index-cohort-observation",
+        "seo-technical-index-engine-canonical",
+        "seo-technical-index-manual-actions-security",
+        "seo-technical-links-graph-and-orphans",
+        "seo-technical-logs-verified-crawl",
+        "seo-technical-notification-eligible-receipts",
+        "seo-technical-recovery-failure-hypothesis",
+        "seo-technical-recovery-outcome-followthrough",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-render-resource-failure",
+        "seo-technical-scope-coverage-denominator"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:repo-inventory",
+      "check_ids": [
+        "seo-technical-collector-bounds",
+        "seo-technical-sources-expiry-and-conflicts"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:ready-tools",
+      "check_ids": [
+        "seo-technical-collector-bounds",
+        "seo-technical-index-engine-canonical",
+        "seo-technical-links-graph-and-orphans",
+        "seo-technical-logs-verified-crawl",
+        "seo-technical-sitemap-discovery-completion"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:capabilities",
+      "check_ids": [
+        "seo-technical-sources-expiry-and-conflicts"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/capabilities.json",
+      "artifact_sha256": "91362273541274ae5a852f08366ebbedbf09b2c00a5df5a31c6b79b2a99e2516"
+    },
+    {
+      "source_id": "local:master-upstreams",
+      "check_ids": [
+        "seo-technical-sources-expiry-and-conflicts"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/upstreams.json",
+      "artifact_sha256": "961cf7d8d8a93551822c36ce3b55f7d1d4a2078fc5e823234efa40e365cdff66"
+    },
+    {
+      "source_id": "local:master-technical-ref",
+      "check_ids": [
+        "seo-technical-a11y-native-controls",
+        "seo-technical-access-public-private",
+        "seo-technical-cache-authoritative-freshness",
+        "seo-technical-catalog-availability-failure",
+        "seo-technical-schema-syntax-graph",
+        "seo-technical-scope-coverage-denominator",
+        "seo-technical-scope-identity",
+        "seo-technical-scope-publication-policy",
+        "seo-technical-sitemap-modification-truth",
+        "seo-technical-utility-calculation-units"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/technical-indexing.md",
+      "artifact_sha256": "8705738b242271104e31689ab7cffec898117b4ca21aa624a2d6602ada3eda1a"
+    },
+    {
+      "source_id": "local:master-perf-ref",
+      "check_ids": [
+        "seo-technical-media-responsive-delivery",
+        "seo-technical-performance-blocking-resources",
+        "seo-technical-performance-cls-cause",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-performance-inp-cause",
+        "seo-technical-performance-lab-contract",
+        "seo-technical-performance-lcp-cause"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/performance.md",
+      "artifact_sha256": "12f426a86466ddd3022b7b95d67a126b1acdad2928d08684979d34db62588250"
+    },
+    {
+      "source_id": "local:master-media-ref",
+      "check_ids": [
+        "seo-technical-media-asset-preview-access",
+        "seo-technical-media-image-meaning",
+        "seo-technical-media-responsive-delivery",
+        "seo-technical-mobile-overlay-confirmation",
+        "seo-technical-mobile-usable-layout",
+        "seo-technical-performance-cls-cause",
+        "seo-technical-performance-lcp-cause",
+        "seo-technical-utility-download-parity",
+        "seo-technical-vertical-dataset-research",
+        "seo-technical-vertical-news-feed",
+        "seo-technical-vertical-pdf-documents",
+        "seo-technical-vertical-video-watch"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/media-seo.md",
+      "artifact_sha256": "5c957c887b15567aeace03d2644f4ebff431af8e5883eefe8cc6d30555dadeda"
+    },
+    {
+      "source_id": "local:master-locales-ref",
+      "check_ids": [
+        "seo-technical-engine-regional-discovery",
+        "seo-technical-locale-actual-inventory",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph",
+        "seo-technical-schema-identity-dates",
+        "seo-technical-vertical-local-business"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/localization.md",
+      "artifact_sha256": "9787ca4fc10d78dd1aa03761202fe4f663fbda1b7653b91ff1147f56fd398b9f"
+    },
+    {
+      "source_id": "local:lighthouse-adapter",
+      "check_ids": [
+        "seo-technical-performance-lab-contract"
+      ],
+      "disposition": "rule-extracted",
+      "path": "scripts/seo-master.py",
+      "artifact_sha256": "ad908f385a5a2dde8ef24616f7739f027c8f90f54dbc7cf5aa0c68e04cfaef62"
+    },
+    {
+      "source_id": "local:lighthouse-lock",
+      "check_ids": [
+        "seo-technical-performance-lab-contract"
+      ],
+      "disposition": "rule-extracted",
+      "path": "assets/lighthouse/package-lock.json",
+      "artifact_sha256": "98efd20f16a02248cdd6a128d87056ea945adfb9ca2e2cc7a3be5a60ee06fff2"
+    },
+    {
+      "source_id": "local:lighthouse-verification",
+      "check_ids": [
+        "seo-technical-performance-lab-contract"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:advertools-excerpt",
+      "check_ids": [
+        "seo-technical-collector-bounds",
+        "seo-technical-sitemap-discovery-completion"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:claude-applied",
+      "check_ids": [
+        "seo-technical-agent-markdown-discovery",
+        "seo-technical-catalog-availability-failure",
+        "seo-technical-schema-price-units",
+        "seo-technical-utility-calculation-units",
+        "seo-technical-utility-download-parity"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:claude-technical",
+      "check_ids": [
+        "seo-technical-schema-syntax-graph"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:claude-agentic",
+      "check_ids": [
+        "seo-technical-a11y-native-controls",
+        "seo-technical-access-public-private",
+        "seo-technical-agent-markdown-discovery",
+        "seo-technical-agent-optional-protocols",
+        "seo-technical-agent-purpose-access",
+        "seo-technical-crawl-robots-groups",
+        "seo-technical-mobile-overlay-confirmation"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "primary-sitemaps-protocol-2026-11-02",
+      "check_ids": [
+        "seo-technical-sitemap-format-limits"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://www.sitemaps.org/protocol.html",
+      "observed_at": "2026-11-02",
+      "original_read_status": "fresh primary sections read, lines154-165 and208-218"
+    },
+    {
+      "source_id": "BOOK-C01",
+      "check_ids": [
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-site-and-outcome",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C03",
+      "check_ids": [
+        "seo-abuse-observed-incident-and-policy",
+        "seo-arbitrage-separate-finalized-pnl",
+        "seo-domains-history-and-equivalence",
+        "seo-technical-notification-eligible-receipts",
+        "seo-vertical-agentic-commerce",
+        "seo-vertical-app-store",
+        "seo-vertical-dataset-search",
+        "seo-vertical-discover",
+        "seo-vertical-documents",
+        "seo-vertical-image-search",
+        "seo-vertical-local-maps",
+        "seo-vertical-longform-watch",
+        "seo-vertical-scholarly",
+        "seo-vertical-sector-specific",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C07",
+      "check_ids": [
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-technical-access-public-private",
+        "seo-technical-agent-purpose-access",
+        "seo-technical-crawl-robots-groups"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C09",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-authority-relevant-citation-pair",
+        "seo-authority-survival-and-concentration",
+        "seo-authority-verified-link-profile"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C11",
+      "check_ids": [
+        "seo-distribution-attention-path",
+        "seo-distribution-community-fit",
+        "seo-distribution-independent-reviews",
+        "seo-distribution-native-listing-use",
+        "seo-distribution-syndication-ownership"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C12",
+      "check_ids": [
+        "seo-technical-engine-regional-discovery",
+        "seo-technical-locale-actual-inventory",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C13",
+      "check_ids": [
+        "seo-distribution-return-value",
+        "seo-geo-referral-and-use",
+        "seo-growth-observed-baseline-and-gap",
+        "seo-growth-replication-and-economics",
+        "seo-growth-zero-inclusive-forecast",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-measurement-useful-result-join",
+        "seo-pseo-rollout-and-supply",
+        "seo-spy-case-transfer",
+        "seo-technical-index-engine-canonical"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C14",
+      "check_ids": [
+        "seo-spy-case-transfer",
+        "seo-spy-winners-and-losers"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C15",
+      "check_ids": [
+        "seo-scope-evidence-layer"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C16",
+      "check_ids": [
+        "seo-demand-market-and-language",
+        "seo-demand-metric-dedup",
+        "seo-demand-observed-query-provenance"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C17",
+      "check_ids": [
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-site-and-outcome",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C19",
+      "check_ids": [
+        "seo-demand-market-and-language",
+        "seo-demand-metric-dedup",
+        "seo-demand-observed-query-provenance"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C20",
+      "check_ids": [
+        "seo-technical-http-status-soft404",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-performance-lab-contract",
+        "seo-technical-render-field-parity",
+        "seo-technical-render-resource-failure",
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-schema-syntax-graph",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-ux-browser-accessibility",
+        "seo-ux-expectation-and-next-action",
+        "seo-ux-handoff-no-unrequested-effects",
+        "seo-ux-useful-tool-result"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C21",
+      "check_ids": [
+        "seo-technical-http-status-soft404",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-performance-lab-contract",
+        "seo-technical-render-field-parity",
+        "seo-technical-render-resource-failure",
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-schema-syntax-graph",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-ux-browser-accessibility",
+        "seo-ux-expectation-and-next-action",
+        "seo-ux-handoff-no-unrequested-effects",
+        "seo-ux-useful-tool-result"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C22",
+      "check_ids": [
+        "seo-authority-original-data-story",
+        "seo-content-answer-and-information-gain",
+        "seo-content-authorship-and-process",
+        "seo-content-claims-and-fact-expiry",
+        "seo-content-comparison-fairness",
+        "seo-content-exact-integration-recipe",
+        "seo-content-original-execution-proof",
+        "seo-content-question-reuse",
+        "seo-demand-opportunity-falsifier",
+        "seo-demand-product-supply-fit",
+        "seo-geo-passages-and-original-need",
+        "seo-spy-changed-supply",
+        "seo-vertical-public-ugc"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C23",
+      "check_ids": [
+        "seo-authority-original-data-story",
+        "seo-content-answer-and-information-gain",
+        "seo-content-authorship-and-process",
+        "seo-content-claims-and-fact-expiry",
+        "seo-content-comparison-fairness",
+        "seo-content-exact-integration-recipe",
+        "seo-content-original-execution-proof",
+        "seo-content-question-reuse",
+        "seo-demand-opportunity-falsifier",
+        "seo-demand-product-supply-fit",
+        "seo-geo-passages-and-original-need",
+        "seo-spy-changed-supply",
+        "seo-vertical-public-ugc"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C25",
+      "check_ids": [
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-technical-access-public-private",
+        "seo-technical-agent-purpose-access",
+        "seo-technical-crawl-robots-groups"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C26",
+      "check_ids": [
+        "seo-pseo-body-and-metadata-differentiation",
+        "seo-pseo-entity-eligibility",
+        "seo-pseo-internal-graph",
+        "seo-pseo-model-and-cache-integrity",
+        "seo-pseo-native-idempotent-publish",
+        "seo-technical-access-public-private",
+        "seo-technical-facets-qualified-space",
+        "seo-technical-pagination-identity",
+        "seo-technical-utility-download-parity"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C27",
+      "check_ids": [
+        "seo-technical-http-status-soft404",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-performance-lab-contract",
+        "seo-technical-render-field-parity",
+        "seo-technical-render-resource-failure",
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-schema-syntax-graph",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-ux-browser-accessibility",
+        "seo-ux-expectation-and-next-action",
+        "seo-ux-handoff-no-unrequested-effects",
+        "seo-ux-useful-tool-result"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C28",
+      "check_ids": [
+        "seo-abuse-observed-incident-and-policy",
+        "seo-arbitrage-separate-finalized-pnl",
+        "seo-authority-entity-facts",
+        "seo-authority-relevant-citation-pair",
+        "seo-authority-survival-and-concentration",
+        "seo-authority-verified-link-profile",
+        "seo-distribution-attention-path",
+        "seo-distribution-community-fit",
+        "seo-distribution-independent-reviews",
+        "seo-distribution-native-listing-use",
+        "seo-distribution-syndication-ownership",
+        "seo-domains-history-and-equivalence",
+        "seo-technical-notification-eligible-receipts",
+        "seo-vertical-agentic-commerce",
+        "seo-vertical-local-maps",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C29",
+      "check_ids": [
+        "seo-technical-engine-regional-discovery",
+        "seo-technical-locale-actual-inventory",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C30",
+      "check_ids": [
+        "seo-vertical-app-store",
+        "seo-vertical-dataset-search",
+        "seo-vertical-discover",
+        "seo-vertical-documents",
+        "seo-vertical-image-search",
+        "seo-vertical-longform-watch",
+        "seo-vertical-scholarly",
+        "seo-vertical-sector-specific"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C31",
+      "check_ids": [
+        "seo-refresh-decay-diagnosis",
+        "seo-refresh-intervention-readback",
+        "seo-refresh-public-baseline-drift",
+        "seo-refresh-source-dependency"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C32",
+      "check_ids": [
+        "seo-pseo-model-and-cache-integrity",
+        "seo-scope-evidence-layer",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C39",
+      "check_ids": [
+        "seo-distribution-return-value",
+        "seo-geo-referral-and-use",
+        "seo-growth-observed-baseline-and-gap",
+        "seo-growth-replication-and-economics",
+        "seo-growth-zero-inclusive-forecast",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-measurement-useful-result-join",
+        "seo-pseo-native-idempotent-publish",
+        "seo-pseo-rollout-and-supply",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-site-and-outcome",
+        "seo-scope-source-version",
+        "seo-spy-case-transfer",
+        "seo-technical-index-engine-canonical"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "BOOK-C45",
+      "check_ids": [
+        "seo-abuse-observed-incident-and-policy",
+        "seo-arbitrage-separate-finalized-pnl",
+        "seo-domains-history-and-equivalence",
+        "seo-technical-notification-eligible-receipts",
+        "seo-vertical-agentic-commerce",
+        "seo-vertical-app-store",
+        "seo-vertical-dataset-search",
+        "seo-vertical-discover",
+        "seo-vertical-documents",
+        "seo-vertical-image-search",
+        "seo-vertical-local-maps",
+        "seo-vertical-longform-watch",
+        "seo-vertical-scholarly",
+        "seo-vertical-sector-specific",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "TRACE-ADVERTOOLS",
+      "check_ids": [
+        "seo-technical-agent-purpose-access",
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-complete-inventory",
+        "seo-technical-http-edge-origin-errors",
+        "seo-technical-http-status-soft404",
+        "seo-technical-index-noindex-vs-crawl",
+        "seo-technical-logs-verified-crawl",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-sitemap-canonical-membership"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/eliasdabbas/advertools",
+      "observed_at": "2026-11-02",
+      "original_read_status": "existing-static-source-trace;not-executed"
+    },
+    {
+      "source_id": "TRACE-SEOMACHINE",
+      "check_ids": [
+        "seo-authority-original-data-story",
+        "seo-content-answer-and-information-gain",
+        "seo-content-authorship-and-process",
+        "seo-content-claims-and-fact-expiry",
+        "seo-content-comparison-fairness",
+        "seo-content-exact-integration-recipe",
+        "seo-content-original-execution-proof",
+        "seo-content-question-reuse",
+        "seo-demand-opportunity-falsifier",
+        "seo-demand-product-supply-fit",
+        "seo-distribution-return-value",
+        "seo-geo-passages-and-original-need",
+        "seo-geo-referral-and-use",
+        "seo-growth-observed-baseline-and-gap",
+        "seo-growth-replication-and-economics",
+        "seo-growth-zero-inclusive-forecast",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-measurement-useful-result-join",
+        "seo-pseo-native-idempotent-publish",
+        "seo-pseo-rollout-and-supply",
+        "seo-serp-current-scope-and-depth",
+        "seo-serp-overlap-clusters",
+        "seo-serp-page-type-fit",
+        "seo-spy-case-transfer",
+        "seo-spy-changed-supply",
+        "seo-spy-winners-and-losers",
+        "seo-technical-index-engine-canonical",
+        "seo-vertical-public-ugc"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "observed_at": "2026-11-02",
+      "original_read_status": "existing-static-source-trace;not-executed"
+    },
+    {
+      "source_id": "TRACE-PLAYBOOK",
+      "check_ids": [
+        "seo-distribution-return-value",
+        "seo-geo-referral-and-use",
+        "seo-growth-observed-baseline-and-gap",
+        "seo-growth-replication-and-economics",
+        "seo-growth-zero-inclusive-forecast",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-measurement-useful-result-join",
+        "seo-pseo-rollout-and-supply",
+        "seo-refresh-decay-diagnosis",
+        "seo-refresh-intervention-readback",
+        "seo-refresh-public-baseline-drift",
+        "seo-refresh-source-dependency",
+        "seo-spy-case-transfer",
+        "seo-technical-index-engine-canonical"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/TraceCohenTech/ai-seo-playbook",
+      "observed_at": "2026-11-02",
+      "original_read_status": "existing-static-source-trace;not-executed"
+    },
+    {
+      "source_id": "TRACE-PSEO",
+      "check_ids": [
+        "seo-pseo-body-and-metadata-differentiation",
+        "seo-pseo-entity-eligibility",
+        "seo-pseo-internal-graph",
+        "seo-pseo-model-and-cache-integrity",
+        "seo-pseo-native-idempotent-publish",
+        "seo-technical-access-public-private",
+        "seo-technical-facets-qualified-space",
+        "seo-technical-pagination-identity",
+        "seo-technical-utility-download-parity"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/swarmclawai/pseo-ai-kit",
+      "observed_at": "2026-11-02",
+      "original_read_status": "existing-static-source-trace;not-executed"
+    },
+    {
+      "source_id": "TRACE-STATIC-RENDER",
+      "check_ids": [
+        "seo-pseo-body-and-metadata-differentiation",
+        "seo-pseo-entity-eligibility",
+        "seo-pseo-internal-graph",
+        "seo-pseo-model-and-cache-integrity",
+        "seo-pseo-native-idempotent-publish",
+        "seo-technical-access-public-private",
+        "seo-technical-facets-qualified-space",
+        "seo-technical-pagination-identity",
+        "seo-technical-utility-download-parity"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/andrewjpyle/programmatic_pages",
+      "observed_at": "2026-11-02",
+      "original_read_status": "existing-static-source-trace;not-executed"
+    },
+    {
+      "source_id": "MARKETING-AUDIT",
+      "check_ids": [
+        "seo-technical-agent-purpose-access",
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-complete-inventory",
+        "seo-technical-http-edge-origin-errors",
+        "seo-technical-http-status-soft404",
+        "seo-technical-index-noindex-vs-crawl",
+        "seo-technical-logs-verified-crawl",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-performance-lab-contract",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-render-field-parity",
+        "seo-technical-render-resource-failure",
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-schema-syntax-graph",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-technical-sitemap-canonical-membership",
+        "seo-ux-browser-accessibility",
+        "seo-ux-expectation-and-next-action",
+        "seo-ux-handoff-no-unrequested-effects",
+        "seo-ux-useful-tool-result"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/seo-audit/SKILL.md",
+      "observed_at": "2026-11-02",
+      "original_read_status": "relevant actual source-body sections read2026-11-02"
+    },
+    {
+      "source_id": "MARKETING-PSEO",
+      "check_ids": [
+        "seo-authority-original-data-story",
+        "seo-content-answer-and-information-gain",
+        "seo-content-authorship-and-process",
+        "seo-content-claims-and-fact-expiry",
+        "seo-content-comparison-fairness",
+        "seo-content-exact-integration-recipe",
+        "seo-content-original-execution-proof",
+        "seo-content-question-reuse",
+        "seo-demand-opportunity-falsifier",
+        "seo-demand-product-supply-fit",
+        "seo-geo-passages-and-original-need",
+        "seo-pseo-body-and-metadata-differentiation",
+        "seo-pseo-entity-eligibility",
+        "seo-pseo-internal-graph",
+        "seo-pseo-model-and-cache-integrity",
+        "seo-pseo-native-idempotent-publish",
+        "seo-spy-changed-supply",
+        "seo-technical-access-public-private",
+        "seo-technical-facets-qualified-space",
+        "seo-technical-pagination-identity",
+        "seo-technical-utility-download-parity",
+        "seo-vertical-public-ugc"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/programmatic-seo/SKILL.md",
+      "observed_at": "2026-11-02",
+      "original_read_status": "relevant actual source-body sections read2026-11-02"
+    },
+    {
+      "source_id": "CLAUDE-SEO",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-authority-relevant-citation-pair",
+        "seo-authority-survival-and-concentration",
+        "seo-authority-verified-link-profile",
+        "seo-refresh-decay-diagnosis",
+        "seo-refresh-intervention-readback",
+        "seo-refresh-public-baseline-drift",
+        "seo-refresh-source-dependency",
+        "seo-serp-current-scope-and-depth",
+        "seo-serp-overlap-clusters",
+        "seo-serp-page-type-fit",
+        "seo-spy-winners-and-losers"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "observed_at": "2026-11-02",
+      "original_read_status": "nine complete requested SKILLs plus selected references read in prior lane"
+    },
+    {
+      "source_id": "DEEP-KEYWORDS",
+      "check_ids": [
+        "seo-demand-market-and-language",
+        "seo-demand-metric-dedup",
+        "seo-demand-observed-query-provenance",
+        "seo-serp-current-scope-and-depth",
+        "seo-serp-overlap-clusters",
+        "seo-serp-page-type-fit",
+        "seo-spy-winners-and-losers"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "DEEP-AUTHORITY",
+      "check_ids": [
+        "seo-arbitrage-separate-finalized-pnl",
+        "seo-authority-entity-facts",
+        "seo-authority-relevant-citation-pair",
+        "seo-authority-survival-and-concentration",
+        "seo-authority-verified-link-profile",
+        "seo-domains-history-and-equivalence"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "DEEP-AISEARCH",
+      "check_ids": [
+        "seo-distribution-attention-path",
+        "seo-distribution-community-fit",
+        "seo-distribution-independent-reviews",
+        "seo-distribution-native-listing-use",
+        "seo-distribution-syndication-ownership",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-technical-access-public-private",
+        "seo-technical-agent-purpose-access",
+        "seo-technical-crawl-robots-groups"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "DEEP-RECOVERY",
+      "check_ids": [
+        "seo-abuse-observed-incident-and-policy",
+        "seo-refresh-decay-diagnosis",
+        "seo-refresh-intervention-readback",
+        "seo-refresh-public-baseline-drift",
+        "seo-refresh-source-dependency",
+        "seo-technical-agent-purpose-access",
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-complete-inventory",
+        "seo-technical-http-edge-origin-errors",
+        "seo-technical-http-status-soft404",
+        "seo-technical-index-noindex-vs-crawl",
+        "seo-technical-logs-verified-crawl",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-sitemap-canonical-membership"
+      ],
+      "disposition": "rule-extracted",
+      "provenance_note": "This edition retains the rule binding. Source artifacts remain with the owning research project."
+    },
+    {
+      "source_id": "local:download-protocol-contract",
+      "check_ids": [
+        "seo-technical-utility-download-parity"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/download-readback.md",
+      "artifact_sha256": "00686be01b5aca5c5fd9f5cd2f58231f884b136af64ca618b1170b1ae581fe41"
+    },
+    {
+      "source_id": "local:blog-release-quality",
+      "check_ids": [
+        "seo-content-comparison-fairness",
+        "seo-technical-engine-regional-discovery",
+        "seo-technical-links-crawlable-anchors",
+        "seo-technical-locale-hreflang-graph",
+        "seo-technical-media-responsive-delivery",
+        "seo-technical-pagination-identity",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-render-field-parity",
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-scope-publication-policy",
+        "seo-technical-sitemap-canonical-membership"
+      ],
+      "disposition": "rule-extracted",
+      "path": "references/blog-release.md",
+      "artifact_sha256": "fda7a9cb6b96ed4bc176e39edd120879331d4c54d42c7ddae507aab6aed9880a"
+    }
+  ],
+  "source_population_counts": {
+    "packaged_rule_bindings": 91,
+    "registry_criteria": 145
+  },
+  "populations_non_additive": true,
+  "limitations": [
+    "Portable rule bindings and selected public provenance. Site evidence and private research inventories stay with their owners."
+  ]
+}

@@ -32,9 +32,11 @@ export const HOSTED_MCP_TOOL_NAMES = Object.freeze([
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const skillRoot = path.join(root, "skills");
-const requiredSkills = ["provod-mcp", "provod-media", "provod-provider"];
+const provodSkills = ["provod-mcp", "provod-media", "provod-provider"];
+const portableSeoSkill = "traf-seo-master";
+const requiredSkills = [...provodSkills, portableSeoSkill];
 const requiredFields = ["name", "description", "version", "author", "license", "platforms", "metadata"];
-const allowedTopLevelFields = new Set(requiredFields);
+const portableFields = ["name", "description", "license", "metadata"];
 
 function fail(message) {
   throw new Error(message);
@@ -44,7 +46,7 @@ function sha256(bytes) {
   return createHash("sha256").update(bytes).digest("hex");
 }
 
-function parseFrontmatter(content, relativePath) {
+function parseFrontmatter(content, relativePath, portable) {
   if (!content.startsWith("---\n")) fail(`${relativePath}: frontmatter must start at byte 0`);
   const end = content.indexOf("\n---\n", 4);
   if (end < 0) fail(`${relativePath}: frontmatter is not closed`);
@@ -57,22 +59,33 @@ function parseFrontmatter(content, relativePath) {
   if (!data || typeof data !== "object" || Array.isArray(data)) {
     fail(`${relativePath}: frontmatter must be a YAML mapping`);
   }
+  const fields = portable ? portableFields : requiredFields;
   for (const key of Object.keys(data)) {
-    if (!allowedTopLevelFields.has(key)) fail(`${relativePath}: unknown frontmatter field ${key}`);
+    if (!fields.includes(key)) fail(`${relativePath}: unknown frontmatter field ${key}`);
   }
-  for (const field of requiredFields) {
+  for (const field of fields) {
     if (!Object.hasOwn(data, field)) fail(`${relativePath}: missing frontmatter field ${field}`);
   }
   if (!content.slice(end + 5).trim()) fail(`${relativePath}: body is empty`);
-  for (const field of ["name", "description", "version", "author", "license"]) {
+  for (const field of ["name", "description", "license"]) {
     if (typeof data[field] !== "string") fail(`${relativePath}: ${field} must be a string`);
   }
+  const { version, author } = portable ? data.metadata ?? {} : data;
+  if (typeof version !== "string" || typeof author !== "string") {
+    fail(`${relativePath}: version and author must be strings`);
+  }
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(data.name)) fail(`${relativePath}: invalid skill name`);
-  if (!/^\d+\.\d+\.\d+$/.test(data.version)) fail(`${relativePath}: version must be semver`);
+  if (!/^\d+\.\d+\.\d+$/.test(version)) fail(`${relativePath}: version must be semver`);
   if (!data.description.startsWith("Use when ") || !data.description.endsWith(".")) {
     fail(`${relativePath}: description must be a trigger sentence`);
   }
   if (data.description.length > 60) fail(`${relativePath}: description exceeds 60 characters`);
+  if (portable) {
+    if (Object.keys(data.metadata).sort().join(",") !== "author,version") {
+      fail(`${relativePath}: invalid portable skill metadata`);
+    }
+    return data;
+  }
   if (!Array.isArray(data.platforms) || !data.platforms.length || data.platforms.some((value) => typeof value !== "string")) {
     fail(`${relativePath}: platforms must be a non-empty inline list`);
   }
@@ -163,7 +176,7 @@ function loadSkills() {
     if (!existsSync(absolutePath)) fail(`${relativePath}: missing canonical skill`);
     const bytes = readFileSync(absolutePath);
     const content = bytes.toString("utf8");
-    const metadata = parseFrontmatter(content, relativePath);
+    const metadata = parseFrontmatter(content, relativePath, directory === portableSeoSkill);
     if (metadata.name !== directory) fail(`${relativePath}: name must match its directory`);
     if (seen.has(metadata.name)) fail(`${relativePath}: duplicate skill name ${metadata.name}`);
     seen.add(metadata.name);
@@ -184,7 +197,7 @@ function validateToolContract(skills) {
     fail("provod-mcp: routed tools must equal the hosted MCP manifest in canonical order");
   }
 
-  for (const skill of skills) {
+  for (const skill of skills.filter(({ name }) => provodSkills.includes(name))) {
     for (const match of skill.content.matchAll(/`([a-z][a-z0-9_-]+)`/g)) {
       const name = match[1];
       if (!HOSTED_MCP_TOOL_NAMES.includes(name)) {
