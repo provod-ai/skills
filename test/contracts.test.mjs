@@ -84,7 +84,7 @@ test("validator accepts the complete release contract", () => {
 test("portable SEO metadata requires a semver version", () => {
   const cwd = fixture();
   alter(cwd, "skills/traf-seo-master/SKILL.md", (text) =>
-    text.replace('version: "0.1.0"', 'version: "latest"'),
+    text.replace(/version: "\d+\.\d+\.\d+"/, 'version: "latest"'),
   );
   assertInvalid(cwd, /version must be semver/);
 });

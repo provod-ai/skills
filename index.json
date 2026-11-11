@@ -22,9 +22,9 @@
     },
     {
       "name": "traf-seo-master",
-      "description": "Use when auditing SEO or preparing a search-ready release.",
+      "description": "Use when doing SEO, GEO, content, publishing or acquisition.",
       "path": "skills/traf-seo-master/SKILL.md",
-      "sha256": "68fa06829b67681b8be0fc6e5220f17d68ce86a81161397763d5a2c4fa2c236f"
+      "sha256": "31c43e2db9d8c306c95970252d76bd2e28153ea36107378a4353f7fcf3e3470e"
     }
   ]
 }

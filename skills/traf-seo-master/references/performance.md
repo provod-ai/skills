@@ -17,3 +17,11 @@ All heavy output, temporary browser profiles and caches follow the selected proj
 Prioritize changes by a real user path: loading/interaction/layout stability, critical resources, rendering, unused blocking work, media/font delivery and affected template distribution. Don't chase a score by removing necessary user value or count one template as the entire site. Keep reduced-motion/accessibility and actual mobile checks in the product path.
 
 Official sources: [versioned Lighthouse repository](https://github.com/GoogleChrome/lighthouse), [headless guidance](https://github.com/GoogleChrome/lighthouse/blob/main/docs/headless-chrome.md), [Chrome Lighthouse documentation](https://developer.chrome.com/docs/lighthouse/overview). Requalify changes to toolchain/config before comparing runs. Field metrics and statistical targets come from current owning sources, not a copied fixed score promise.
+
+## Scope and component diagnostics
+
+Retain URL-level versus origin-level field data explicitly. If either side falls back to a broader scope, preserve that change and compare compatible populations and collection periods. A missing field measurement remains unknown.
+
+Component p75 values and overall LCP p75 can describe different visits. Their ratios do not by themselves decompose one p75 event or identify a repair. Use corresponding traces/observations or an appropriate distributional method, then test the proposed critical-path cause. Source-wrapper limits are recorded in [collector contracts](source-runtime-review.md).
+
+When evaluating an actual Agentic Browsing report, qualify that producer and category separately. The shipped four-category adapter does not collect it. Retain the producer version, raw X/N result, per-audit modes and errors; optional protocols have their own applicability.

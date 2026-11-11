@@ -42,3 +42,21 @@ Bing launched [AI Performance](https://blogs.bing.com/webmaster/2026/2/Introduci
 [IndexNow](https://www.indexnow.org/faq) receipt acknowledges a notification, not indexing or traffic. Do not submit URLs during a read-only audit. Metrica screenshots, attribution reports and before/after movement are observations; causal lift requires a defensible comparison, with [attribution settings](https://www.yandex.com/support/metrica/en/reports/attribution-model) retained.
 
 Return raw exports/requests with secrets redacted, finalized totals, provisional series, detail coverage, source-specific errors, diagnosed causes versus hypotheses, and the next bounded check. Report unavailable access as unknown. Never replay an UNKNOWN external effect or replace unavailable metrics with estimates presented as owned facts.
+
+## Additional measurement checks dated 2026-11-12
+
+Before attributing reporting movement to a site change, inspect the current [Google anomaly record](https://support.google.com/webmasters/answer/6211453) for the actual window/metrics. The documented GSC issue spanning 2025-05-13 through 2026-04-27 affected reported impressions and related CTR/position. Clicks were unaffected by that issue. Preserve the affected interval and frozen source.
+
+Where current GA4 default-channel reporting applies, distinguish AI Assistant/ai-assistant from custom groups, recognizable referrers, Organic Search, Direct and unknown. Google AI Overviews/AI Mode are outside that AI Assistant channel. Keep the actual property, grouping type, collection window and attribution. Current definitions do not retroactively reclassify a retained export. [GA4 definitions](https://support.google.com/analytics/answer/9756891).
+
+For CrUX History preserve per-period null and NaN/missing-data states separately from observed zero. Retain exact period boundaries; overlapping rolling windows are not independent samples. [CrUX History](https://developer.chrome.com/docs/crux/history-api).
+
+Keyword Planner historical metrics are approximate and can group close variants. Preserve returned query/close_variants, country/language/network and dates, approximation and access limits. Competition and bid percentiles describe advertising. Account spending does not prove exact unrestricted search volume. [Historical metrics](https://developers.google.com/google-ads/api/docs/keyword-planning/generate-historical-metrics).
+
+## Adapter and report readback
+
+Verify the expected and actual credential principal/scopes and exact target coverage. A domain property, a URL-prefix property and a GA4 stream/site or hostname filter have different populations. Preserve protocol, host and path rather than assuming www, bare domain and subdomains are equivalent.
+
+Keep request dimensions, filters, aggregation, dataState, limits and raw source responses through the final report. Query/page rows are pairs, and a filtered aggregate remains filtered. Daily unique users cannot be summed into whole-period unique users; entry visits, visits, actions and pageviews retain their native definitions.
+
+Inspect delivered export units, row counts and field mappings against the source. Preserve a row cap, missing inspection field, partial aggregate and unavailable/thresholded value as such. [Reviewed adapter limits](source-runtime-review.md).

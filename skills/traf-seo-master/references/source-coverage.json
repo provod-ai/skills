@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "coverage_version": "2026-11-09-v5",
-  "generated_at": "2026-11-09",
+  "coverage_version": "2026-11-12-v6",
+  "generated_at": "2026-11-12",
   "sources": [
     {
       "source_id": "S0299",
@@ -539,7 +539,7 @@
       ],
       "disposition": "rule-extracted",
       "path": "references/upstreams.json",
-      "artifact_sha256": "961cf7d8d8a93551822c36ce3b55f7d1d4a2078fc5e823234efa40e365cdff66"
+      "artifact_sha256": "e23c559e3320ee4595b220707e2a9d0dc459c57c4fa970d6e5348b87ea24c6dd"
     },
     {
       "source_id": "local:master-technical-ref",
@@ -557,7 +557,7 @@
       ],
       "disposition": "rule-extracted",
       "path": "references/technical-indexing.md",
-      "artifact_sha256": "8705738b242271104e31689ab7cffec898117b4ca21aa624a2d6602ada3eda1a"
+      "artifact_sha256": "233abd90fc6b5358c972e7ff965c688c2286c855e9a16db4604951a9c8c2431e"
     },
     {
       "source_id": "local:master-perf-ref",
@@ -572,7 +572,7 @@
       ],
       "disposition": "rule-extracted",
       "path": "references/performance.md",
-      "artifact_sha256": "12f426a86466ddd3022b7b95d67a126b1acdad2928d08684979d34db62588250"
+      "artifact_sha256": "3e958d6e3694f20ef389ba7fe27639df344d7cbc97ea044e87d88baf19e79b68"
     },
     {
       "source_id": "local:master-media-ref",
@@ -592,7 +592,7 @@
       ],
       "disposition": "rule-extracted",
       "path": "references/media-seo.md",
-      "artifact_sha256": "5c957c887b15567aeace03d2644f4ebff431af8e5883eefe8cc6d30555dadeda"
+      "artifact_sha256": "a25a99013a0015ff5d4025b5c443269c30b428091d05e48dbc48112495071bb9"
     },
     {
       "source_id": "local:master-locales-ref",
@@ -606,7 +606,7 @@
       ],
       "disposition": "rule-extracted",
       "path": "references/localization.md",
-      "artifact_sha256": "9787ca4fc10d78dd1aa03761202fe4f663fbda1b7653b91ff1147f56fd398b9f"
+      "artifact_sha256": "2accf33a485ec7859120999c54985b316136aab7d02bd23d19c16747d845ac0d"
     },
     {
       "source_id": "local:lighthouse-adapter",
@@ -1199,12 +1199,18 @@
     {
       "source_id": "MARKETING-AUDIT",
       "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-pseo-internal-graph",
+        "seo-refresh-intervention-readback",
+        "seo-serp-page-type-fit",
         "seo-technical-agent-purpose-access",
         "seo-technical-canonical-signal-graph",
         "seo-technical-complete-inventory",
         "seo-technical-http-edge-origin-errors",
         "seo-technical-http-status-soft404",
         "seo-technical-index-noindex-vs-crawl",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph",
         "seo-technical-logs-verified-crawl",
         "seo-technical-performance-field-cwv",
         "seo-technical-performance-lab-contract",
@@ -1221,9 +1227,17 @@
         "seo-ux-useful-tool-result"
       ],
       "disposition": "rule-extracted",
-      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/seo-audit/SKILL.md",
-      "observed_at": "2026-11-02",
-      "original_read_status": "relevant actual source-body sections read2026-11-02"
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/seo-audit/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-audit/SKILL.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "fb345045339bb0645029c1c0d682703d262f045a7184fe96cb0e13f509468e2a",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
     },
     {
       "source_id": "MARKETING-PSEO",
@@ -1244,6 +1258,7 @@
         "seo-pseo-internal-graph",
         "seo-pseo-model-and-cache-integrity",
         "seo-pseo-native-idempotent-publish",
+        "seo-pseo-rollout-and-supply",
         "seo-spy-changed-supply",
         "seo-technical-access-public-private",
         "seo-technical-facets-qualified-space",
@@ -1252,9 +1267,17 @@
         "seo-vertical-public-ugc"
       ],
       "disposition": "rule-extracted",
-      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/programmatic-seo/SKILL.md",
-      "observed_at": "2026-11-02",
-      "original_read_status": "relevant actual source-body sections read2026-11-02"
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/programmatic-seo/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/programmatic-seo/SKILL.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "f59dcb0892fc615d6df8f6debedd6b08de910ad220d5ec4a18e62f076a934c00",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
     },
     {
       "source_id": "CLAUDE-SEO",
@@ -1369,10 +1392,2536 @@
       "disposition": "rule-extracted",
       "path": "references/blog-release.md",
       "artifact_sha256": "fda7a9cb6b96ed4bc176e39edd120879331d4c54d42c7ddae507aab6aed9880a"
+    },
+    {
+      "source_id": "CLAUDE-CODE-AUTH",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/google_auth.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/google_auth.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "55f12d7d216476772e1f2066693bed2a219e7f297365aa9c7aaf28c14d9f3bb6",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-COMMONCRAWL",
+      "check_ids": [
+        "seo-technical-collector-bounds",
+        "seo-technical-sitemap-discovery-completion"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/commoncrawl_graph.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/commoncrawl_graph.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "b7253f5d8b7b905bdc269dff050f863702a41cfae1b3299480ae7b5683aa966e",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-DRIFT",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/drift_compare.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/drift_compare.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "6be1c26042bede021d0e691a602e90252dc6b06513e45274eb489f048dd69348",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-GA4",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/ga4_report.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/ga4_report.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "b8a21ea55ad1e6325337ecd85e5f41fbac2c8184b802c1f778320a64e36fff5e",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-GOOGLE-REPORT",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-technical-index-engine-canonical"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/google_report.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/google_report.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "aac6570d71102255ba9a48b1f17d762fe605cc15156c1edf6ff5525e507716db",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-GSC",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/gsc_query.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/gsc_query.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "e3fb7abce98a187f1d4036e4165093a308dabe5f4807f7fdc744daabc3dd3e1b",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-HOOK",
+      "check_ids": [
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/hooks/validate-schema.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "hooks/validate-schema.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "0addac8151ec24f6a9a30c98e5fa32e7882e703616edbbc9dd1782a3e8802d40",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-INDEXNOW",
+      "check_ids": [
+        "seo-scope-permission-and-cost",
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/indexnow_submit.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/indexnow_submit.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "be8037f45c9637c461594d83dec730d148201fc6fdd2134b62df13b1f38cc4c2",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-LCP",
+      "check_ids": [
+        "seo-technical-performance-lcp-cause"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/lcp_subparts.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/lcp_subparts.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "92662c91275f4b2b30cfb78939efb3a9bb7e33ae18402336c7cc32e770a0cf06",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-MATOMO",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/matomo_report.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/matomo_report.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "67c1c2183f77e235fc9aff83ee8a55cc8276a4aea444e57946128da7c18b8b42",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-MERCHANT",
+      "check_ids": [
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost",
+        "seo-technical-collector-bounds",
+        "seo-technical-notification-eligible-receipts",
+        "seo-technical-vertical-merchant"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/dataforseo_merchant.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/dataforseo_merchant.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "97bbb420da21911a0dcf54b86da0a405b91ee32960ab8c4af5c6808732b45155",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-PAGESPEED",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/pagespeed_check.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/pagespeed_check.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "11172b2dc8fa9d6f7cf19f78e9fe13b643834151f504a94fe9a1a885a5c0228a",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-PROPERTIES",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/google_properties.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/google_properties.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "efa6a3c4181dcaa02179cf2485d329c49ecdbf9ee0e041024a81a67b5dfafa2f",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-SITEMAP",
+      "check_ids": [
+        "seo-technical-collector-bounds",
+        "seo-technical-sitemap-discovery-completion"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/sitemap_discovery.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/sitemap_discovery.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "be08094825e4be3b6bceba18b737fa6434bde8f65576b047aa8d64be1621ad64",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-UNINSTALL",
+      "check_ids": [
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/uninstall.sh",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "uninstall.sh",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "6e2c008e5961d84b2f537de561e980c2f5294b32f4a0ac350879fc4deabbb954",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-UNLIGHTHOUSE",
+      "check_ids": [
+        "seo-technical-render-field-parity",
+        "seo-ux-browser-accessibility"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/unlighthouse_run.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/unlighthouse_run.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "9709031a95082a4e03ebc63bd792fa21987483d222858ada27df39c84f0004ab",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CODE-VISUAL",
+      "check_ids": [
+        "seo-technical-render-field-parity",
+        "seo-ux-browser-accessibility"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/analyze_visual.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/analyze_visual.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "03e930f7813775abb5992da85db3d8eb23577bbce00e1bb33c38255db98e9757",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-AGENTIC",
+      "check_ids": [
+        "seo-technical-agent-optional-protocols",
+        "seo-technical-performance-lab-contract",
+        "seo-ux-handoff-no-unrequested-effects"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-agentic/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-agentic/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "e1cd3c30c5470241074fc1445a31f2d283fda68b7e883855a9049077092c68f0",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-BACKLINKS",
+      "check_ids": [
+        "seo-authority-verified-link-profile"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-backlinks/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-backlinks/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "11d006e23ae103b5e6ca4cb02bd590d3ee4da30b670a92d5618f96eefe88fc88",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-ECOMMERCE",
+      "check_ids": [
+        "seo-technical-vertical-merchant",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-ecommerce/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-ecommerce/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "111fab3b40eb0684283bb6f342938500ab1ece87a89769f602b7fb616069949a",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-GOOGLE",
+      "check_ids": [
+        "seo-demand-metric-dedup",
+        "seo-demand-observed-query-provenance",
+        "seo-geo-referral-and-use",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-google/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-google/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "c33c268779f4ca333e9378b3c1b7296af35265bb17877aa2561b4dd7e802f5d5",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-IMAGES",
+      "check_ids": [
+        "seo-technical-vertical-merchant",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-images/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-images/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "28e6b03e4b8c872ca98cd73994265fab393103ff2b16c977bf5d3589a6956759",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-LOCAL",
+      "check_ids": [
+        "seo-technical-vertical-local-business",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-local/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-local/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "ea802a6d23bc66a605a84711246ac3197186b28be06f5e3052647cf6f96abeb7",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-MAPS",
+      "check_ids": [
+        "seo-serp-current-scope-and-depth",
+        "seo-technical-vertical-local-business",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-maps/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-maps/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "1a4b3ca036a369ebccd489dafa617f75f985fdc1f8aa7deb066cb7d9b0b2d6f0",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-PROGRAMMATIC",
+      "check_ids": [
+        "seo-pseo-body-and-metadata-differentiation"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-programmatic/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-programmatic/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "416d981b450551394d18a02b1c5e4c425db5a294d51e1f8abc11169d7bedef05",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-CURRENT-SEO",
+      "check_ids": [
+        "seo-pseo-body-and-metadata-differentiation",
+        "seo-serp-current-scope-and-depth",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo/SKILL.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "bef82f13c10bdb9dfe72f607d5e1dbc735e51829c36bc8bcce568b82cbf63ae9",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-SOURCE-BASE",
+      "check_ids": [
+        "seo-technical-links-crawlable-anchors",
+        "seo-technical-media-asset-preview-access"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/parse_html.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "scripts/parse_html.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "6504aa88820c9edeaa838bd16d8a9ce135f66e4c2c4c29a9d70ce2bfd4137228",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "CLAUDE-SOURCE-UPDATES",
+      "check_ids": [
+        "seo-vertical-public-ugc"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/cca7e4a267991aca880efade1fd12e8498caf2ce/data/google-updates.json",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "data/google-updates.json",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "22aa2c64a99e95c857b1318deba10183a6597da59538555b654f3cdd977bad2b",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "MARKETING-AI-SEO",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-content-claims-and-fact-expiry",
+        "seo-demand-market-and-language",
+        "seo-distribution-community-fit",
+        "seo-distribution-independent-reviews",
+        "seo-distribution-native-listing-use",
+        "seo-distribution-syndication-ownership",
+        "seo-geo-passages-and-original-need",
+        "seo-geo-referral-and-use",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-serp-page-type-fit",
+        "seo-spy-winners-and-losers",
+        "seo-technical-agent-gai-report-null-semantics",
+        "seo-technical-agent-search-gai-control",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-technical-vertical-merchant",
+        "seo-technical-vertical-video-watch",
+        "seo-ux-expectation-and-next-action",
+        "seo-vertical-agentic-commerce",
+        "seo-vertical-longform-watch",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/SKILL.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "67f0fe18d2278a2219ec77aa2246d1f07dfa6bae0c5ff5e7871ddd97a790ebd8",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "MARKETING-SCHEMA",
+      "check_ids": [
+        "seo-technical-schema-feature-eligibility",
+        "seo-technical-schema-syntax-graph"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/schema/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/schema/SKILL.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "673fa46bad2f2d4649955c473b11778bd2d258317662df670b31414e28725a84",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "MARKETING-SITE-ARCH",
+      "check_ids": [
+        "seo-pseo-internal-graph",
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-complete-inventory",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-render-initial-index-controls"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/site-architecture/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected source file reviewed",
+      "source_metadata": {
+        "source_path": "skills/site-architecture/SKILL.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "0c71871aea12689012b4d85aaaf24a4752d3f0e985603c4992d5c0bf0fce57ea",
+        "read_depth": "complete file; exact code/test/reference depth in upstream review",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-AI-REPORT",
+      "check_ids": [
+        "seo-geo-referral-and-use",
+        "seo-geo-surface-and-sampling",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-technical-agent-gai-report-null-semantics",
+        "seo-technical-agent-search-gai-control"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/webmasters/answer/16984139",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-SCHEMA-UPDATES",
+      "check_ids": [
+        "seo-technical-schema-feature-eligibility"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/updates",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-NEXT-JSONLD",
+      "check_ids": [
+        "seo-technical-schema-syntax-graph"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://nextjs.org/docs/app/guides/json-ld",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-MULTIREGIONAL",
+      "check_ids": [
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-MERCHANT-AI",
+      "check_ids": [
+        "seo-technical-vertical-merchant",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/merchants/answer/14743464",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-GSC-ANOMALIES",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-property-and-export"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/webmasters/answer/6211453",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-GA4-AI",
+      "check_ids": [
+        "seo-geo-referral-and-use",
+        "seo-measurement-metric-semantics"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/analytics/answer/9756891",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-SERVICE-AREA",
+      "check_ids": [
+        "seo-technical-vertical-local-business",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/business/answer/9157481",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-CHROME-AGENTIC",
+      "check_ids": [
+        "seo-technical-agent-optional-protocols",
+        "seo-technical-performance-lab-contract"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-DISAVOW",
+      "check_ids": [
+        "seo-abuse-observed-incident-and-policy",
+        "seo-authority-verified-link-profile"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/webmasters/answer/2648487",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-CHROME-CRUX-HISTORY",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developer.chrome.com/docs/crux/history-api",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-KEYWORD-METRICS",
+      "check_ids": [
+        "seo-demand-market-and-language",
+        "seo-demand-metric-dedup",
+        "seo-demand-observed-query-provenance"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-historical-metrics",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-UGC-PROGRAM",
+      "check_ids": [
+        "seo-vertical-public-ugc"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/search/docs/appearance/ugc-fresh-data-program",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-WHATWG-DOCUMENT-BASE",
+      "check_ids": [
+        "seo-technical-links-crawlable-anchors",
+        "seo-technical-media-asset-preview-access"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#document-base-urls",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative guidance verified; full retrieved source retained"
+    },
+    {
+      "source_id": "REVIEW-20261112-48864622D107",
+      "check_ids": [
+        "seo-demand-product-supply-fit",
+        "seo-pseo-entity-eligibility",
+        "seo-pseo-rollout-and-supply"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/programmatic-seo/references/implementation-platforms.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/programmatic-seo/references/implementation-platforms.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "27d86221387e0880768164d4d03513c85a594d11d12c7a6dd93ac17881c131e2",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-0AB24DED5D96",
+      "check_ids": [
+        "seo-pseo-internal-graph",
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-complete-inventory",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-technical-render-initial-index-controls"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/site-architecture/references/platforms-and-migration.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/site-architecture/references/platforms-and-migration.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "391f12c5994e1e577db75cd6044e038a276f14eda1c2ebc7f6a92293fbc59448",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-2DF88FD354E0",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-refresh-intervention-readback",
+        "seo-serp-page-type-fit"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/seo-audit/references/rankings-push.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-audit/references/rankings-push.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "c21d6d4f9faf7ce5b1dc0f8bd508e7513967492fcd8ed9510a175ce243daf8c8",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-9C1A3C85D77D",
+      "check_ids": [
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-locale-hreflang-graph"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/seo-audit/references/international-seo.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-audit/references/international-seo.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "0603022cca968acf7889fc224221aa0e70955ba64355bc18b06f7e86b32f45e5",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-2495BCB52A32",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-distribution-community-fit",
+        "seo-distribution-independent-reviews",
+        "seo-geo-referral-and-use",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-technical-agent-gai-report-null-semantics",
+        "seo-technical-agent-search-gai-control"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/citations-vs-recommendations.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/citations-vs-recommendations.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "90adc950592b24d8ebd46460ef7ada6a2c4df0f4e4752903c93341cbe182b919",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-EE94D03DE992",
+      "check_ids": [
+        "seo-content-claims-and-fact-expiry",
+        "seo-demand-market-and-language",
+        "seo-geo-passages-and-original-need",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-spy-winners-and-losers",
+        "seo-technical-locale-functional-adaptation"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/prompt-portfolio.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/prompt-portfolio.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "8891f4e747d4eb17a4a2f1d075a081d4261a6084eaa1e9fdb862ed09ebb505c0",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-50D6B423445D",
+      "check_ids": [
+        "seo-content-claims-and-fact-expiry",
+        "seo-demand-market-and-language",
+        "seo-distribution-syndication-ownership",
+        "seo-geo-passages-and-original-need",
+        "seo-geo-surface-and-sampling",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-serp-page-type-fit",
+        "seo-spy-winners-and-losers",
+        "seo-technical-vertical-video-watch",
+        "seo-vertical-longform-watch"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/format-volatility.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/format-volatility.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "235858ee4d820dd0b89d3c7ffc65f4f59c7904f63feef7d2fff78cc6818caddf",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-F0E179234C3B",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-content-claims-and-fact-expiry",
+        "seo-distribution-native-listing-use",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling",
+        "seo-ux-expectation-and-next-action"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/agent-defaults.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/agent-defaults.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "4f009f323b381553961914bf7d67755ee3c178dd10f1570f61fe306cd0054b21",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-B06979D042DA",
+      "check_ids": [
+        "seo-distribution-native-listing-use",
+        "seo-geo-surface-and-sampling",
+        "seo-ux-expectation-and-next-action"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/agent-readiness.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/agent-readiness.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "b9021a2a6b92757a30bc8d8a850c96358dd3010b763e3c3598f1f4757c7eab29",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-3CDDE00A7B11",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-content-claims-and-fact-expiry",
+        "seo-geo-retrieval-citation-accuracy"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/answer-accuracy.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/answer-accuracy.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "9c9115a720c6891fc7e0122d465ed38643170b026fa461de5971feb642f0da57",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-5FCCD74D892D",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-content-claims-and-fact-expiry",
+        "seo-distribution-syndication-ownership",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-serp-page-type-fit",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-technical-vertical-merchant",
+        "seo-technical-vertical-video-watch",
+        "seo-vertical-agentic-commerce",
+        "seo-vertical-longform-watch",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/content-types.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/content-types.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "2323104990cb3057f3ce135c2b7bac71e5369992d5aeb24cec009c8f6d841d0b",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-56C8159AC087",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-distribution-community-fit",
+        "seo-distribution-independent-reviews",
+        "seo-geo-retrieval-citation-accuracy"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/positioning-and-consensus.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/positioning-and-consensus.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "b7618247e57a4560c3785155c34de77adc232784b7dd91b2c44a77a73617b9b4",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-D8E9A9F6DF3B",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-distribution-community-fit",
+        "seo-distribution-independent-reviews",
+        "seo-distribution-syndication-ownership",
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-serp-page-type-fit",
+        "seo-technical-vertical-video-watch",
+        "seo-vertical-longform-watch"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/linkedin-ai-citations.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/linkedin-ai-citations.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "2bd191703b543fc5f3ae36f5e367ed6d5504ad38e7446797cd3c5fe23ababd4b",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-7D4D8A81E5A7",
+      "check_ids": [
+        "seo-geo-referral-and-use",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-technical-agent-gai-report-null-semantics",
+        "seo-technical-agent-search-gai-control"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/ai-attribution.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/ai-attribution.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "accaf004e50fd92d16e5e1b57ce0aa5f5c0f88d1ba7bb2ce6939de29fe3e1728",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-849F86CE223A",
+      "check_ids": [
+        "seo-content-claims-and-fact-expiry",
+        "seo-distribution-syndication-ownership",
+        "seo-geo-passages-and-original-need",
+        "seo-serp-page-type-fit",
+        "seo-spy-winners-and-losers",
+        "seo-technical-vertical-video-watch",
+        "seo-vertical-longform-watch"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/content-patterns.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/content-patterns.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "2aa584f93587c322f08697f2eedcb6b48fd79bccb75d1f0ae2072dfcc8c7c684",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-9E582104FAF1",
+      "check_ids": [
+        "seo-distribution-syndication-ownership",
+        "seo-serp-page-type-fit",
+        "seo-technical-vertical-video-watch",
+        "seo-vertical-longform-watch"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/youtube-ai-citations.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/youtube-ai-citations.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "eee24cd9f377db5f59933c775a740f5ff7ece9f238b051157ba72531d9507a99",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-23971A00338F",
+      "check_ids": [
+        "seo-demand-market-and-language",
+        "seo-geo-surface-and-sampling",
+        "seo-technical-locale-functional-adaptation",
+        "seo-technical-schema-visible-factual-parity",
+        "seo-technical-vertical-merchant",
+        "seo-vertical-agentic-commerce",
+        "seo-vertical-shopping"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/ai-seo/references/multilingual-and-commerce.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/ai-seo/references/multilingual-and-commerce.md",
+        "immutable_revision": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "sha256": "5d65db4b85c9c257f4d052a9b3b65bb2f72af140076e2b2dc4cf7dd34d111057",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-27496620041A",
+      "check_ids": [
+        "seo-serp-current-scope-and-depth",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo/references/maps-geo-grid.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo/references/maps-geo-grid.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "76e08cd3fefb4d0367e0647895c482e1914a932dc86de4a82dc2d03b987855e4",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-573603D17E81",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-property-and-export"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-google/references/search-console-api.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-google/references/search-console-api.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "85d81675748e7cb22e4d86c5639b8078dff341dcfabe22dc7b7acd8290e380bc",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-362D17E109A0",
+      "check_ids": [
+        "seo-technical-agent-optional-protocols",
+        "seo-ux-handoff-no-unrequested-effects"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-agentic/references/webmcp.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-agentic/references/webmcp.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "5e71293f7baae8c04ef443aab43224637d06759170e0fc73422a2ea91fcb12a1",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-564412A13677",
+      "check_ids": [
+        "seo-technical-agent-optional-protocols",
+        "seo-technical-performance-lab-contract"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-agentic/references/lighthouse-agentic-category.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-agentic/references/lighthouse-agentic-category.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "3e99f0396f21bff5e7901a7b9c7dd0594d3c866006d0a551775cf189adfc2b1f",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-70D9BAE5AD7C",
+      "check_ids": [
+        "seo-pseo-body-and-metadata-differentiation"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo/references/quality-gates.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo/references/quality-gates.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "e678bd245ab620b61e467cc25dff92ef9cee0e01f40caa832776cae46b6468e0",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-4A790BAF6DE5",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-google/references/crux-history-api.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-google/references/crux-history-api.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "73da146d03fa60e8a7d300698c0949c7f1c7ad48acb809d9dc183f0ac8922966",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-770A819EE877",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-google/references/pagespeed-crux-api.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-google/references/pagespeed-crux-api.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "70bd5ad30369caa89f559698acf29b689c317d9c2e8d39ce1260510c2793bdd8",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-1D7FD65C4A28",
+      "check_ids": [
+        "seo-demand-metric-dedup",
+        "seo-demand-observed-query-provenance"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/skills/seo-google/references/keyword-planner-api.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "skills/seo-google/references/keyword-planner-api.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "5581b74899f9515481e861e5c42fef642b782ad65cc4990c6d4db9f66a3625cd",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "REVIEW-20261112-C11FA50C31B4",
+      "check_ids": [
+        "seo-technical-links-crawlable-anchors",
+        "seo-technical-media-asset-preview-access"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/CHANGELOG.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete selected file reviewed",
+      "source_metadata": {
+        "source_path": "CHANGELOG.md",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "514a6ec23479fd9128a241e3f93d502df5e3367c932fe1ea285b520061b2cef0",
+        "read_depth": "complete file; retained review identifies relevant line ranges",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "PRIMARY-20261112-OPENAI-COMMERCE-GET-STARTED",
+      "check_ids": [
+        "seo-vertical-shopping",
+        "seo-vertical-agentic-commerce",
+        "seo-technical-vertical-merchant",
+        "seo-technical-schema-visible-factual-parity"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.openai.com/commerce/guides/get-started",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete fetched official documentation read"
+    },
+    {
+      "source_id": "COCKPIT-20261112-9B566A8FFFBD",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version",
+        "seo-technical-collector-bounds",
+        "seo-technical-notification-eligible-receipts",
+        "seo-technical-scope-coverage-denominator",
+        "seo-technical-scope-identity",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/register.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/register.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "f304742ae6be2b00d899b1e8671a6db9997732753162c1bf49567fc5ba2a1358",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-2D3ACA2BB970",
+      "check_ids": [
+        "seo-measurement-complete-attempt-denominator",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version",
+        "seo-technical-collector-bounds",
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/lib/paid.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/lib/paid.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "7c3efd6113840925e63f342a7be424710db78476b10ca6c67cb7789d93ebda59",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-2A11E00B2092",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version",
+        "seo-technical-collector-bounds",
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/README.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/README.md",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "8690792af0edfe706c654c598eb5e6dfd5c7894b4c0f7457948e1cd2489a20d3",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-A4E7E3D3F18A",
+      "check_ids": [
+        "seo-scope-permission-and-cost",
+        "seo-technical-collector-bounds",
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/lib/verdict.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/lib/verdict.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "dabe708e4535b24346e53293ab8441bfa7f00b699797ab287ceae1d4d45bd395",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-1C33B532BE15",
+      "check_ids": [
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version",
+        "seo-technical-collector-bounds",
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/scripts/dataforseo_costs.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "scripts/dataforseo_costs.py",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "001d086ea778ec3412455d9a14e7a12eba7688851d079403d40ecb5a6f8763c9",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-7A6EC54B12AC",
+      "check_ids": [
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost",
+        "seo-technical-collector-bounds",
+        "seo-technical-notification-eligible-receipts",
+        "seo-technical-vertical-merchant"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/scripts/dataforseo_merchant.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "scripts/dataforseo_merchant.py",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "461ad8329668720cfd6d90c2aac5d195db35ae5ec758537a8fef10797bd9d2c1",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-8948DC208C09",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version",
+        "seo-technical-collector-bounds",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-scope-coverage-denominator",
+        "seo-technical-scope-identity",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/lib/tabs.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/lib/tabs.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "6f87de046e2b0ebd4c8a22201ce3b5bd8b374313bdf0684d00daa5910e97bb35",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-A114F6039F35",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-technical-collector-bounds",
+        "seo-technical-scope-coverage-denominator"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/scripts/gsc_query.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "scripts/gsc_query.py",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "6397c8c7b26a92fe3c69add1718efa995f0ffb38822d5f20a5e5dbe714ff5732",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-AD228362F3E8",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-technical-collector-bounds",
+        "seo-technical-scope-coverage-denominator"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/lib/audit.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/lib/audit.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "0e2452c0ffa3750e4d4fc25fc11a3293917b520c16b4e7101252901e58aa302c",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-560DB6B9E0C6",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-technical-collector-bounds",
+        "seo-technical-scope-coverage-denominator"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/skills/seo-audit/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "skills/seo-audit/SKILL.md",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "0eee8999b05c587f58cfb8cc8ccfad7c977498653a474e2f3e7e2c51807d96e5",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-45430AA3E69E",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-scope-identity",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/lib/overview.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/lib/overview.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "6d0dd7c3bbca6e86a9d2466166903c82a364f29129b5c8fe50c2e8265a76bcf3",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-A823ED6D8B68",
+      "check_ids": [
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost",
+        "seo-technical-scope-coverage-denominator",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/skills/seo-maps/SKILL.md",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "skills/seo-maps/SKILL.md",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "95ca6999978193e4205ed34195d8cf80b84feeab70a7d3b85a758a5737ad519b",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-7424D15120D3",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-complete-attempt-denominator",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version",
+        "seo-technical-collector-bounds",
+        "seo-technical-performance-field-cwv",
+        "seo-technical-scope-coverage-denominator",
+        "seo-vertical-local-maps"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/lib/charts.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/lib/charts.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "64273270f7a322f72648d1883bbdab5627e344bd5761291aa88f533990e83064",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-E7306E5F60F3",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/scripts/crux_history.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "scripts/crux_history.py",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "3a6e0bdaea0d9e39bff410672f262eb66ca4a7ac0aee2eb08afd2328d51099c6",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-5ACB93B70F76",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/hooks/lib/root.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/hooks/lib/root.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "21ba00e77e1e70bd16791f866c6665fc4e763b8a7da1525af17e2828d32565cb",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-8F0FC1D36750",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/scripts/runtime.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "scripts/runtime.py",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "1798de85f4611a1e34801937d484f5ca69dd8a2a437a8b230ba1e440e8835941",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-8A35E6C764F1",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-evidence-layer",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/tsconfig.json",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/tsconfig.json",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "f41b52b4ee1180c52828a64fd35612a4271d47c4195fe20a8a3fa12156107529",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-CB4DECF49A41",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/.claude-plugin/plugin.json",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/.claude-plugin/plugin.json",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "39b3a6f2c4389c1c2bc76d72de15881c95de90d21d76c92c3cebb1d0f915acc3",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-20261112-E7070007CEE6",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost",
+        "seo-scope-source-version"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cf97b4785f4241b9367d654c60c7207dc3afcf68/plugins/seo-cockpit/tests/register.test.ts",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete linked companion source inspected",
+      "source_metadata": {
+        "source_path": "plugins/seo-cockpit/tests/register.test.ts",
+        "immutable_revision": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+        "sha256": "b5ddc7f3f1ab5e1d4df227c456ab38f1e3bdd076d980c49d70bb2ae4838b3da7",
+        "read_depth": "complete static source; exact duplicate full reads reused where recorded",
+        "status": "source-read-not-executed",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "COCKPIT-COMPARE-20261112-E7306E5F60F3",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-technical-performance-field-cwv"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/cca7e4a267991aca880efade1fd12e8498caf2ce/scripts/crux_history.py",
+      "observed_at": "2026-11-12",
+      "original_read_status": "complete static source in original505-file review",
+      "source_metadata": {
+        "source_path": "scripts/crux_history.py",
+        "immutable_revision": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "sha256": "c3d0105d8fe5e6965a3d8a37b4e29ad8e7efa6b4c52c971728467e44529ec495",
+        "read_depth": "complete file in original source review",
+        "runtime_or_account_access": false
+      }
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-GSC-QUERY",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative primary definitions inspected; full retrieved body retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-GSC-PERFORMANCE",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-technical-scope-coverage-denominator",
+        "seo-technical-collector-bounds"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/webmasters/answer/7042828",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative primary definitions inspected; full retrieved body retained"
+    },
+    {
+      "source_id": "PRIMARY-20261112-GOOGLE-GSC-FRESH-DATA",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export",
+        "seo-technical-scope-coverage-denominator",
+        "seo-technical-collector-bounds"
+      ],
+      "disposition": "rule-extracted",
+      "url": "https://support.google.com/webmasters/answer/12917174",
+      "observed_at": "2026-11-12",
+      "original_read_status": "operative primary definitions inspected; full retrieved body retained"
+    }
+  ],
+  "selected_rules": [
+    {
+      "rule_id": "review20261112:page-family",
+      "check_ids": [
+        "seo-pseo-entity-eligibility",
+        "seo-demand-product-supply-fit",
+        "seo-pseo-rollout-and-supply"
+      ],
+      "source_ids": [
+        "MARKETING-PSEO",
+        "REVIEW-20261112-48864622D107"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "For a requested programmatic family, establish eligible records, family-specific useful output, real source data, refresh path and maintenance capacity before generation. Compare the existing CMS against actual item/plan limits, rendering, metadata, index controls and publication cost before choosing another platform."
+    },
+    {
+      "rule_id": "review20261112:architecture-migration",
+      "check_ids": [
+        "seo-technical-complete-inventory",
+        "seo-technical-redirects-equivalence-and-chain",
+        "seo-pseo-internal-graph"
+      ],
+      "source_ids": [
+        "MARKETING-SITE-ARCH",
+        "MARKETING-AUDIT",
+        "REVIEW-20261112-0AB24DED5D96"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "When restructuring, preserve old/current/intended URL, content, metadata and link identities. Check equivalent redirects, deliberate removals and actual navigation reachability."
+    },
+    {
+      "rule_id": "review20261112:proxy-origin-controls",
+      "check_ids": [
+        "seo-technical-render-initial-index-controls",
+        "seo-technical-canonical-signal-graph"
+      ],
+      "source_ids": [
+        "MARKETING-SITE-ARCH",
+        "REVIEW-20261112-0AB24DED5D96"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "For a proxied public section, compare origin/public index controls, canonical, sitemap and asset routes. Confirm that origin noindex does not reach production."
+    },
+    {
+      "rule_id": "review20261112:near-winner",
+      "check_ids": [
+        "seo-refresh-intervention-readback",
+        "seo-serp-page-type-fit",
+        "seo-measurement-comparable-causal-claim"
+      ],
+      "source_ids": [
+        "MARKETING-AUDIT",
+        "REVIEW-20261112-2DF88FD354E0"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Select actual query/page opportunities with comparable position, impressions, CTR, query/brand mix, device and result appearance. Inspect intent and real winning results, check platform anomalies, then test the smallest supported change over an appropriate window."
+    },
+    {
+      "rule_id": "review20261112:html-jsonld-boundary",
+      "check_ids": [
+        "seo-technical-schema-syntax-graph"
+      ],
+      "source_ids": [
+        "MARKETING-SCHEMA",
+        "PRIMARY-20261112-NEXT-JSONLD"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "For JSON-LD embedded in HTML, use a permitted isolated boundary test containing literal less-than characters and a script-closing string. Preserve parsed data through safe serialization and verify the served script boundary."
+    },
+    {
+      "rule_id": "review20261112:schema-consumer",
+      "check_ids": [
+        "seo-technical-schema-feature-eligibility"
+      ],
+      "source_ids": [
+        "MARKETING-SCHEMA",
+        "PRIMARY-20261112-GOOGLE-SCHEMA-UPDATES"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Identify the requested consumer and verify its current feature contract. Preserve the distinction between matching Schema.org vocabulary and a retired Google appearance, including FAQ, HowTo and sitelinks search box."
+    },
+    {
+      "rule_id": "review20261112:regional-canonical",
+      "check_ids": [
+        "seo-technical-locale-hreflang-graph",
+        "seo-technical-canonical-signal-graph",
+        "seo-technical-locale-functional-adaptation"
+      ],
+      "source_ids": [
+        "MARKETING-AUDIT",
+        "REVIEW-20261112-9C1A3C85D77D",
+        "PRIMARY-20261112-GOOGLE-MULTIREGIONAL"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Distinguish genuine translations from similar same-language regional duplicates in canonical/alternate decisions. Preserve valid observed pairs and the intended default-locale URL strategy."
+    },
+    {
+      "rule_id": "review20261112:ai-a01",
+      "check_ids": [
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-geo-surface-and-sampling"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-2495BCB52A32",
+        "REVIEW-20261112-EE94D03DE992"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Record visible citation, mention, shortlist/recommendation and framing separately per answer/run; record retrieval only when actually observable and preserve unavailable as unknown. Compare like prompts and engines with attempts and sample size. Do not state that citations or third-party consensus causally produce recommendations, visits or sales."
+    },
+    {
+      "rule_id": "review20261112:ai-a02",
+      "check_ids": [
+        "seo-geo-surface-and-sampling",
+        "seo-demand-market-and-language",
+        "seo-measurement-complete-attempt-denominator"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-EE94D03DE992",
+        "REVIEW-20261112-50D6B423445D"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Derive prompts from actual buyer tasks and permitted customer evidence; label inferred prompts. Preserve stable core, exploratory and control cohorts, persona, task, market, language, platform/model and version; compare the common frozen cohort and retain failed runs. Controls are diagnostics, not guaranteed fixed outcomes; select repeats and cadence from decision and cost, not vendor thresholds."
+    },
+    {
+      "rule_id": "review20261112:ai-a03",
+      "check_ids": [
+        "seo-geo-surface-and-sampling",
+        "seo-geo-retrieval-citation-accuracy"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-EE94D03DE992",
+        "REVIEW-20261112-2495BCB52A32"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Where buyer conversations matter, test realistic task -> constraint -> compare -> risk -> choice follow-ups in a single session; retain each turn, sources, sampled runs and when a candidate is added, qualified or dropped. A drift point is a diagnostic hypothesis to investigate, not proof the missing page caused the outcome."
+    },
+    {
+      "rule_id": "review20261112:ai-a04",
+      "check_ids": [
+        "seo-geo-surface-and-sampling",
+        "seo-distribution-native-listing-use",
+        "seo-ux-expectation-and-next-action"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-F0E179234C3B",
+        "REVIEW-20261112-B06979D042DA"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "When agent selection is material, sample realistic buyer tasks/stacks in representative actual environments and a documented clean control; record agent/model/config, task, selections, cited/fetched pages when observable, stalls and outcome. Map product tasks to canonical docs with correct prerequisites, versions and working examples. Use only authorized reversible test paths; no installation, signup, spending or action is implied. No injected preference or model-ranking claim."
+    },
+    {
+      "rule_id": "review20261112:ai-a05",
+      "check_ids": [
+        "seo-geo-retrieval-citation-accuracy",
+        "seo-content-claims-and-fact-expiry",
+        "seo-authority-entity-facts"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-3CDDE00A7B11",
+        "REVIEW-20261112-F0E179234C3B",
+        "REVIEW-20261112-5FCCD74D892D"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Capture exact answer/claim and engine/session/prompt/date; classify accurate, incomplete, ambiguous, stale, false, opinion or unknown against current evidence; record likely origin as hypothesis, exposure/severity, owner and factual corrections to owned pages, feeds or legitimately correctable profiles. Retest comparable prompts. Do not remove fair criticism, fabricate corrections, contact third parties without authority or promise model changes."
+    },
+    {
+      "rule_id": "review20261112:ai-a06",
+      "check_ids": [
+        "seo-authority-entity-facts",
+        "seo-distribution-independent-reviews",
+        "seo-distribution-community-fit",
+        "seo-geo-retrieval-citation-accuracy"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-2495BCB52A32",
+        "REVIEW-20261112-56C8159AC087",
+        "REVIEW-20261112-D8E9A9F6DF3B"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "On an observed cohort classify actual citations as owned, other-company, earned/primary, community, directory or unknown; inspect which mention the brand and compare factual positioning with current owned and independent evidence. Baseline current and target segments when repositioning. Consensus is a hypothesis, not a public ranking formula. Honest criticism remains; do not request replacement with a less central con or fake mentions. No automatic channel order."
+    },
+    {
+      "rule_id": "review20261112:ai-a07",
+      "check_ids": [
+        "seo-geo-referral-and-use",
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-metric-semantics",
+        "seo-technical-agent-gai-report-null-semantics",
+        "seo-technical-agent-search-gai-control"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-7D4D8A81E5A7",
+        "REVIEW-20261112-2495BCB52A32",
+        "PRIMARY-20261112-GOOGLE-AI-REPORT"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Keep observed exposure, identifiable referrals, declared delayed proxies, self-report and business outcomes separate. Predeclare comparable windows/control and confounders; join known outcomes without double count, and label observation, association or supported causal estimate. Unattributed direct/branded-search movements are not automatically AI-driven. Google Search generative AI report and inherited control remain valid; report is impressions and overlaps Web data."
+    },
+    {
+      "rule_id": "review20261112:ai-a08",
+      "check_ids": [
+        "seo-content-claims-and-fact-expiry",
+        "seo-geo-passages-and-original-need",
+        "seo-spy-winners-and-losers"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-849F86CE223A",
+        "REVIEW-20261112-50D6B423445D",
+        "REVIEW-20261112-EE94D03DE992"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Group observed or explicitly inferred subquestions by fact family, source, buyer constraint, gap and existing owning page; improve that page before proposing new content and retest a comparable task cohort. Do not rely on undocumented network payloads as a stable integration, claim hidden queries were observed, or mass-create doorway pages per generated fan-out."
+    },
+    {
+      "rule_id": "review20261112:ai-a10",
+      "check_ids": [
+        "seo-serp-page-type-fit",
+        "seo-distribution-syndication-ownership",
+        "seo-vertical-longform-watch",
+        "seo-technical-vertical-video-watch"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-849F86CE223A",
+        "REVIEW-20261112-5FCCD74D892D",
+        "REVIEW-20261112-50D6B423445D",
+        "REVIEW-20261112-D8E9A9F6DF3B",
+        "REVIEW-20261112-9E582104FAF1"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Inspect real cited pages by provider, task and market; check relevant platform indexing/canonical state and update the comparable cohort. For an existing relevant video, improve accurate captions/transcript, chapters and metadata when useful to users. No universal posting cadence, word count, LinkedIn/YouTube citation share, exclusive text-only model reading, mandatory pinned comment or platform-specific ranking algorithm is established."
+    },
+    {
+      "rule_id": "review20261112:ai-a11",
+      "check_ids": [
+        "seo-demand-market-and-language",
+        "seo-technical-locale-functional-adaptation",
+        "seo-geo-surface-and-sampling"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-23971A00338F",
+        "REVIEW-20261112-EE94D03DE992"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Derive a native-language prompt sample from actual local demand, inspect cited local sources and factual correctness, and distinguish missing translation, missing local information and inconsistent entity facts. Native review, resources and availability are scoped to actual markets. No translated phrase is claimed as observed local demand."
+    },
+    {
+      "rule_id": "review20261112:ai-a12",
+      "check_ids": [
+        "seo-vertical-shopping",
+        "seo-vertical-agentic-commerce",
+        "seo-technical-vertical-merchant",
+        "seo-technical-schema-visible-factual-parity"
+      ],
+      "source_ids": [
+        "MARKETING-AI-SEO",
+        "REVIEW-20261112-23971A00338F",
+        "REVIEW-20261112-5FCCD74D892D",
+        "PRIMARY-20261112-OPENAI-COMMERCE-GET-STARTED"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Where a real program and offer fit, compare identifiers, variants, price/currency, availability, policies and freshness across actual surfaces; observe product, headline merchant and other offers separately. A product category alone does not establish eligibility or exclusion. Official OpenAI feed onboarding is partner-gated; no feed or protocol is universal, and no product card implies a sale."
+    },
+    {
+      "rule_id": "review20261112:claude-merchant-ai-origin",
+      "check_ids": [
+        "seo-technical-vertical-merchant",
+        "seo-vertical-shopping"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-IMAGES",
+        "CLAUDE-CURRENT-ECOMMERCE",
+        "PRIMARY-20261112-GOOGLE-MERCHANT-AI"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "For an applicable Merchant Center offer, inspect generative-image provenance/embedded DigitalSourceType and preservation through conversion, plus structured_title/structured_description and digital_source_type on AI-generated feed text. Keep page content and Merchant feed distinct; validate actual current policy and account. Do not impose a general web-image rule."
+    },
+    {
+      "rule_id": "review20261112:claude-local-profile",
+      "check_ids": [
+        "seo-vertical-local-maps",
+        "seo-technical-vertical-local-business"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-LOCAL",
+        "CLAUDE-CURRENT-MAPS",
+        "PRIMARY-20261112-GOOGLE-SERVICE-AREA"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "For each eligible real location, compare current official profile and public website/schema facts, category, hours, contact, offered services and supported review state; unknown/undetectable fields remain unknown. Distinguish storefront, hybrid and service-area business; do not require a public street address for SAB."
+    },
+    {
+      "rule_id": "review20261112:claude-local-grid",
+      "check_ids": [
+        "seo-vertical-local-maps",
+        "seo-serp-current-scope-and-depth"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-MAPS",
+        "CLAUDE-CURRENT-SEO",
+        "REVIEW-20261112-27496620041A"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "When geo-grid ranking is actually requested, preserve query, location coordinates, device, date, result depth, all planned points, valid observations, not-found-within-depth and provider failures as distinct states. A sampled or simulated grid and its declared denominator are not total coverage of a service territory; qualify precision and price with actual provider contract."
+    },
+    {
+      "rule_id": "review20261112:claude-gsc-anomaly",
+      "check_ids": [
+        "seo-measurement-comparable-causal-claim",
+        "seo-measurement-property-and-export"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-GOOGLE",
+        "REVIEW-20261112-573603D17E81",
+        "PRIMARY-20261112-GOOGLE-GSC-ANOMALIES"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "When a comparison intersects 2025-05-13–2026-04-27, consult current Google anomaly record: reported impressions and related CTR/position were affected; clicks were not affected by this specific issue. Record measurement limitation rather than declaring a site loss. Check other current relevant anomalies too."
+    },
+    {
+      "rule_id": "review20261112:claude-ga4-ai-referral",
+      "check_ids": [
+        "seo-geo-referral-and-use",
+        "seo-measurement-metric-semantics"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-GOOGLE",
+        "PRIMARY-20261112-GOOGLE-GA4-AI"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Distinguish GA4 AI Assistant default channel and ai-assistant medium, recognized referrers and the property attribution/window from Google AI Overviews/AI Mode, excluded from that channel. Preserve Direct/unknown rather than attributing all of it to AI; independently verify current vendor source mapping."
+    },
+    {
+      "rule_id": "review20261112:claude-link-observation",
+      "check_ids": [
+        "seo-authority-verified-link-profile"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-BACKLINKS",
+        "PRIMARY-20261112-GOOGLE-DISAVOW"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Preserve distinct observations: source page 404/410, accessible page without target link, JavaScript-unverifiable, 5xx, 403/429/timeout and head-only existence. Retain actual link rel and page-level directives as raw evidence. Neither a source failure nor a reachable HEAD establishes link survival or removal."
+    },
+    {
+      "rule_id": "review20261112:claude-webmcp-safety",
+      "check_ids": [
+        "seo-technical-agent-optional-protocols",
+        "seo-ux-handoff-no-unrequested-effects"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-AGENTIC",
+        "REVIEW-20261112-362D17E109A0"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Where a real WebMCP tool is offered, examine registered tool descriptions and actual handler, user privilege, validation and confirmation on consequential actions; do not let a tool description bypass confirmation. Label protocol/browser support as dated experimental facts; absent optional tool is not a defect."
+    },
+    {
+      "rule_id": "review20261112:claude-agentic-fraction",
+      "check_ids": [
+        "seo-technical-performance-lab-contract",
+        "seo-technical-agent-optional-protocols"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-AGENTIC",
+        "REVIEW-20261112-564412A13677",
+        "PRIMARY-20261112-CHROME-AGENTIC"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "If an actual Lighthouse Agentic Browsing run exists, qualify its actual producer, category and schema independently of the shipped four-category adapter. Retain X/N and per-audit modes, exact tool/browser version, raw report, errors and test date. Do not turn the result into a 0–100 metric, compare differing denominators as an absolute ranking, or claim absent browser-dependent audits passed."
+    },
+    {
+      "rule_id": "review20261112:claude-metadata-pattern",
+      "check_ids": [
+        "seo-pseo-body-and-metadata-differentiation"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-PROGRAMMATIC",
+        "CLAUDE-CURRENT-SEO",
+        "REVIEW-20261112-70D9BAE5AD7C"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Check rendered metadata across the declared actual page set independently of body differentiation. Repeated title-first descriptions plus stock CTAs are a review cue, not a documented Google penalty or automatic failure. Ground changes in the page and audience."
+    },
+    {
+      "rule_id": "review20261112:claude-crux-history-missingness",
+      "check_ids": [
+        "seo-technical-performance-field-cwv",
+        "seo-measurement-metric-semantics"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-GOOGLE",
+        "REVIEW-20261112-4A790BAF6DE5",
+        "REVIEW-20261112-770A819EE877",
+        "PRIMARY-20261112-CHROME-CRUX-HISTORY"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "For an actual CrUX History series, retain each 28-day collection period and exact URL/origin and form factor. Interpret histogram \"NaN\" and percentile null as periods with no eligible data, never zeros; CLS can be string-encoded. Weekly windows overlap, so they are not independent weekly cohorts."
+    },
+    {
+      "rule_id": "review20261112:claude-keyword-planner-metric-provenance",
+      "check_ids": [
+        "seo-demand-observed-query-provenance",
+        "seo-demand-metric-dedup"
+      ],
+      "source_ids": [
+        "CLAUDE-CURRENT-GOOGLE",
+        "REVIEW-20261112-1D7FD65C4A28",
+        "PRIMARY-20261112-GOOGLE-KEYWORD-METRICS"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "For Google Keyword Planner data only, retain requested and returned keyword rows and the applicable request scope: network, geography, language and time range. Retain close_variants and Ads bid/competition fields when returned, distinguishing expected-but-missing fields from fields this provider/method does not supply. Average/monthly searches are approximate and may combine variants; do not copy or sum grouped volume as if each exact phrase were independent. Ads competition measures advertiser placement, not organic difficulty; bid percentiles are not guaranteed CPC. Other query sources retain their own provider-specific semantics and required fields."
+    },
+    {
+      "rule_id": "review20261112:ugc-fresh-program",
+      "check_ids": [
+        "seo-vertical-public-ugc"
+      ],
+      "source_ids": [
+        "CLAUDE-SOURCE-UPDATES",
+        "PRIMARY-20261112-GOOGLE-UGC-PROGRAM"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "When the Google UGC Fresh Data Program itself is considered or claimed, assess its current primary eligibility for the actual high-volume UGC platform: accessible stable public UGC pages and creator profiles, quality/moderation and technical readiness. Record eligibility, application and admission as separate states; require actual admission evidence only for a participation claim. Ordinary UGC publication and indexing follow the existing asset checks independently of this optional program. The program is distinct from ordinary crawling and the Indexing API, and admission does not guarantee Search appearance."
+    },
+    {
+      "rule_id": "review20261112:document-base-resolution",
+      "check_ids": [
+        "seo-technical-links-crawlable-anchors",
+        "seo-technical-media-asset-preview-access"
+      ],
+      "source_ids": [
+        "CLAUDE-SOURCE-BASE",
+        "REVIEW-20261112-C11FA50C31B4",
+        "PRIMARY-20261112-WHATWG-DOCUMENT-BASE"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "When a real HTML document uses an effective base element, resolve relative links and image resources including fragment-only references against the effective document base before classifying them, preserving raw and resolved targets. Validate cross-origin targets using the actual safety boundary. Treat this as a browser URL-resolution rule, not a new Google ranking rule."
+    },
+    {
+      "rule_id": "review20261112:collector-completeness",
+      "check_ids": [
+        "seo-technical-collector-bounds",
+        "seo-technical-sitemap-discovery-completion"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-SITEMAP",
+        "CLAUDE-CODE-COMMONCRAWL"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Qualify actual collector output against known bounds: expected artifact/schema, target and HTTP status, decoded body/EOF, child/depth/row caps and nested branches. Preserve partial, unavailable and failed states; a completed command or empty partial dataset does not establish a passed check or absence."
+    },
+    {
+      "rule_id": "review20261112:report-metric-populations",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-measurement-property-and-export"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-GSC",
+        "CLAUDE-CODE-GA4",
+        "CLAUDE-CODE-MATOMO",
+        "COCKPIT-20261112-9B566A8FFFBD",
+        "COCKPIT-20261112-8948DC208C09",
+        "COCKPIT-20261112-A114F6039F35",
+        "COCKPIT-20261112-AD228362F3E8",
+        "COCKPIT-20261112-560DB6B9E0C6",
+        "COCKPIT-20261112-7A6EC54B12AC",
+        "CLAUDE-CODE-MERCHANT",
+        "PRIMARY-20261112-GOOGLE-GSC-QUERY",
+        "PRIMARY-20261112-GOOGLE-GSC-PERFORMANCE",
+        "PRIMARY-20261112-GOOGLE-GSC-FRESH-DATA"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Retain native metric names, dimensions, filters, aggregation and actual coverage. Query/page pairs are not unique queries; daily uniques do not sum to period-unique; entry visits, visits, actions and pageviews remain distinct. Preserve limited, sampled, thresholded and unavailable values. Compare displayed date labels, aggregation, counts and sample limits with the actual raw inputs and inclusive collection interval. Preserve clipped rows, suppressed warnings and per-source errors; an unweighted mean of daily averages is not a native period aggregate. Preserve raw price strings, explicit native currency and actual format/locale semantics before normalization; missing currency cannot be supplied by a USD default and a separator cannot be deleted without a verified parsing contract."
+    },
+    {
+      "rule_id": "review20261112:account-property-selection",
+      "check_ids": [
+        "seo-measurement-property-and-export",
+        "seo-scope-permission-and-cost"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-AUTH",
+        "CLAUDE-CODE-PROPERTIES",
+        "COCKPIT-20261112-45430AA3E69E",
+        "COCKPIT-20261112-9B566A8FFFBD",
+        "COCKPIT-20261112-8948DC208C09",
+        "COCKPIT-20261112-A823ED6D8B68",
+        "COCKPIT-20261112-7424D15120D3"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Verify expected versus actual credential principal, granted scopes and target property/site/stream. Preserve exact URL-prefix protocol/host/path versus domain coverage. An unavailable explicitly selected credential source must not silently select another account. Validate cached or saved inputs against the selected actual host, business, property, configuration and collection window, even when the working directory stays the same. A newest grid/file from that directory does not establish ownership by the selected site."
+    },
+    {
+      "rule_id": "review20261112:export-artifact-readback",
+      "check_ids": [
+        "seo-measurement-metric-semantics",
+        "seo-technical-index-engine-canonical"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-GOOGLE-REPORT"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Inspect the delivered report/export against raw data for percent/fraction units, normalized field mapping, warning propagation and actual/source row counts. Preserve missing fields and capped rows visibly."
+    },
+    {
+      "rule_id": "review20261112:field-cohort-identity",
+      "check_ids": [
+        "seo-technical-performance-field-cwv",
+        "seo-measurement-comparable-causal-claim"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-PAGESPEED",
+        "CLAUDE-CODE-DRIFT",
+        "COCKPIT-20261112-7424D15120D3",
+        "COCKPIT-20261112-8948DC208C09",
+        "COCKPIT-20261112-45430AA3E69E",
+        "COCKPIT-20261112-E7306E5F60F3",
+        "COCKPIT-COMPARE-20261112-E7306E5F60F3"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Retain URL/origin measurement identity and actual collection periods on each side. Preserve missing or unparseable field values and skipped comparisons as unknown; compare compatible populations and preserve every scope fallback. Do not label the last non-null metric as belonging to a later missing period. A group summary requires the actual applicable metric set and missing/error states; presence of a chart or no poor-status suffix does not establish good CWV. A relative percentage has an undefined denominator when its baseline is zero. Show period-bound absolute values/change and the undefined relative result; a zero-division fallback does not establish stability."
+    },
+    {
+      "rule_id": "review20261112:lcp-distribution-cause",
+      "check_ids": [
+        "seo-technical-performance-lcp-cause"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-LCP"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Separately aggregated component percentiles do not by themselves decompose an individual p75 LCP event. Use matching traces/observations or a justified distributional method and test the causal repair hypothesis."
+    },
+    {
+      "rule_id": "review20261112:effect-cost-receipts",
+      "check_ids": [
+        "seo-scope-permission-and-cost",
+        "seo-technical-notification-eligible-receipts"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-MERCHANT",
+        "CLAUDE-CODE-INDEXNOW",
+        "COCKPIT-20261112-9B566A8FFFBD",
+        "COCKPIT-20261112-2D3ACA2BB970",
+        "COCKPIT-20261112-2A11E00B2092",
+        "COCKPIT-20261112-A4E7E3D3F18A",
+        "COCKPIT-20261112-1C33B532BE15",
+        "COCKPIT-20261112-7A6EC54B12AC"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Bind actual provider/account/units/budget and reserve permitted cost before a paid effect. Preserve original task IDs, raw responses and uncertain-send state. Reconcile UNKNOWN against that operation or supported idempotency before retry; a local estimate or ledger reset is not actual billing evidence. For compound or concurrent paid operations, enumerate the complete proposed operation set and reserve its aggregate against the shared cap atomically before effects; where reservation is unavailable, establish and use one serialized boundary for every writer sharing that account/cap before effects. Per-command estimates, an ask prompt or a local allow flag cannot waive the cap. Reconcile actual executed operations and provider receipts, including failed or uncertain tool results. Interpret each provider task status and result completeness under the actual endpoint contract before accepting completed, failed, pending or uncertain outcomes; a normal tool return cannot establish an empty successful result."
+    },
+    {
+      "rule_id": "review20261112:host-managed-components",
+      "check_ids": [
+        "seo-scope-source-version",
+        "seo-scope-permission-and-cost"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-UNINSTALL",
+        "CLAUDE-CODE-HOOK",
+        "COCKPIT-20261112-5ACB93B70F76",
+        "COCKPIT-20261112-9B566A8FFFBD",
+        "COCKPIT-20261112-8F0FC1D36750",
+        "COCKPIT-20261112-8A35E6C764F1",
+        "COCKPIT-20261112-2A11E00B2092",
+        "COCKPIT-20261112-8948DC208C09",
+        "COCKPIT-20261112-7424D15120D3",
+        "COCKPIT-20261112-CB4DECF49A41",
+        "COCKPIT-20261112-E7070007CEE6",
+        "COCKPIT-20261112-1C33B532BE15"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Qualify the intended native host and actual registered behavior. Preserve shared configuration, owner changes and execution history; removal applies only to verified owned files. A skipped observer hook or declared external plugin is not an executed blocking gate. Inspect real credential propagation, source-root selection and automatic file/export effects in the chosen host. A configured guard flag or readiness doctor cannot prove that a hook fired or enforced the intended cap; README claims about credential access or requested writes require implementation readback."
+    },
+    {
+      "rule_id": "review20261112:actual-visual-output",
+      "check_ids": [
+        "seo-ux-browser-accessibility",
+        "seo-technical-render-field-parity"
+      ],
+      "source_ids": [
+        "CLAUDE-CODE-VISUAL",
+        "CLAUDE-CODE-UNLIGHTHOUSE"
+      ],
+      "disposition": "adopted-assertion",
+      "source_packet": "references/reviewed-rules.json",
+      "source_packet_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+      "reason": "Verify actual screenshots, measurements/actions and expected result artifacts. Default success booleans, empty route lists after a command or absent result files cannot stand in for an executed visual or crawl check."
     }
   ],
   "source_population_counts": {
-    "packaged_rule_bindings": 91,
+    "packaged_rule_bindings": 186,
     "registry_criteria": 145
   },
   "populations_non_additive": true,

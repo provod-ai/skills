@@ -1,10 +1,10 @@
 ---
 name: traf-seo-master
-description: Use when auditing SEO or preparing a search-ready release.
+description: "Use when doing SEO, GEO, content, publishing or acquisition."
 license: MIT
 metadata:
   author: TRAF
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # TRAF SEO Master
@@ -49,6 +49,8 @@ Enroll further sites through profile/input files. Use `site-missing --sites` aga
 | Image/OG/media search metadata and useful assets | [Media SEO](references/media-seo.md) |
 | Losses, unknown jobs, index/rank/measurement incidents | [Recovery](references/recovery.md) |
 | Versions, optional tools, updating sources and gaps | [Upstream maintenance](references/upstream-maintenance.md) |
+| Current Marketing Skills / Claude SEO coverage and source conflicts | [Reviewed upstream skills](references/upstream-skill-review.md) |
+| Qualifying upstream collectors, account adapters and plugin behavior | [Reviewed collector contracts](references/source-runtime-review.md) |
 
 The machine-readable [coverage map](references/capabilities.json) separates instruction route, shipped adapter, dependency/tool availability, host runtime, live authentication and acquisition proof. [Public source catalogue](references/upstreams.json) is an on-demand discovery index. Unknown or missing capability stays visible; do not call every listed repository tested or activated.
 

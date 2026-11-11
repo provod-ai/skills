@@ -13,3 +13,7 @@ If the task includes existing video/media pages, use current feature-specific gu
 For visible media/UI changes inspect the actual result in the target page with screenshots, relevant interactions and console errors. Existing asset metadata, generated-file existence and a passing build are intermediate. A missing tool or unavailable visual check stays explicit.
 
 Deliver actual usable assets where requested, their source/derivation and page integration checks, plus the measured or still-unproven discovery/use contribution. Sources: [Google image SEO](https://developers.google.com/search/docs/appearance/google-images), [Google video guidance](https://developers.google.com/search/docs/appearance/video), [Google structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data).
+
+## Generated content in applicable merchant feeds
+
+For an applicable Merchant Center offer compare actual feed, page, schema and served image derivatives for identity, variants, price/currency, availability and freshness. Check the current required IPTC DigitalSourceType values for generated images and preserve them through optimization/conversion. Inspect structured_title, structured_description and digital_source_type for applicable generated feed text. Preserve the distinction between product inclusion, merchant-offer inclusion and purchase. These are merchant product-data requirements. [Google generated product data](https://support.google.com/merchants/answer/14743464).

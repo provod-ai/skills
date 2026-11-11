@@ -577,11 +577,29 @@
       "repo": "AgriciDaniel/claude-seo",
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "kind": "public-repository-reference",
-      "source_assessment": "discovery-only; relevance not established",
+      "source_assessment": "Complete pinned source snapshot and separately pinned companion inspected; runtime not executed",
       "code_paths": [],
       "execution": "not bundled or activated",
       "runtime": "unverified",
-      "acquisition_proof": "not established by catalogue"
+      "acquisition_proof": "not established by catalogue",
+      "current_source_review": {
+        "date": "2026-11-12",
+        "commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "coverage": "505-file repository with exact per-file reading dispositions",
+        "reference": "references/upstream-skill-review.md",
+        "implementation_limits": "references/source-runtime-review.md",
+        "runtime": "not inferred from source review",
+        "linked_companion": {
+          "commit": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+          "subdir": "plugins/seo-cockpit",
+          "files": 22,
+          "linked_files": 8,
+          "qualification_cases": 15,
+          "ledger": "references/reviewed-rules.json",
+          "linked_file_read_depth": "complete static source: six changed full reads and two exact duplicate full-read reuses"
+        }
+      },
+      "historical_source_assessment": "discovery-only; relevance not established"
     },
     {
       "id": "gh-agricidaniel--codex-seo",
@@ -1198,7 +1216,15 @@
       "code_paths": [],
       "execution": "not bundled or activated",
       "runtime": "unverified",
-      "acquisition_proof": "not established by catalogue"
+      "acquisition_proof": "not established by catalogue",
+      "current_source_review": {
+        "date": "2026-11-12",
+        "commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "coverage": "five named core skills and all their references/evaluation scenarios",
+        "reference": "references/upstream-skill-review.md",
+        "implementation_limits": "references/source-runtime-review.md",
+        "runtime": "not inferred from source review"
+      }
     },
     {
       "id": "gh-corgicorner--bisibility",

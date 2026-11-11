@@ -13,3 +13,21 @@ Acquisition comes from a useful asset/action and a reason to discover it: origin
 For Google, no special AI-only schema/file or guaranteed citation trick is established; the current [optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) explains its treatment of llms.txt. Markdown/docs can improve tool usability without being a Google ranking guarantee. Bing/Copilot controls and reports are separate products; read search-engines.md before using them.
 
 Output a source-kind-qualified visibility/gap report and a falsifiable content/distribution experiment, with downstream acquired audience/useful actions where measured. Citation count, API answer frequency and agent tool calls never close the organic-visit target by themselves.
+
+## Buyer tasks and answer records
+
+Derive decision-relevant prompts from observed buyer questions or labelled hypotheses. Version task, persona, stack, language, market, prompt, provider, model and tool configuration. Maintain a stable comparison cohort alongside exploratory cases and diagnostic controls. Choose repetitions, windows and cost from the decision. Preserve every planned attempt, failure and changed cohort membership.
+
+For each actual answer record observable retrieval, citation, mention, shortlist inclusion, recommendation, advice against the product and framing separately, with answer and source links. Unknown retrieval remains unknown. When follow-ups affect the decision, retain realistic same-session task, constraint, comparison, risk and choice turns and observe when a candidate enters or leaves the shortlist.
+
+For vendor selection by an agent, use representative authorized tasks and environments plus a documented clean control. Record selected service, setup state, agent/model/configuration, sources when observable, stalls and actual useful completion. Check the product's documented prerequisites and working examples against that task.
+
+Maintain a ledger of claims that can affect the decision. Record exact claim, prompt/session/engine/date, current source of truth, accuracy state and impact. Treat suspected origins as hypotheses. Correct owned material and legitimately editable profiles within the task's authority, then retest a comparable cohort. Preserve opinion and fair criticism.
+
+Classify actual cited sources as owned, other-company, primary/earned, community, directory or unknown. Compare factual category, segment, positioning and product descriptions with current owned and independent evidence. Analyze each language/market before aggregation. Third-party agreement is evidence to inspect rather than a known recommendation formula.
+
+Map observed or explicitly inferred subquestions to fact families, buyer constraints, sources and an existing owning page. Improve that page before adding variants. Hidden query fan-out is observed only through an authorized documented surface.
+
+Keep exposure, identifiable referral, delayed branded/direct movement, first-party self-report and business result in separate fields. Predeclare comparable windows, controls, competing explanations and the outcome join; deduplicate shared conversions. Apply current GA4 channel definitions in [search-engines.md](search-engines.md). Unattributed traffic remains unattributed.
+
+[Current source review](upstream-skill-review.md).

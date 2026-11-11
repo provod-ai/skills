@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "package_version": 3,
+  "observed_on": "2026-11-12",
+  "scope": "Maintained reusable source, CLI and reviewed rule integration; site outcomes have independent evidence",
+  "local_test_suites": [
+    {
+      "test": "test-seo-pack.py",
+      "count": 29,
+      "result": "passed",
+      "log_sha256": "b4d002a6c1b0bf660e6dfbdfb615a76df74b4e76c74c128649a6047687610053",
+      "scope": "Local package/CLI contract tests using offline fixtures and declared negative controls; no provider, live account or organic traffic proof",
+      "retained_log_filename": "test-seo-pack-final.log",
+      "retained_log_location": "Owning task evidence, outside the portable package"
+    },
+    {
+      "test": "test-seo-master-sites.py",
+      "count": 64,
+      "result": "passed",
+      "log_sha256": "cfb1a1cd7256a3a254b7db3624939fe11d767c3cd3ae9673e6db28d60aee18b7",
+      "scope": "Local package/CLI contract tests using offline fixtures and declared negative controls; no provider, live account or organic traffic proof",
+      "retained_log_filename": "test-seo-master-sites-final.log",
+      "retained_log_location": "Owning task evidence, outside the portable package"
+    },
+    {
+      "test": "test-seo-master-downloads.py",
+      "count": 6,
+      "result": "passed",
+      "log_sha256": "5ac8859858802bdc564c7a6449e0c58222bfbc2483c1d8f4ab1210290c002045",
+      "scope": "Local package/CLI contract tests using offline fixtures and declared negative controls; no provider, live account or organic traffic proof",
+      "retained_log_filename": "test-seo-master-downloads-final.log",
+      "retained_log_location": "Owning task evidence, outside the portable package"
+    }
+  ],
+  "current_source_review": {
+    "repositories": {
+      "coreyhaines31/marketingskills": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "AgriciDaniel/claude-seo": "cca7e4a267991aca880efade1fd12e8498caf2ce"
+    },
+    "marketing_core_modules": 5,
+    "marketing_references": 29,
+    "marketing_eval_scenarios_read": 51,
+    "claude_snapshot_files_accounted": 505,
+    "claude_core_skills": 26,
+    "claude_markdown_references": 111,
+    "claude_core_scripts": 64,
+    "claude_agents": 19,
+    "claude_extension_families": 9,
+    "claude_core_tests_and_fixtures_read": 111,
+    "official_documents_qualified": 18,
+    "adapted_rules": 40,
+    "original_criteria_preserved": 145,
+    "method_criteria_revised": 33,
+    "exact_rule_ledger": "references/reviewed-rules.json",
+    "rule_ledger_sha256": "2b093804f995bb4837cd7db63b0f39cc0887be49ac43b4f92e084abbeef4ce3f",
+    "linked_companion": {
+      "commit": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+      "files_full_read": 22,
+      "owning_dependencies_full_read": 8,
+      "new_dependency_full_reads": 6,
+      "exact_duplicate_full_read_reuses": 2,
+      "source_test_declarations_read": 85,
+      "qualification_cases": 15,
+      "tests_or_plugin_executed": false
+    }
+  },
+  "qualification_limits": {
+    "all_historical_catalogue_sources_read": false,
+    "upstream_collectors_installed_or_executed_in_this_review": false,
+    "live_authentication": "requires scoped current evidence",
+    "automatic_host_discovery": "not established by local static checks",
+    "organic_traffic_or_causal_improvement": "requires actual outcome data"
+  },
+  "historical_capability_qualification": {
+    "observation_date": "2026-11-02",
+    "scope": "Capability rows preserve recorded synthetic native-agent exercises; original transcripts and the earlier bounded Lighthouse public canary remain with the owning project and are not included in this portable receipt.",
+    "current_revalidation": "The current local suites and source review above check only their declared contract scope; no fresh live canary was run."
+  }
+}

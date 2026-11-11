@@ -17,3 +17,26 @@ The first real vertical is one qualified useful asset through the actual publish
 Ready source examples: [AutoSEO](https://github.com/codextde/autoseo), [SERPsmith](https://github.com/emiliojohann/SERPsmith), [pseo-ai-kit](https://github.com/swarmclawai/pseo-ai-kit), [WordPress REST posts](https://developer.wordpress.org/rest-api/reference/posts/), [official WordPress MCP adapter](https://github.com/WordPress/mcp-adapter). Their integration seams, paid/provider requirements and native harness support need a bounded current canary. No connector or production authority is created by listing them.
 
 Output: complete reviewed asset/candidate, target-qualified publisher action/readback where authorized, current operation state, remaining index/acquisition evidence and update/rollback references. No broad site/network deployment or external messages are inferred from package installation.
+
+## Choose the page family
+
+Record family, real source data, eligible entities, refresh path, useful result and intended conversion before generation.
+
+| Family | Required useful result |
+| --- | --- |
+| Templates | Editable or downloadable material that works in the advertised format |
+| Curated selections | Dated criteria and sourced evaluations |
+| Converters | Correct operation, units, data freshness and usable output |
+| Comparisons | Verifiable differences and use-case-based recommendation |
+| Examples | Real examples with organization, context and explanation |
+| Locations | Real service/location facts and useful local differences |
+| Audience pages | Distinct tasks, relevant features and audience evidence |
+| Integrations | Current setup, real prerequisites and checked examples |
+| Glossary | Accurate definition, context, examples and related concepts |
+| Translations | Localized main content, local facts and tested locale relationships |
+| Directories | Qualified records, useful selection/filtering and refresh path |
+| Entity profiles | Sourced identity/attributes and useful original synthesis |
+
+Evaluate the requested family against demand and product supply. Check whether the existing renderer/CMS supports the real item count and plan, incremental data refresh, initial useful HTML, conditional sections, per-page metadata/index controls and publication cost. Compare justified alternatives using those constraints. Prove a small qualified publish/update/remove path and measure capture and maintenance before scaling.
+
+[Reviewed page-family source](https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/programmatic-seo/SKILL.md).

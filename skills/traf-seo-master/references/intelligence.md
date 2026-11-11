@@ -21,3 +21,9 @@ Avoid all-pairs algorithms on a million queries: `n*(n-1)/2` is about half a tri
 For changes, [changedetection.io](https://github.com/dgtlmoon/changedetection.io), [waymore](https://github.com/xnl-h4ck3r/waymore) and documented feed/archive tools can supply source deltas. An undocumented backend is not an official integration; unavailable docs require a supported path or explicit discovery authority. Trends indices are not absolute search volume. Preserve raw missing/rate/error outcomes and old valid observations with stale labels.
 
 Output a source-linked win/gap map, exact selected query rows, honest clustering state, current opportunity cards and collection-cost/completeness limits. No number of discovered repositories or exported rows proves market coverage or traffic.
+
+## Improve pages with observed opportunity
+
+Use comparable query/page baselines to identify demand with room to improve. Select position bands and impression floors from the site's scale and decision. Check cannibalization and actual result format before choosing the owning page.
+
+Compare real winning results for intent, missing information, freshness, useful format and links. Interpret CTR with position, query/brand mix, device and SERP appearance. Record baseline and hypothesis, make the smallest supported change and use an appropriate observation window. Check platform anomalies before claiming an effect. Fixed edit-round or week counts cannot prove success or mandate a stop. [Reviewed workflow](https://github.com/coreyhaines31/marketingskills/blob/1f837447b20bb6f0e72d87b80ece1c221c362c7d/skills/seo-audit/references/rankings-push.md).

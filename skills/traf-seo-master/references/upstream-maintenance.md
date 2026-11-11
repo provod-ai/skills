@@ -19,3 +19,7 @@ Core installation is project-local and copy-only. Codex/Claude/Cursor paths are 
 Output an updated source/capability row with exact verification evidence, changed dependency/cost assumptions, compatibility limits and next bounded test. Report breadth transparently: a bounded repository search is not all GitHub, and "10x better" needs a defined comparative metric before it becomes a factual performance claim.
 
 Owning skill-format sources: [OpenAI skills](https://learn.chatgpt.com/docs/build-skills), [Claude Code skills](https://code.claude.com/docs/en/skills), [Cursor skills](https://cursor.com/docs/context/skills).
+
+The [current upstream review](upstream-skill-review.md) records pinned Marketing Skills and Claude SEO coverage, adopted refinements and conflicts. Preserve its stated reading and implementation scope in completeness claims.
+
+The [collector and plugin source review](source-runtime-review.md) identifies concrete implementation limits to qualify before reuse. Preserve those limits and the pinned code version when selecting a ready component.
