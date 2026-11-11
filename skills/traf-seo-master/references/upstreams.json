@@ -1,0 +1,4147 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-01",
+  "scope": "Public discovery metadata and task sources; not a bundled tool fleet or execution allowlist",
+  "components": [
+    {
+      "id": "doc-0a1c82c044ac",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-14a41211e1e3",
+      "url": "https://www.kapwing.com/blog/getting-started-with-seo-a-guidebook/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-192a4973ac3a",
+      "url": "https://developers.google.com/search/docs/crawling-indexing",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-1f2734e7294c",
+      "url": "https://web.dev/articles/vitals",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-267ce05b20e9",
+      "url": "https://scenei.art/landing-pages",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-287c6057c692",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-3307e148712a",
+      "url": "https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-340a8609a520",
+      "url": "https://commoncrawl.org/web-graphs",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-3a5e6cfc5d92",
+      "url": "https://www.indexnow.org/faq",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-3ef3a12a92d9",
+      "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-40c3c125c321",
+      "url": "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-47aa306229a8",
+      "url": "https://developers.google.com/search/docs/appearance/google-images",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-4ad49da94b33",
+      "url": "https://motionsites.ai/mcp",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-50e8d107c624",
+      "url": "https://www.yandex.com/support/metrica/en/reports/attribution-model",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-542f21c1085b",
+      "url": "https://code.claude.com/docs/en/skills",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-5776a1165245",
+      "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-5cb97c4baded",
+      "url": "https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-5e8774886a74",
+      "url": "https://support.google.com/webmasters/answer/16984139",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-603546002b23",
+      "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-6e77a1c43371",
+      "url": "https://yandex.com/dev/metrika/en/intro/authorization",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-6ebd51fc204d",
+      "url": "https://developer.chrome.com/docs/lighthouse/overview",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-6fe2317039f5",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-72aa2c31b683",
+      "url": "https://store.crowdin.com/crowdin-mcp-server",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-739b5d19add9",
+      "url": "https://motionsites.ai/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-85232b73c9be",
+      "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-8bfadee767fa",
+      "url": "https://developer.wordpress.org/rest-api/reference/posts/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-8cd1ab27911f",
+      "url": "https://flow-ai.com/blog/seo-content-strategy",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-8d7d5b412c81",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-90e35aea269c",
+      "url": "https://yandex.com/support/webmaster/en/service/quick-start",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-98bd9bb79aa7",
+      "url": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-99947268cf0e",
+      "url": "https://advego.com/v2/support/services/seo/1451/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-9fc739c98504",
+      "url": "https://yandex.com/support2/wordstat/en/content/api-wordstat",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-a07c3ce0767d",
+      "url": "https://learn.chatgpt.com/docs/build-skills",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-a2f622bda7c9",
+      "url": "https://yandex.com/dev/webmaster/doc/en/tasks/how-to-get-oauth",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-a8ec062a6603",
+      "url": "https://developers.google.com/search/apis/indexing-api/v3/using-api",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-ae04f14132bc",
+      "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-ae93fb765ce4",
+      "url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-b241e3c6c99f",
+      "url": "https://support.google.com/webmasters/answer/17010575",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-bad164a9475c",
+      "url": "https://developers.google.com/webmaster-tools/v1/urlInspection.index/UrlInspectionResult",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-c88012d86ed1",
+      "url": "https://developers.google.com/search/docs/appearance/video",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-d9771a6de8ec",
+      "url": "https://support.google.com/webmasters/answer/16908024",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-dcd5730c013c",
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-e47505396dbe",
+      "url": "https://developers.google.com/analytics/devguides/reporting/data/v1/quotas",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-ed58c3a014c4",
+      "url": "https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-eff2f558b60c",
+      "url": "https://cursor.com/docs/context/skills",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-f9ce1bceb054",
+      "url": "https://advego.com/v2/support/services/seo/1450/",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-fbccfb967f9d",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-fcd0163376e7",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "doc-fdf61edca474",
+      "url": "https://developers.google.com/webmaster-tools/v1/how-tos/all-your-data",
+      "kind": "primary-or-public-documentation",
+      "source_assessment": "task reference; refresh before integration",
+      "execution": "not an activated connector",
+      "runtime": "not applicable",
+      "acquisition_proof": "not implied"
+    },
+    {
+      "id": "gh-aaron-he-zhu--aaron-marketing-skills",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-abbottis--logwerk",
+      "repo": "abbottis/logwerk",
+      "url": "https://github.com/abbottis/logwerk",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-acamolese--google-search-console-mcp",
+      "repo": "acamolese/google-search-console-mcp",
+      "url": "https://github.com/acamolese/google-search-console-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-adityaarsharma--librecrawl-technical-seo-audit-mcp",
+      "repo": "adityaarsharma/librecrawl-technical-seo-audit-mcp",
+      "url": "https://github.com/adityaarsharma/librecrawl-technical-seo-audit-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-adityaarsharma--sitewalk",
+      "repo": "adityaarsharma/sitewalk",
+      "url": "https://github.com/adityaarsharma/sitewalk",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-agamm--pseo-next",
+      "repo": "agamm/pseo-next",
+      "url": "https://github.com/agamm/pseo-next",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "README.md",
+        "prisma/schema.prisma",
+        "src/app/variant/[slug]/page.tsx",
+        "src/app/server-sitemaps/[index]/route.ts",
+        "e2e/example.spec.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "2f816d2c9d92ea2f9dbd339c299851ccb7e33e70",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-agencyenterprise--aiseo-audit",
+      "repo": "agencyenterprise/aiseo-audit",
+      "url": "https://github.com/agencyenterprise/aiseo-audit",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/modules/scoring/service.ts",
+        "src/modules/scoring/stages.ts",
+        "src/modules/analyzer/schema.ts",
+        "src/mcp/tools.ts",
+        "tests/invariants/output-contract.test.ts",
+        "tests/integration/reliability.test.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "6c888aa54856d543409d24a1befe226fe1e0f5a9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-agniiva--seo-keyword-clustering",
+      "repo": "agniiva/seo-keyword-clustering",
+      "url": "https://github.com/agniiva/seo-keyword-clustering",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "app.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-agricidaniel--chatgpt-seo",
+      "repo": "AgriciDaniel/chatgpt-seo",
+      "url": "https://github.com/AgriciDaniel/chatgpt-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-agricidaniel--claude-seo",
+      "repo": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "Complete pinned source snapshot and separately pinned companion inspected; runtime not executed",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "current_source_review": {
+        "date": "2026-11-12",
+        "commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+        "coverage": "505-file repository with exact per-file reading dispositions",
+        "reference": "references/upstream-skill-review.md",
+        "implementation_limits": "references/source-runtime-review.md",
+        "runtime": "not inferred from source review",
+        "linked_companion": {
+          "commit": "cf97b4785f4241b9367d654c60c7207dc3afcf68",
+          "subdir": "plugins/seo-cockpit",
+          "files": 22,
+          "linked_files": 8,
+          "qualification_cases": 15,
+          "ledger": "references/reviewed-rules.json",
+          "linked_file_read_depth": "complete static source: six changed full reads and two exact duplicate full-read reuses"
+        }
+      },
+      "historical_source_assessment": "discovery-only; relevance not established"
+    },
+    {
+      "id": "gh-agricidaniel--codex-seo",
+      "repo": "AgriciDaniel/codex-seo",
+      "url": "https://github.com/AgriciDaniel/codex-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-aiapplications001-art--seo-page-creator-agent",
+      "repo": "aiapplications001-art/seo-page-creator-agent",
+      "url": "https://github.com/aiapplications001-art/seo-page-creator-agent",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-aigclink--geolook",
+      "repo": "aigclink/geolook",
+      "url": "https://github.com/aigclink/geolook",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-akvise--trends-checker",
+      "repo": "akvise/trends-checker",
+      "url": "https://github.com/akvise/trends-checker",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-alireza-aminzadeh--seorankpulse",
+      "repo": "alireza-aminzadeh/seorankpulse",
+      "url": "https://github.com/alireza-aminzadeh/seorankpulse",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-aminforou--mcp-gsc",
+      "repo": "AminForou/mcp-gsc",
+      "url": "https://github.com/AminForou/mcp-gsc",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-amplifying-ai--awesome-generative-engine-optimization",
+      "repo": "amplifying-ai/awesome-generative-engine-optimization",
+      "url": "https://github.com/amplifying-ai/awesome-generative-engine-optimization",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-andrewjpyle--content-homogeneity-gate",
+      "repo": "andrewjpyle/content_homogeneity_gate",
+      "url": "https://github.com/andrewjpyle/content_homogeneity_gate",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-andrewjpyle--programmatic-pages",
+      "repo": "andrewjpyle/programmatic_pages",
+      "url": "https://github.com/andrewjpyle/programmatic_pages",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/programmatic_pages/adapter.py",
+        "src/programmatic_pages/builder.py",
+        "src/programmatic_pages/models.py",
+        "src/programmatic_pages/schema.py",
+        "src/programmatic_pages/manifest.py",
+        "src/programmatic_pages/management/commands/build_static_pages.py",
+        "tests/test_safety.py",
+        "examples/parks_demo/parks/adapters.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "0035385a79b5fad8e2271da845375c4205d5d0b2",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-andypearman89--pearblog-engine",
+      "repo": "AndyPearman89/PearBlog-Engine-",
+      "url": "https://github.com/AndyPearman89/PearBlog-Engine-",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-anil-matcha--awesome-agent-apis",
+      "repo": "Anil-matcha/awesome-agent-apis",
+      "url": "https://github.com/Anil-matcha/awesome-agent-apis",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-anomalyco--models-dev",
+      "repo": "anomalyco/models.dev",
+      "url": "https://github.com/anomalyco/models.dev",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-answerdelta--awesome-ai-seo-agents",
+      "repo": "answerdelta/awesome-ai-seo-agents",
+      "url": "https://github.com/answerdelta/awesome-ai-seo-agents",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-answerdotai--llms-txt",
+      "repo": "AnswerDotAI/llms-txt",
+      "url": "https://github.com/AnswerDotAI/llms-txt",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "llms_txt/core.py",
+        "llms_txt/miniparse.py",
+        "nbs/01_core.ipynb",
+        "tests/test-parse.py",
+        "README.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "3700a0a624a4a004c6a246789b37f389940b1b58",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-anyin-ai--aperture",
+      "repo": "anyin-ai/aperture",
+      "url": "https://github.com/anyin-ai/aperture",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "backend/app/services/llm/providers.py",
+        "backend/app/services/llm/openai_service.py",
+        "backend/app/services/llm/perplexity_service.py",
+        "backend/app/services/analysis.py",
+        "backend/tests/test_llm_services.py",
+        "backend/tests/test_audit_lifecycle.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "f32c40c9f2ceb9c8eacdbc08ee315cd65e13f950",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-archanacontent--asked",
+      "repo": "archanacontent/asked",
+      "url": "https://github.com/archanacontent/asked",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-arturseo-geo--mcp-common-crawl",
+      "repo": "arturseo-geo/mcp-common-crawl",
+      "url": "https://github.com/arturseo-geo/mcp-common-crawl",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "index.js",
+        "package.json"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "52187c33ea425e131683a319d8acfd60d89409c9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-aryanpanwar10005--seo-geo-optimizer",
+      "repo": "Aryanpanwar10005/seo-geo-optimizer",
+      "url": "https://github.com/Aryanpanwar10005/seo-geo-optimizer",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-assafelovic--gpt-researcher",
+      "repo": "assafelovic/gpt-researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-atharvdange618--xml-sitemap-generator",
+      "repo": "atharvdange618/xml-sitemap-generator",
+      "url": "https://github.com/atharvdange618/xml-sitemap-generator",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-aura-ins--kr-figurefarm-scraper",
+      "repo": "aura-ins/kr-figurefarm-scraper",
+      "url": "https://github.com/aura-ins/kr-figurefarm-scraper",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-auriti-labs--geo-optimizer-skill",
+      "repo": "Auriti-Labs/geo-optimizer-skill",
+      "url": "https://github.com/Auriti-Labs/geo-optimizer-skill",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/geo_optimizer/core/citations.py",
+        "src/geo_optimizer/core/scoring.py",
+        "src/geo_optimizer/core/llm_client.py",
+        "src/geo_optimizer/core/serp_provider.py",
+        "src/geo_optimizer/core/snapshots.py",
+        "docs/llm-providers.md",
+        "tests/test_citations.py",
+        "tests/test_serp_provider.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "7ecec864690ee430e954a95352130cf47e2c92cc",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-awesomemotive--all-in-one-seo-pack",
+      "repo": "awesomemotive/all-in-one-seo-pack",
+      "url": "https://github.com/awesomemotive/all-in-one-seo-pack",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-awkoy--gsc-cli",
+      "repo": "awkoy/gsc-cli",
+      "url": "https://github.com/awkoy/gsc-cli",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-backlink-generator-tool--json-url-backlink-submitter",
+      "repo": "backlink-generator-tool/json-url-backlink-submitter",
+      "url": "https://github.com/backlink-generator-tool/json-url-backlink-submitter",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-beb7--gflare-tk",
+      "repo": "beb7/gflare-tk",
+      "url": "https://github.com/beb7/gflare-tk",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-blader--humanizer",
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-brightdata--brightdata-mcp",
+      "repo": "brightdata/brightdata-mcp",
+      "url": "https://github.com/brightdata/brightdata-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-caolnvv--global-site-launchpad",
+      "repo": "Caolnvv/global-site-launchpad",
+      "url": "https://github.com/Caolnvv/global-site-launchpad",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-catnipsundanese717--ai-visibility-readiness",
+      "repo": "Catnipsundanese717/ai-visibility-readiness",
+      "url": "https://github.com/Catnipsundanese717/ai-visibility-readiness",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-cituna--cituna-mcp",
+      "repo": "Cituna/cituna-mcp",
+      "url": "https://github.com/Cituna/cituna-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-codextde--autoseo",
+      "repo": "codextde/autoseo",
+      "url": "https://github.com/codextde/autoseo",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/server/db/schema/optimize.ts",
+        "src/server/optimize/content/generate.ts",
+        "src/server/optimize/integrations/index.ts",
+        "src/server/optimize/integrations/providers/wordpress.ts",
+        "src/server/optimize/cms-edits/service.ts",
+        "src/server/jobs/worker.ts",
+        "src/server/analytics/search-console/sync.ts",
+        "src/server/optimize/tasks/outcome-jobs.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "2c456e4a738bd78772f7fe12c1882487fb6d9d06",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-codinginflow--nextjs-programmatic-seo",
+      "repo": "codinginflow/nextjs-programmatic-seo",
+      "url": "https://github.com/codinginflow/nextjs-programmatic-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "README.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-collabnix--awesome-mcp-lists",
+      "repo": "collabnix/awesome-mcp-lists",
+      "url": "https://github.com/collabnix/awesome-mcp-lists",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-commoncrawl--cc-index-table",
+      "repo": "commoncrawl/cc-index-table",
+      "url": "https://github.com/commoncrawl/cc-index-table",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "README.md",
+        "src/sql/examples/cc-index/get-records-of-domain.sql",
+        "src/main/resources/schema/cc-index-schema-flat.json"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "918d2601b17ad0eb69856f8578c2186bed5dbcfe",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-commoncrawl--cc-pyspark",
+      "repo": "commoncrawl/cc-pyspark",
+      "url": "https://github.com/commoncrawl/cc-pyspark",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "hostlinks_extract_fastwarc.py",
+        "wat_extract_links.py",
+        "hostlinks_to_graph.py",
+        "count_domain_links.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "3d13b2416e6ea29cb3afc8634ca424febf058c00",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-commoncrawl--cc-web-graph-neo4j",
+      "repo": "commoncrawl/cc-web-graph-neo4j",
+      "url": "https://github.com/commoncrawl/cc-web-graph-neo4j",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "README.md",
+        "create.sh (referenced,notread)"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-commoncrawl--cdx-toolkit",
+      "repo": "commoncrawl/cdx_toolkit",
+      "url": "https://github.com/commoncrawl/cdx_toolkit",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "cdx_toolkit/__init__.py",
+        "cdx_toolkit/commoncrawl.py",
+        "cdx_toolkit/warc.py",
+        "tests/unit/test_cc.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "e87b1204993b77a4c41c03239baefa1c8462a6e1",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-commoncrawl--web-graph-embeddings",
+      "repo": "commoncrawl/web-graph-embeddings",
+      "url": "https://github.com/commoncrawl/web-graph-embeddings",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "REPRODUCE.md",
+        "src/wgl/ (described,notread)"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-connascent-agency--gsc-api",
+      "repo": "Connascent-Agency/gsc-api",
+      "url": "https://github.com/Connascent-Agency/gsc-api",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-conversem--internal-linking-opportunities",
+      "repo": "conversem/internal_linking_opportunities",
+      "url": "https://github.com/conversem/internal_linking_opportunities",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "internal_linking_opportunities.ipynb"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-copyleftdev--mini-shai-hulud-dragnet",
+      "repo": "copyleftdev/mini-shai-hulud-dragnet",
+      "url": "https://github.com/copyleftdev/mini-shai-hulud-dragnet",
+      "kind": "public-repository-reference",
+      "source_assessment": "excluded; incidental supply-chain/security reference, not an SEO component",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-corentinth--it-tools",
+      "repo": "CorentinTh/it-tools",
+      "url": "https://github.com/CorentinTh/it-tools",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/tools/index.ts",
+        "src/router.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-coreyhaines31--marketingskills",
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "current_source_review": {
+        "date": "2026-11-12",
+        "commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+        "coverage": "five named core skills and all their references/evaluation scenarios",
+        "reference": "references/upstream-skill-review.md",
+        "implementation_limits": "references/source-runtime-review.md",
+        "runtime": "not inferred from source review"
+      }
+    },
+    {
+      "id": "gh-corgicorner--bisibility",
+      "repo": "CorgiCorner/bisibility",
+      "url": "https://github.com/CorgiCorner/bisibility",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-crawlseo--crawlseo",
+      "repo": "crawlseo/crawlseo",
+      "url": "https://github.com/crawlseo/crawlseo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-cucuwang--geoptimize",
+      "repo": "cucuwang/geoptimize",
+      "url": "https://github.com/cucuwang/geoptimize",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-cxcscmu--autogeo",
+      "repo": "cxcscmu/AutoGEO",
+      "url": "https://github.com/cxcscmu/AutoGEO",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "autogeo/evaluation/generative_engine.py",
+        "autogeo/evaluation/metrics/geo_score.py",
+        "autogeo/evaluation/metrics/geu_score.py",
+        "autogeo/rewriters/core.py",
+        "autogeo/extract_rules.py",
+        "run_grpo.sh"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "49456df236774ea24087c44f45e9e52005b8e6a4",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-dancolta--seo-drift-monitor",
+      "repo": "dancolta/seo-drift-monitor",
+      "url": "https://github.com/dancolta/seo-drift-monitor",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-dannwaneri--seo-agent",
+      "repo": "dannwaneri/seo-agent",
+      "url": "https://github.com/dannwaneri/seo-agent",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-dartseoengineer--keyword-clustering-minhash",
+      "repo": "dartseoengineer/keyword-clustering-minhash",
+      "url": "https://github.com/dartseoengineer/keyword-clustering-minhash",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "minhash-cluster-cli.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-dataforseo--mcp-server-typescript",
+      "repo": "dataforseo/mcp-server-typescript",
+      "url": "https://github.com/dataforseo/mcp-server-typescript",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "README.md",
+        "package.json"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-dataleadspro--rank-tracker",
+      "repo": "DataLeadsPRO/rank-tracker",
+      "url": "https://github.com/DataLeadsPRO/rank-tracker",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-decodo--rank-tracker",
+      "repo": "Decodo/rank-tracker",
+      "url": "https://github.com/Decodo/rank-tracker",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-deepakness--pseo-11ty-google-sheets",
+      "repo": "deepakness/pseo-11ty-google-sheets",
+      "url": "https://github.com/deepakness/pseo-11ty-google-sheets",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "_data/tools.js",
+        "tool-detail.md",
+        "tool.md",
+        "_includes/base.html"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "c3058a06317c966f72bb6bf8ef92ff2a39c57721",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-depeelalgussz--probe-page-resources",
+      "repo": "depeelalgussz/probe-page-resources",
+      "url": "https://github.com/depeelalgussz/probe-page-resources",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-dequelabs--axe-core",
+      "repo": "dequelabs/axe-core",
+      "url": "https://github.com/dequelabs/axe-core",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-dgtlmoon--changedetection-io",
+      "repo": "dgtlmoon/changedetection.io",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "setup.py",
+        "changedetectionio/processors/text_json_diff/processor.py",
+        "changedetectionio/model/Watch.py",
+        "changedetectionio/model/persistence.py",
+        "changedetectionio/tests/test_history_consistency.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "7a925eb5e3382297e7a87932fe5429cb40b058bc",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-egebese--dataseo-mcp",
+      "repo": "egebese/dataseo-mcp",
+      "url": "https://github.com/egebese/dataseo-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-ekalinin--sitemap-js",
+      "repo": "ekalinin/sitemap.js",
+      "url": "https://github.com/ekalinin/sitemap.js",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-eliasdabbas--advertools",
+      "repo": "eliasdabbas/advertools",
+      "url": "https://github.com/eliasdabbas/advertools",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "advertools/sitemaps.py",
+        "tests/test_sitemaps.py",
+        {
+          "path": "advertools/logs.py",
+          "url": "https://github.com/eliasdabbas/advertools/blob/59dc2be7a98ab3bab2a711efacd5023f8ecffa14/advertools/logs.py"
+        },
+        {
+          "path": "advertools/sitemaps.py",
+          "url": "https://github.com/eliasdabbas/advertools/blob/59dc2be7a98ab3bab2a711efacd5023f8ecffa14/advertools/sitemaps.py"
+        },
+        {
+          "path": "tests/test_sitemaps.py",
+          "url": "https://github.com/eliasdabbas/advertools/blob/59dc2be7a98ab3bab2a711efacd5023f8ecffa14/tests/test_sitemaps.py"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "59dc2be7a98ab3bab2a711efacd5023f8ecffa14",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-eliasdabbas--flaskboard",
+      "repo": "eliasdabbas/flaskboard",
+      "url": "https://github.com/eliasdabbas/flaskboard",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-elmohq--elmo",
+      "repo": "elmohq/elmo",
+      "url": "https://github.com/elmohq/elmo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-emiliojohann--serpsmith",
+      "repo": "emiliojohann/SERPsmith",
+      "url": "https://github.com/emiliojohann/SERPsmith",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-ensscience--expired-domain-hunter",
+      "repo": "Ensscience/expired-domain-hunter",
+      "url": "https://github.com/Ensscience/expired-domain-hunter",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/collector.py",
+        "src/availability.py",
+        "src/history.py",
+        "src/scoring.py",
+        "src/state.py",
+        "tests/test_availability.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "ede6227adf70aeba1726a6912e8fc7e8e08167a9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-ever-works--directory-web-minimal-template",
+      "repo": "ever-works/directory-web-minimal-template",
+      "url": "https://github.com/ever-works/directory-web-minimal-template",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "README.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-every-app--open-seo",
+      "repo": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/server/features/domain/services/DomainService.ts",
+        "src/server/features/domain/services/domainPagesPage.ts",
+        "src/server/features/keywords/services/research/research.ts",
+        "src/server/features/keywords/repositories/KeywordResearchRepository.ts",
+        "src/server/workflows/RankCheckWorkflow.ts",
+        "src/server/workflows/rankCheckPaths.ts",
+        "src/server/workflows/rankCheckRetries.ts",
+        "src/server/features/rank-tracking/repositories/snapshotQueries.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "bc2c9111f6203299792b427bd6991501a4a08200",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/features/domain/services/DomainService.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        },
+        {
+          "sha": "edc4d9b73d58a457f61f5deb30b2fe6a278cf8a6",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/features/domain/services/domainPagesPage.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        },
+        {
+          "sha": "5edbf0c8713f78fec7c127da6b9a5f5808fb66a8",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/features/keywords/services/research/research.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        },
+        {
+          "sha": "002894435ae0fad8f93a6a4461dadb66931eb704",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/features/keywords/repositories/KeywordResearchRepository.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        },
+        {
+          "sha": "96044feef83d8627bdb14de5d7b45ce817c96395",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/workflows/RankCheckWorkflow.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        },
+        {
+          "sha": "a9eb575d1344766b149c7b00682ea39aefc0a7ee",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/workflows/rankCheckPaths.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        },
+        {
+          "sha": "bc91b692843cc6fd56aca5b8f41aa7f34ff515e3",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/workflows/rankCheckRetries.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        },
+        {
+          "sha": "78de5cae64620b049f4d09382d006c2a2e89e005",
+          "object_type": "blob",
+          "retrievable_revision_verified": false,
+          "path": "src/server/features/rank-tracking/repositories/snapshotQueries.ts",
+          "use": "file-content provenance; not a commit/tree reference"
+        }
+      ]
+    },
+    {
+      "id": "gh-farjadp--personalagents",
+      "repo": "farjadp/PersonalAgents",
+      "url": "https://github.com/farjadp/PersonalAgents",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-fassihfayyaz--seo-clustering-tool",
+      "repo": "FassihFayyaz/SEO-Clustering-Tool",
+      "url": "https://github.com/FassihFayyaz/SEO-Clustering-Tool",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "modules/clustering.py",
+        "modules/semantic_clustering.py",
+        "modules/database.py",
+        "modules/dataforseo_client.py",
+        "ui/tab_local_clustering.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-fenjo26--opengsc",
+      "repo": "fenjo26/OpenGSC",
+      "url": "https://github.com/fenjo26/OpenGSC",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-ferinazumadev--generative-engine-optimization-handbook",
+      "repo": "ferinazumaDEV/generative-engine-optimization-handbook",
+      "url": "https://github.com/ferinazumaDEV/generative-engine-optimization-handbook",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-firecrawl--firegeo",
+      "repo": "firecrawl/firegeo",
+      "url": "https://github.com/firecrawl/firegeo",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "app/api/brand-monitor/analyze/route.ts",
+        "lib/provider-config.ts",
+        "lib/db/schema.ts",
+        "lib/anthropic-web-search.ts",
+        "package.json"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "5bef51fe5ab3bed46a58b8825416f06e34309d7f",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-flack0x--trendspyg",
+      "repo": "flack0x/trendspyg",
+      "url": "https://github.com/flack0x/trendspyg",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "trendspyg/rss_downloader.py",
+        "trendspyg/archive.py",
+        "trendspyg/monitor.py",
+        "trendspyg/explore/_http.py",
+        "tests/test_history_workflows.py",
+        "pyproject.toml"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "9f07b2573e7287df85df9202da206569024723e9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-flaqai--backlink-skills",
+      "repo": "flaqai/backlink_skills",
+      "url": "https://github.com/flaqai/backlink_skills",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-fnwnwide123-boop--residential-datacenter-proxy-guide",
+      "repo": "fnwnwide123-boop/residential-datacenter-proxy-guide",
+      "url": "https://github.com/fnwnwide123-boop/residential-datacenter-proxy-guide",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-garmeeh--next-seo",
+      "repo": "garmeeh/next-seo",
+      "url": "https://github.com/garmeeh/next-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-gatenlp--ultimate-sitemap-parser",
+      "repo": "GateNLP/ultimate-sitemap-parser",
+      "url": "https://github.com/GateNLP/ultimate-sitemap-parser",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "usp/tree.py",
+        "usp/objects/page.py",
+        "usp/web_client/requests_client.py",
+        "tests/tree/test_save.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-gbessoni--seobuild-onpage",
+      "repo": "gbessoni/seobuild-onpage",
+      "url": "https://github.com/gbessoni/seobuild-onpage",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-gdm-pixel--spider-lens",
+      "repo": "GDM-Pixel/spider-lens",
+      "url": "https://github.com/GDM-Pixel/spider-lens",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "server/db/schema.sql",
+          "url": "https://github.com/GDM-Pixel/spider-lens/blob/19e6c1806629d4bde232574861f5d0dd244c6227/server/db/schema.sql"
+        },
+        {
+          "path": "server/tests/parser.test.js",
+          "url": "https://github.com/GDM-Pixel/spider-lens/blob/19e6c1806629d4bde232574861f5d0dd244c6227/server/tests/parser.test.js"
+        },
+        {
+          "path": "mcp/src/tools/analysis.ts",
+          "url": "https://github.com/GDM-Pixel/spider-lens/blob/19e6c1806629d4bde232574861f5d0dd244c6227/mcp/src/tools/analysis.ts"
+        },
+        {
+          "path": "mcp/src/tools/crawler.ts",
+          "url": "https://github.com/GDM-Pixel/spider-lens/blob/19e6c1806629d4bde232574861f5d0dd244c6227/mcp/src/tools/crawler.ts"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "19e6c1806629d4bde232574861f5d0dd244c6227",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-generalmills--pytrends",
+      "repo": "GeneralMills/pytrends",
+      "url": "https://github.com/GeneralMills/pytrends",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "README.md",
+        "pytrends/request.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-geo-optim--geo",
+      "repo": "GEO-optim/GEO",
+      "url": "https://github.com/GEO-optim/GEO",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/generative_le.py",
+        "src/geo_functions.py",
+        "src/run_geo.py",
+        "src/utils.py",
+        "GEO-Bench/leaderboard/app.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "c9e985f2bc4b539a01e8e9d226ff2a3d8d29a888",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-ghoster-linda-stone--the-art-of-teri-hendrich-c-blog-scraper",
+      "repo": "ghoster-linda-stone/the-art-of-teri-hendrich-c-blog-scraper",
+      "url": "https://github.com/ghoster-linda-stone/the-art-of-teri-hendrich-c-blog-scraper",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-gijsverheijke--directorystarter",
+      "repo": "gijsverheijke/directorystarter",
+      "url": "https://github.com/gijsverheijke/directorystarter",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "schema.sql",
+        "utils/supabase/actions.ts",
+        "app/sitemap.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-goddtriffin--sitemap-rs",
+      "repo": "goddtriffin/sitemap-rs",
+      "url": "https://github.com/goddtriffin/sitemap-rs",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-goldkiss--gego",
+      "repo": "goldkiss/gego",
+      "url": "https://github.com/goldkiss/gego",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-googleads--googleads-adsense-examples",
+      "repo": "googleads/googleads-adsense-examples",
+      "url": "https://github.com/googleads/googleads-adsense-examples",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "metadataonly"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-googleanalytics--google-analytics-mcp",
+      "repo": "googleanalytics/google-analytics-mcp",
+      "url": "https://github.com/googleanalytics/google-analytics-mcp",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-googlechrome--lighthouse",
+      "repo": "GoogleChrome/lighthouse",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-googlechrome--lighthouse-ci",
+      "repo": "GoogleChrome/lighthouse-ci",
+      "url": "https://github.com/GoogleChrome/lighthouse-ci",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-gxjansen--n8n-stats",
+      "repo": "gxjansen/n8n-stats",
+      "url": "https://github.com/gxjansen/n8n-stats",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-harlan-zw--unlighthouse",
+      "repo": "harlan-zw/unlighthouse",
+      "url": "https://github.com/harlan-zw/unlighthouse",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-haroon0x--crawlwise",
+      "repo": "haroon0x/CrawlWise",
+      "url": "https://github.com/haroon0x/CrawlWise",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-hartator--wayback-machine-downloader",
+      "repo": "hartator/wayback-machine-downloader",
+      "url": "https://github.com/hartator/wayback-machine-downloader",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "lib/wayback_machine_downloader/archive_api.rb",
+        "lib/wayback_machine_downloader.rb",
+        "test/test_wayback_machine_downloader.rb"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "653b94ba128cd209d0d4b345e4bff6e714e833fc",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-hellowalt--aeo-radar",
+      "repo": "hellowalt/aeo-radar",
+      "url": "https://github.com/hellowalt/aeo-radar",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/crawlers/chatgpt.ts",
+        "src/crawlers/base.ts",
+        "src/pipeline/analyzer.ts",
+        "prisma/schema.prisma",
+        "prompts/analysis-template.md",
+        "scripts/daily-crawl.sh"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "ebc4ba223ce6bcaf517b2784a8f3ac51a30423e9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-houtini-ai--seo-audit",
+      "repo": "houtini-ai/seo-audit",
+      "url": "https://github.com/houtini-ai/seo-audit",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-humaticai-llc--google-seo-manager",
+      "repo": "HumaticAI-LLC/google-seo-manager",
+      "url": "https://github.com/HumaticAI-LLC/google-seo-manager",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-i365dev--awesome-seo",
+      "repo": "i365dev/awesome-seo",
+      "url": "https://github.com/i365dev/awesome-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-iamramgarhia--all-in-one-free-seo-tool",
+      "repo": "IamRamgarhia/All-In-One-Free-SEO-Tool",
+      "url": "https://github.com/IamRamgarhia/All-In-One-Free-SEO-Tool",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-iamvishnusankar--next-sitemap",
+      "repo": "iamvishnusankar/next-sitemap",
+      "url": "https://github.com/iamvishnusankar/next-sitemap",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-iidaemilia--seo-links-and-faqs",
+      "repo": "iidaemilia/seo-links-and-faqs",
+      "url": "https://github.com/iidaemilia/seo-links-and-faqs",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-illyism--seo-skills",
+      "repo": "Illyism/seo-skills",
+      "url": "https://github.com/Illyism/seo-skills",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-infinitnet--google-search-console-gsc-mcp",
+      "repo": "infinitnet/google-search-console-gsc-mcp",
+      "url": "https://github.com/infinitnet/google-search-console-gsc-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "src/seo.ts",
+          "url": "https://github.com/infinitnet/google-search-console-gsc-mcp/blob/77e2c1d963d5fcc9b7a4dfe3e3274696fac0aeeb/src/seo.ts"
+        },
+        {
+          "path": "src/analytics.ts",
+          "url": "https://github.com/infinitnet/google-search-console-gsc-mcp/blob/77e2c1d963d5fcc9b7a4dfe3e3274696fac0aeeb/src/analytics.ts"
+        },
+        {
+          "path": "src/gsc.ts",
+          "url": "https://github.com/infinitnet/google-search-console-gsc-mcp/blob/77e2c1d963d5fcc9b7a4dfe3e3274696fac0aeeb/src/gsc.ts"
+        },
+        {
+          "path": "src/config.ts",
+          "url": "https://github.com/infinitnet/google-search-console-gsc-mcp/blob/77e2c1d963d5fcc9b7a4dfe3e3274696fac0aeeb/src/config.ts"
+        },
+        {
+          "path": "src/__tests__/seo.test.ts",
+          "url": "https://github.com/infinitnet/google-search-console-gsc-mcp/blob/77e2c1d963d5fcc9b7a4dfe3e3274696fac0aeeb/src/__tests__/seo.test.ts"
+        },
+        {
+          "path": "src/__tests__/analytics.test.ts",
+          "url": "https://github.com/infinitnet/google-search-console-gsc-mcp/blob/77e2c1d963d5fcc9b7a4dfe3e3274696fac0aeeb/src/__tests__/analytics.test.ts"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "77e2c1d963d5fcc9b7a4dfe3e3274696fac0aeeb",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-inhouseseo--superseo-skills",
+      "repo": "inhouseseo/superseo-skills",
+      "url": "https://github.com/inhouseseo/superseo-skills",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-instawp--mcp-wp",
+      "repo": "InstaWP/mcp-wp",
+      "url": "https://github.com/InstaWP/mcp-wp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-itallstartedwithaidea--programmatic-seo-engine",
+      "repo": "itallstartedwithaidea/programmatic-seo-engine",
+      "url": "https://github.com/itallstartedwithaidea/programmatic-seo-engine",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-jahidulislamseo--seo-performance",
+      "repo": "jahidulislamseo/SEO-Performance",
+      "url": "https://github.com/jahidulislamseo/SEO-Performance",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-jaselton--domain-osint",
+      "repo": "jaselton/domain-osint",
+      "url": "https://github.com/jaselton/domain-osint",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "domain_osint/sources/common_crawl.py",
+        "domain_osint/sources/wayback.py",
+        "domain_osint/sources/whois_rdap.py",
+        "domain_osint/graph/builder.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "e58c5236bf8f448ca16d98a8f54116e181ef2056",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-jaymit-3672--technical-seo-analyzer",
+      "repo": "Jaymit-3672/Technical-SEO-Analyzer",
+      "url": "https://github.com/Jaymit-3672/Technical-SEO-Analyzer",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-jfaccioli--seo-keyword-clusters",
+      "repo": "jfaccioli/seo-keyword-clusters",
+      "url": "https://github.com/jfaccioli/seo-keyword-clusters",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "Keyword_Clustering.ipynb",
+        "app.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-jibranpcccc--google-ads-ppc-search-arbitrage-hub",
+      "repo": "jibranpcccc/google-ads-ppc-search-arbitrage-hub",
+      "url": "https://github.com/jibranpcccc/google-ads-ppc-search-arbitrage-hub",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "llms.txt",
+        "data/groups.json",
+        "staticHTML/sitemap"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "91b2096f6520884ff6180379376d80239a8166fb",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-jlhernando--index-coverage-extractor",
+      "repo": "jlhernando/index-coverage-extractor",
+      "url": "https://github.com/jlhernando/index-coverage-extractor",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-johnoconnor0--keyword-clustering",
+      "repo": "johnoconnor0/keyword-clustering",
+      "url": "https://github.com/johnoconnor0/keyword-clustering",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-josephbedminster--indie-marketing-skills",
+      "repo": "josephbedminster/indie-marketing-skills",
+      "url": "https://github.com/josephbedminster/indie-marketing-skills",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-jstanx--seo-toolkit",
+      "repo": "jstanx/seo-toolkit",
+      "url": "https://github.com/jstanx/seo-toolkit",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-kiranbabuthatha--seo-crawler",
+      "repo": "kiranbabuthatha/SEO-crawler",
+      "url": "https://github.com/kiranbabuthatha/SEO-crawler",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "seo_crawler.py",
+          "url": "https://github.com/kiranbabuthatha/SEO-crawler/blob/b3cf39f8bf14ff9c90ecfd1a27bd4d23abc1aa59/seo_crawler.py"
+        },
+        {
+          "path": "test_crawler.py",
+          "url": "https://github.com/kiranbabuthatha/SEO-crawler/blob/b3cf39f8bf14ff9c90ecfd1a27bd4d23abc1aa59/test_crawler.py"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "b3cf39f8bf14ff9c90ecfd1a27bd4d23abc1aa59",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-limelit-co--open",
+      "repo": "limelit-co/open",
+      "url": "https://github.com/limelit-co/open",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-linksbetseo--topical-map-generator",
+      "repo": "linksbetseo/topical-map-generator",
+      "url": "https://github.com/linksbetseo/topical-map-generator",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "main.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-llm--ai",
+      "repo": "LLM/AI",
+      "url": "https://github.com/LLM/AI",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-localseodata--mcp-server",
+      "repo": "localseodata/mcp-server",
+      "url": "https://github.com/localseodata/mcp-server",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-lonestone--astro-template",
+      "repo": "lonestone/astro-template",
+      "url": "https://github.com/lonestone/astro-template",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/layouts/BaseLayout.astro",
+        "website.config.ts",
+        "src/content.config.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-lsidore--seo-md",
+      "repo": "lsidore/seo-md",
+      "url": "https://github.com/lsidore/seo-md",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-lucasveneno--trafficbot",
+      "repo": "lucasveneno/trafficbot",
+      "url": "https://github.com/lucasveneno/trafficbot",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-lycheeverse--lychee",
+      "repo": "lycheeverse/lychee",
+      "url": "https://github.com/lycheeverse/lychee",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-m0ntydad0n--pseo-engine-oss",
+      "repo": "m0ntydad0n/pseo-engine-oss",
+      "url": "https://github.com/m0ntydad0n/pseo-engine-oss",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-m4mansoor--seo-agent",
+      "repo": "m4mansoor/seo-agent",
+      "url": "https://github.com/m4mansoor/seo-agent",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-maartengr--bertopic",
+      "repo": "MaartenGr/BERTopic",
+      "url": "https://github.com/MaartenGr/BERTopic",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "bertopic/_bertopic.py",
+        "bertopic/vectorizers/_online_cv.py",
+        "tests/test_vectorizers/test_online_cv.py",
+        "docs/getting_started/online/online.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-maartengr--polyfuzz",
+      "repo": "MaartenGr/PolyFuzz",
+      "url": "https://github.com/MaartenGr/PolyFuzz",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "polyfuzz/models/_utils.py",
+        "polyfuzz/models/_sbert.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-madhavshankar--pseo-engine",
+      "repo": "MadhavShankar/pseo-engine",
+      "url": "https://github.com/MadhavShankar/pseo-engine",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "engine/ingest.js",
+        "engine/cluster.js",
+        "engine/enrichment.js",
+        "engine/generate.js",
+        "engine/content-providers/template-only.js",
+        "engine/content-providers/claude.js",
+        "engine/validate.js",
+        "engine/cli.js"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "51563ca6e9a14c835247c520082a1573b70e605f",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-mandrilsquad1441--crawlfuse-monitor",
+      "repo": "Mandrilsquad1441/crawlfuse-monitor",
+      "url": "https://github.com/Mandrilsquad1441/crawlfuse-monitor",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-manojahi--serpiq",
+      "repo": "manojahi/serpiq",
+      "url": "https://github.com/manojahi/serpiq",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-marcogiordano96--serp-clustering",
+      "repo": "MarcoGiordano96/SERP-Clustering",
+      "url": "https://github.com/MarcoGiordano96/SERP-Clustering",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/serp_clustering.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-marionbuilds--iametre",
+      "repo": "marionbuilds/iametre",
+      "url": "https://github.com/marionbuilds/iametre",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-marketingtoolslist--awesome-geo",
+      "repo": "marketingtoolslist/awesome-geo",
+      "url": "https://github.com/marketingtoolslist/awesome-geo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-maximeguinard--readme-guinard-maxime",
+      "repo": "MaximeGuinard/README-GUINARD-Maxime",
+      "url": "https://github.com/MaximeGuinard/README-GUINARD-Maxime",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-meet261--awesome-keyword-clustering",
+      "repo": "Meet261/awesome-keyword-clustering",
+      "url": "https://github.com/Meet261/awesome-keyword-clustering",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-melbahja--seo",
+      "repo": "melbahja/seo",
+      "url": "https://github.com/melbahja/seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-mention-ma--about-mention-ma",
+      "repo": "mention-ma/about-mention-ma",
+      "url": "https://github.com/mention-ma/about-mention-ma",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-metehan777--entity-topic-cluster",
+      "repo": "metehan777/entity-topic-cluster",
+      "url": "https://github.com/metehan777/entity-topic-cluster",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "public/app.js",
+        "src/index.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-metehan777--google-ai-mode-optimization-tool",
+      "repo": "metehan777/google-ai-mode-optimization-tool",
+      "url": "https://github.com/metehan777/google-ai-mode-optimization-tool",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-metehan777--google-search-console-mcp",
+      "repo": "metehan777/google-search-console-mcp",
+      "url": "https://github.com/metehan777/google-search-console-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-micro-saas-examples--best-micro-saas-tools",
+      "repo": "Micro-SaaS-Examples/Best-Micro-SaaS-Tools",
+      "url": "https://github.com/Micro-SaaS-Examples/Best-Micro-SaaS-Tools",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-microsoft--indexnow-wordpress-plugin",
+      "repo": "microsoft/indexnow-wordpress-plugin",
+      "url": "https://github.com/microsoft/indexnow-wordpress-plugin",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "public/includes/class-indexnow-url-submission.php",
+          "url": "https://github.com/microsoft/indexnow-wordpress-plugin/blob/7c0550e37570335c9dcfd3fd1cbcf41d951a639c/public/includes/class-indexnow-url-submission.php"
+        },
+        {
+          "path": "public/admin/class-indexnow-url-submission-admin.php",
+          "url": "https://github.com/microsoft/indexnow-wordpress-plugin/blob/7c0550e37570335c9dcfd3fd1cbcf41d951a639c/public/admin/class-indexnow-url-submission-admin.php"
+        },
+        {
+          "path": "public/admin/utils/class-indexnow-url-submission-admin-utils.php",
+          "url": "https://github.com/microsoft/indexnow-wordpress-plugin/blob/7c0550e37570335c9dcfd3fd1cbcf41d951a639c/public/admin/utils/class-indexnow-url-submission-admin-utils.php"
+        },
+        {
+          "path": "src/__tests__/IndexNowAPIHelper.test.ts",
+          "url": "https://github.com/microsoft/indexnow-wordpress-plugin/blob/7c0550e37570335c9dcfd3fd1cbcf41d951a639c/src/__tests__/IndexNowAPIHelper.test.ts"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "7c0550e37570335c9dcfd3fd1cbcf41d951a639c",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-microsoft--playwright",
+      "repo": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-modelcontextprotocol--registry",
+      "repo": "modelcontextprotocol/registry",
+      "url": "https://github.com/modelcontextprotocol/registry",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "docs/modelcontextprotocol-io/quickstart.mdx",
+        "docs/modelcontextprotocol-io/authentication.mdx",
+        "docs/reference/server-json/generic-server-json.md",
+        "cmd/publisher/commands/validate.go",
+        "cmd/publisher/commands/validate_test.go"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "01e5c936ad3048d16562be503d879e523e36d267",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-modelcontextprotocol--servers",
+      "repo": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-mojo-links--disavow-file-generator",
+      "repo": "Mojo-Links/disavow-file-generator",
+      "url": "https://github.com/Mojo-Links/disavow-file-generator",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-msrbuilds--elementor-mcp",
+      "repo": "msrbuilds/elementor-mcp",
+      "url": "https://github.com/msrbuilds/elementor-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-muhammadrauf786--competitor-seo-monitor",
+      "repo": "muhammadrauf786/Competitor-SEO-Monitor",
+      "url": "https://github.com/muhammadrauf786/Competitor-SEO-Monitor",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/gap_report.py",
+        "src/sitemap_parser.py",
+        "tests/test_seo.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "d4250be6a4006eedd13d034156696ee969042640",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "3e5d7eed01b130700abc5564cd435f13cd24f143",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-myesua--gtmstack",
+      "repo": "myesua/gtmstack",
+      "url": "https://github.com/myesua/gtmstack",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-mykhailo-zub--js-seo-keywords-generator",
+      "repo": "Mykhailo-Zub/js-seo-keywords-generator",
+      "url": "https://github.com/Mykhailo-Zub/js-seo-keywords-generator",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-n8n-io--n8n-nodes-starter",
+      "repo": "n8n-io/n8n-nodes-starter",
+      "url": "https://github.com/n8n-io/n8n-nodes-starter",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-nalyk--gsccli",
+      "repo": "nalyk/gsccli",
+      "url": "https://github.com/nalyk/gsccli",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "src/services/searchconsole.service.ts",
+          "url": "https://github.com/nalyk/gsccli/blob/ee61255c622edf1cbe2df416478c511932e4edeb/src/services/searchconsole.service.ts"
+        },
+        {
+          "path": "src/commands/inspect/batch.ts",
+          "url": "https://github.com/nalyk/gsccli/blob/ee61255c622edf1cbe2df416478c511932e4edeb/src/commands/inspect/batch.ts"
+        },
+        {
+          "path": "src/utils/concurrency.ts",
+          "url": "https://github.com/nalyk/gsccli/blob/ee61255c622edf1cbe2df416478c511932e4edeb/src/utils/concurrency.ts"
+        },
+        {
+          "path": "src/utils/retry.ts",
+          "url": "https://github.com/nalyk/gsccli/blob/ee61255c622edf1cbe2df416478c511932e4edeb/src/utils/retry.ts"
+        },
+        {
+          "path": "test/utils/concurrency.test.ts",
+          "url": "https://github.com/nalyk/gsccli/blob/ee61255c622edf1cbe2df416478c511932e4edeb/test/utils/concurrency.test.ts"
+        },
+        {
+          "path": "test/services/searchconsole-validation.test.ts",
+          "url": "https://github.com/nalyk/gsccli/blob/ee61255c622edf1cbe2df416478c511932e4edeb/test/services/searchconsole-validation.test.ts"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "ee61255c622edf1cbe2df416478c511932e4edeb",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-ncosentino--google-search-console-mcp",
+      "repo": "ncosentino/google-search-console-mcp",
+      "url": "https://github.com/ncosentino/google-search-console-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-neozi12--dispatchseo",
+      "repo": "NeoZi12/dispatchseo",
+      "url": "https://github.com/NeoZi12/dispatchseo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-noitcudni--google-search-console-bulk-url-removal",
+      "repo": "noitcudni/google-search-console-bulk-url-removal",
+      "url": "https://github.com/noitcudni/google-search-console-bulk-url-removal",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-octopuson--octopusonpageseo",
+      "repo": "octopusOn/octopusOnPageSEO",
+      "url": "https://github.com/octopusOn/octopusOnPageSEO",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "crates/octopuson-botverify/src/verify.rs",
+          "url": "https://github.com/octopusOn/octopusOnPageSEO/blob/3182318002cadb05eec946dee2b1194d679a39d8/crates/octopuson-botverify/src/verify.rs"
+        },
+        {
+          "path": "crates/octopuson-logparse/src/record.rs",
+          "url": "https://github.com/octopusOn/octopusOnPageSEO/blob/3182318002cadb05eec946dee2b1194d679a39d8/crates/octopuson-logparse/src/record.rs"
+        },
+        {
+          "path": "crates/octopuson-logparse/src/detect.rs",
+          "url": "https://github.com/octopusOn/octopusOnPageSEO/blob/3182318002cadb05eec946dee2b1194d679a39d8/crates/octopuson-logparse/src/detect.rs"
+        },
+        {
+          "path": "crates/octopuson-store/src/site/mod.rs",
+          "url": "https://github.com/octopusOn/octopusOnPageSEO/blob/3182318002cadb05eec946dee2b1194d679a39d8/crates/octopuson-store/src/site/mod.rs"
+        },
+        {
+          "path": "crates/octopuson-store/src/site/schema.rs",
+          "url": "https://github.com/octopusOn/octopusOnPageSEO/blob/3182318002cadb05eec946dee2b1194d679a39d8/crates/octopuson-store/src/site/schema.rs"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "3182318002cadb05eec946dee2b1194d679a39d8",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-octopuson--seo-keyword-research",
+      "repo": "octopusOn/seo-keyword-research",
+      "url": "https://github.com/octopusOn/seo-keyword-research",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-oneglanse--oneglanse",
+      "repo": "oneglanse/oneglanse",
+      "url": "https://github.com/oneglanse/oneglanse",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "apps/agent/src/core/providers/chatgpt/lib/extractSources.ts",
+        "apps/agent/src/core/providers/ai-overview/lib/extractSources.ts",
+        "packages/services/src/analysis/analysisPrompt.ts",
+        "packages/services/src/prompt/scheduler.ts",
+        "packages/services/tests/prompt/scheduler.test.ts",
+        "packages/db/clickhouse-init/schema.sql",
+        "packages/types/src/types/metrics.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "b2c6e730b6818e64a4cef8b73c6605911c890626",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-openai--openai-apps-sdk-examples",
+      "repo": "openai/openai-apps-sdk-examples",
+      "url": "https://github.com/openai/openai-apps-sdk-examples",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "pizzaz_server_python/main.py",
+        "authenticated_server_python/main.py",
+        "mcp_app_basics_node/src/server.ts",
+        "shopping_cart_python/README.md",
+        ".github/workflows/pre-commit.yml"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "18cc38e78a968712c357bacdc3c79fead5bfc6b4",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-openai--tiktoken",
+      "repo": "openai/tiktoken",
+      "url": "https://github.com/openai/tiktoken",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-ouranos-labs--pseolint",
+      "repo": "ouranos-labs/pseolint",
+      "url": "https://github.com/ouranos-labs/pseolint",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "README.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-oxylabs--backlink-monitoring",
+      "repo": "oxylabs/backlink-monitoring",
+      "url": "https://github.com/oxylabs/backlink-monitoring",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "v2/backlink_monitoring.py",
+        "backlink_monitoring.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "c5d195bf9a33cd8946c55519b331b48f4851aa80",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-oxylabs--seo-monitoring",
+      "repo": "oxylabs/seo-monitoring",
+      "url": "https://github.com/oxylabs/seo-monitoring",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-palks-studio--seo-lens",
+      "repo": "Palks-Studio/seo-lens",
+      "url": "https://github.com/Palks-Studio/seo-lens",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-pavloseo--spiderhead",
+      "repo": "PavloSEO/spiderhead",
+      "url": "https://github.com/PavloSEO/spiderhead",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-pbakaus--impeccable",
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-pdimo--consolevault",
+      "repo": "pdimo/consolevault",
+      "url": "https://github.com/pdimo/consolevault",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "packages/gsc/src/client.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/packages/gsc/src/client.ts"
+        },
+        {
+          "path": "apps/workers/src/collector.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/apps/workers/src/collector.ts"
+        },
+        {
+          "path": "apps/workers/src/planner.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/apps/workers/src/planner.ts"
+        },
+        {
+          "path": "packages/store/src/tasks.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/packages/store/src/tasks.ts"
+        },
+        {
+          "path": "apps/workers/src/enqueue.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/apps/workers/src/enqueue.ts"
+        },
+        {
+          "path": "apps/workers/src/health.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/apps/workers/src/health.ts"
+        },
+        {
+          "path": "packages/gsc/src/errors.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/packages/gsc/src/errors.ts"
+        },
+        {
+          "path": "packages/bq/src/write.ts",
+          "url": "https://github.com/pdimo/consolevault/blob/c24269083151ce9c3c630ba1d9b6ef4db9427cd0/packages/bq/src/write.ts"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "c24269083151ce9c3c630ba1d9b6ef4db9427cd0",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-phantas0s--devdash",
+      "repo": "Phantas0s/devdash",
+      "url": "https://github.com/Phantas0s/devdash",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-piotrkulpinski--open-source-alternatives",
+      "repo": "piotrkulpinski/open-source-alternatives",
+      "url": "https://github.com/piotrkulpinski/open-source-alternatives",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "README.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-pipeworx-io--mcp-crawlgraph",
+      "repo": "pipeworx-io/mcp-crawlgraph",
+      "url": "https://github.com/pipeworx-io/mcp-crawlgraph",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "lib/index.js",
+        "bin/cli.js",
+        "tools.json"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "4388e4583bbdc0ad4cc01e9e3f21c05060fc961c",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-promptfoo--promptfoo",
+      "repo": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "examples/openai-responses/promptfooconfig.web-search.yaml",
+        "examples/openai-responses/promptfooconfig.prompt-cache.yaml",
+        "src/assertions/javascript.ts",
+        "src/evaluator.ts",
+        "test/assertions/javascript.test.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "5582f347bbc5359b201ce2d48c9c7fbebd8dcbd9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-pshapiro--rankenberry",
+      "repo": "pshapiro/rankenberry",
+      "url": "https://github.com/pshapiro/rankenberry",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "backend/services.py",
+        "backend/database.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "d96abc5474db10fb775d47afd0e7170e50e15fa3",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "8d4da65f904f4d87522af98bb1f1e0e5ccca3b06",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-rankscale--rankscale-geo-skill",
+      "repo": "Rankscale/Rankscale-GEO-Skill",
+      "url": "https://github.com/Rankscale/Rankscale-GEO-Skill",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-rankspotai--awesome-seo-agent-skills",
+      "repo": "RankSpotAI/awesome-seo-agent-skills",
+      "url": "https://github.com/RankSpotAI/awesome-seo-agent-skills",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-rankspotai--awesome-seo-mcp",
+      "repo": "RankSpotAI/awesome-seo-mcp",
+      "url": "https://github.com/RankSpotAI/awesome-seo-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-renfei--indexing",
+      "repo": "renfei/Indexing",
+      "url": "https://github.com/renfei/Indexing",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-rmak78--keyword-suggest-tool",
+      "repo": "rmak78/keyword-suggest-tool",
+      "url": "https://github.com/rmak78/keyword-suggest-tool",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-roast-labs--search-console-url-inspection-api-google-sheet",
+      "repo": "Roast-Labs/Search-Console-URL-Inspection-API-Google-Sheet",
+      "url": "https://github.com/Roast-Labs/Search-Console-URL-Inspection-API-Google-Sheet",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-salik-web--verdict",
+      "repo": "Salik-web/Verdict",
+      "url": "https://github.com/Salik-web/Verdict",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-sambel--catchdoms-mcp",
+      "repo": "Sambel/catchdoms-mcp",
+      "url": "https://github.com/Sambel/catchdoms-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-sambel--expired-domains-skill",
+      "repo": "Sambel/expired-domains-skill",
+      "url": "https://github.com/Sambel/expired-domains-skill",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-santifer--santifer-irepair",
+      "repo": "santifer/santifer-irepair",
+      "url": "https://github.com/santifer/santifer-irepair",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-search-atlas-group--amm-founding-circle",
+      "repo": "search-atlas-group/amm-founding-circle",
+      "url": "https://github.com/search-atlas-group/amm-founding-circle",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-search-atlas-group--mcp-agent",
+      "repo": "Search-Atlas-Group/MCP-agent",
+      "url": "https://github.com/Search-Atlas-Group/MCP-agent",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-searchsolved--search-solved-public-seo",
+      "repo": "searchsolved/search-solved-public-seo",
+      "url": "https://github.com/searchsolved/search-solved-public-seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-selmiabderrahim--rankme-fast",
+      "repo": "SelmiAbderrahim/rankme.fast",
+      "url": "https://github.com/SelmiAbderrahim/rankme.fast",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-semrush--skills",
+      "repo": "semrush/skills",
+      "url": "https://github.com/semrush/skills",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-sentu1993--autoblogger",
+      "repo": "sentu1993/autoblogger",
+      "url": "https://github.com/sentu1993/autoblogger",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-seo-insights--seo-insights",
+      "repo": "SEO-Insights/seo-insights",
+      "url": "https://github.com/SEO-Insights/seo-insights",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-seo-mcp--seomcp",
+      "repo": "seo-mcp/seomcp",
+      "url": "https://github.com/seo-mcp/seomcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-seobserver--crawlobserver",
+      "repo": "SEObserver/crawlobserver",
+      "url": "https://github.com/SEObserver/crawlobserver",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        {
+          "path": "internal/crawler/engine.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/crawler/engine.go"
+        },
+        {
+          "path": "internal/crawler/retry.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/crawler/retry.go"
+        },
+        {
+          "path": "internal/gsc/client.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/gsc/client.go"
+        },
+        {
+          "path": "internal/storage/clickhouse_gsc.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/storage/clickhouse_gsc.go"
+        },
+        {
+          "path": "internal/interlinking/pagerank.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/interlinking/pagerank.go"
+        },
+        {
+          "path": "internal/renderer/pool.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/renderer/pool.go"
+        },
+        {
+          "path": "internal/interlinking/pagerank_test.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/interlinking/pagerank_test.go"
+        },
+        {
+          "path": "internal/crawler/retry_test.go",
+          "url": "https://github.com/SEObserver/crawlobserver/blob/64b6a78344ee332d5ace087d1c40429198731725/internal/crawler/retry_test.go"
+        }
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "64b6a78344ee332d5ace087d1c40429198731725",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-seocrawl--seocrawl-mcp",
+      "repo": "SEOcrawl/seocrawl-mcp",
+      "url": "https://github.com/SEOcrawl/seocrawl-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-seotoolkit--web-analytics-agent-skill",
+      "repo": "SeoToolkit/web-analytics-agent-skill",
+      "url": "https://github.com/SeoToolkit/web-analytics-agent-skill",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-seranking--seo-skills",
+      "repo": "seranking/seo-skills",
+      "url": "https://github.com/seranking/seo-skills",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "skills/seo-keyword-cluster/SKILL.md",
+        "skills/seo-keyword-cluster/references/serp-overlap-methodology.md",
+        "skills/seo-competitor-gap-analysis/SKILL.md",
+        "skills/seo-drift/SKILL.md",
+        "examples/seo-keyword-cluster-headless-cms-20260514/03-cluster-assignment.md",
+        "examples/seo-keyword-cluster-headless-cms-20260514/06-quality-scorecard.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "ef2024a56cf4f3a62d178803ab2c0d96ab6308f6",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "b5f135cc350e35e9554b591f2a9dd357711d18d2",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "88894b9644d907bd4fbb213f180ae36f20ff3b3e",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "5935d01a4d9a5c284d29c32e0a21df18edb03268",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-serpapi--awesome-seo-tools",
+      "repo": "serpapi/awesome-seo-tools",
+      "url": "https://github.com/serpapi/awesome-seo-tools",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-serphacker--serposcope",
+      "repo": "serphacker/serposcope",
+      "url": "https://github.com/serphacker/serposcope",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-sharozdawa--awesome-seo-mcp-servers",
+      "repo": "sharozdawa/awesome-seo-mcp-servers",
+      "url": "https://github.com/sharozdawa/awesome-seo-mcp-servers",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-shipsite--shipsite",
+      "repo": "shipsite/shipsite",
+      "url": "https://github.com/shipsite/shipsite",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-siriso88--serp-intent-clusterizer",
+      "repo": "Siriso88/serp-intent-clusterizer",
+      "url": "https://github.com/Siriso88/serp-intent-clusterizer",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "app.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-sneg55--curatedseotools",
+      "repo": "sneg55/curatedseotools",
+      "url": "https://github.com/sneg55/curatedseotools",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-springvoiceswell--semrush-ai-tool",
+      "repo": "springvoiceswell/semrush-ai-tool",
+      "url": "https://github.com/springvoiceswell/semrush-ai-tool",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-stangirard--seo-audits-toolkit",
+      "repo": "StanGirard/seo-audits-toolkit",
+      "url": "https://github.com/StanGirard/seo-audits-toolkit",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-stefanoseggio--ai-crawler-content-signal-permission-monitor",
+      "repo": "stefanoseggio/ai-crawler-content-signal-permission-monitor",
+      "url": "https://github.com/stefanoseggio/ai-crawler-content-signal-permission-monitor",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-stjudewashere--seonaut",
+      "repo": "StJudeWasHere/seonaut",
+      "url": "https://github.com/StJudeWasHere/seonaut",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-suganthan-mohanadasan--awesome-seo-tools",
+      "repo": "Suganthan-Mohanadasan/awesome-seo-tools",
+      "url": "https://github.com/Suganthan-Mohanadasan/awesome-seo-tools",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-sumitmagica--windows-seo-optimizer",
+      "repo": "Sumitmagica/windows-seo-optimizer",
+      "url": "https://github.com/Sumitmagica/windows-seo-optimizer",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-sundios--google-visibility-score",
+      "repo": "sundios/google-visibility-score",
+      "url": "https://github.com/sundios/google-visibility-score",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-surendranb--google-search-console-mcp",
+      "repo": "surendranb/google-search-console-mcp",
+      "url": "https://github.com/surendranb/google-search-console-mcp",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-swarmclawai--pseo-ai-kit",
+      "repo": "swarmclawai/pseo-ai-kit",
+      "url": "https://github.com/swarmclawai/pseo-ai-kit",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/schema.ts",
+        "src/generate.ts",
+        "src/generation-cache.ts",
+        "src/validate.ts",
+        "src/graph.ts",
+        "src/anthropic-client.ts",
+        "src/cli.ts",
+        "src/persist.ts"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "60a3db0972c6e7ee4e27da562304b09df953dee7",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-synscribe--apps-script-launch-kit",
+      "repo": "Synscribe/apps-script-launch-kit",
+      "url": "https://github.com/Synscribe/apps-script-launch-kit",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "src/cli/apps-script.js",
+        "src/lib/build.js",
+        "src/lib/render.js",
+        "schema/site.schema.json",
+        "track/results-template.csv"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "a6d587f279b685af0616627a198ece41598e23a4",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-syphersec--koray-semantic-seo-factory",
+      "repo": "syphersec/koray-semantic-seo-factory",
+      "url": "https://github.com/syphersec/koray-semantic-seo-factory",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "python-backend/query_clusterer.py",
+        "python-backend/agent_orchestrator.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-taskagi--github-parasite-seo-ai-agent",
+      "repo": "TaskAGI/Github-Parasite-SEO-AI-Agent",
+      "url": "https://github.com/TaskAGI/Github-Parasite-SEO-AI-Agent",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "import.json",
+        "README.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "37aa5c69cef15b65cbc6d4830b3cb946b0923bbd",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-tentaclequing--audisto-mcp",
+      "repo": "tentaclequing/AUDISTO-MCP",
+      "url": "https://github.com/tentaclequing/AUDISTO-MCP",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-textlint--textlint",
+      "repo": "textlint/textlint",
+      "url": "https://github.com/textlint/textlint",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-thecraighewitt--seomachine",
+      "repo": "TheCraigHewitt/seomachine",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        ".claude/commands/article.md",
+        ".claude/commands/publish-draft.md",
+        ".claude/commands/performance-review.md",
+        "data_sources/modules/wordpress_publisher.py",
+        "data_sources/modules/data_aggregator.py",
+        "data_sources/modules/dataforseo.py",
+        "tests/test_dataforseo_resilience.py",
+        ".claude/skills/programmatic-seo/SKILL.md"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "120e7b46dc07c98382cd4f68ac5b6515ab9f2604",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-thesmokedev--token-max-site-factory",
+      "repo": "TheSmokeDev/token-max-site-factory",
+      "url": "https://github.com/TheSmokeDev/token-max-site-factory",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-threatexpress--domainhunter",
+      "repo": "threatexpress/domainhunter",
+      "url": "https://github.com/threatexpress/domainhunter",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "domainhunter.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "38cb7ef4ddcc5c45078553f68b2076c84337f3ca",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-tiagogodinho--adsense-for-search",
+      "repo": "tiagogodinho/adsense_for_search",
+      "url": "https://github.com/tiagogodinho/adsense_for_search",
+      "kind": "public-repository-reference",
+      "source_assessment": "documentation/source assessment; see owning report",
+      "code_paths": [
+        "lib/adsense_for_search.rb",
+        "lib/adsense_for_search/view_helper.rb"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "fd64d9f5b517dd45e24456becd05bd97b53e4362",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-tolgee--tolgee-platform",
+      "repo": "tolgee/tolgee-platform",
+      "url": "https://github.com/tolgee/tolgee-platform",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-towfiqi--serpbear",
+      "repo": "towfiqi/serpbear",
+      "url": "https://github.com/towfiqi/serpbear",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "database/models/keyword.ts",
+        "scrapers/index.ts",
+        "utils/refresh.ts",
+        "utils/searchConsole.ts",
+        "cron.js"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "884c304bfa7622836a2bd20a55844b5e0ffd4b42",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "54cc2ce8d2517c2285da36de59e6486728be38c9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "42f4e665daac29f9b178b54447739eda517ee173",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "25192fa0455f1c8a881423e3a2876db54cab7c44",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        },
+        {
+          "sha": "fe575bdc1c2a0de590fdfff6a2e09b99a506cad9",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-tracecohentech--ai-seo-playbook",
+      "repo": "TraceCohenTech/ai-seo-playbook",
+      "url": "https://github.com/TraceCohenTech/ai-seo-playbook",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "RESULTS.md",
+        "scripts/cannibalization-detector.mjs",
+        "scripts/refresh-tracker.mjs",
+        "scripts/evidence-verifier.mjs",
+        "scripts/thin-content-detector.mjs",
+        "lib/query-classifier.mjs",
+        "lib/gsc.mjs",
+        "tests/gsc-scripts.test.mjs"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "395364cd95f17fcca5714d77c9a22a39b3a046b3",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-tymoshenko-dmytro--seo-writer-agent",
+      "repo": "tymoshenko-dmytro/seo-writer-agent",
+      "url": "https://github.com/tymoshenko-dmytro/seo-writer-agent",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-umutxyp--seo-promt-master",
+      "repo": "umutxyp/Seo-Promt-Master",
+      "url": "https://github.com/umutxyp/Seo-Promt-Master",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-ursnj--seo-master",
+      "repo": "ursnj/seo-master",
+      "url": "https://github.com/ursnj/seo-master",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-vesivanov--bot-observability",
+      "repo": "vesivanov/bot-observability",
+      "url": "https://github.com/vesivanov/bot-observability",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-vorticoncmdr--gscdownloader",
+      "repo": "VorticonCmdr/gscDownloader",
+      "url": "https://github.com/VorticonCmdr/gscDownloader",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-vuejs--vuepress",
+      "repo": "vuejs/vuepress",
+      "url": "https://github.com/vuejs/vuepress",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-watchdealer-pavel--seo-content-autopilot",
+      "repo": "watchdealer-pavel/seo-content-autopilot",
+      "url": "https://github.com/watchdealer-pavel/seo-content-autopilot",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-willscott-v2--provision-google-tracking",
+      "repo": "willscott-v2/provision-google-tracking",
+      "url": "https://github.com/willscott-v2/provision-google-tracking",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-withagenticai--seo",
+      "repo": "WithAgenticAI/seo",
+      "url": "https://github.com/WithAgenticAI/seo",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-wordpress--mcp-adapter",
+      "repo": "WordPress/mcp-adapter",
+      "url": "https://github.com/WordPress/mcp-adapter",
+      "kind": "optional-public-source",
+      "source_assessment": "linked reference; no new runtime verification",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "unproven"
+    },
+    {
+      "id": "gh-x0u0an--topic-cluster-architect",
+      "repo": "x0u0an/topic-cluster-architect",
+      "url": "https://github.com/x0u0an/topic-cluster-architect",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "gh-xnl-h4ck3r--waymore",
+      "repo": "xnl-h4ck3r/waymore",
+      "url": "https://github.com/xnl-h4ck3r/waymore",
+      "kind": "public-repository-reference",
+      "source_assessment": "source-traced (static, not executed)",
+      "code_paths": [
+        "setup.py",
+        "waymore/waymore.py",
+        "tests/test_import.py"
+      ],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue",
+      "observed_git_objects": [
+        {
+          "sha": "4e02de512fd6b110be92dc8bffb3002edfebcb6c",
+          "object_type": "unclassified",
+          "retrievable_revision_verified": false
+        }
+      ]
+    },
+    {
+      "id": "gh-zensink--zens-ink-seo-package",
+      "repo": "ZensInk/zens-ink-seo-package",
+      "url": "https://github.com/ZensInk/zens-ink-seo-package",
+      "kind": "public-repository-reference",
+      "source_assessment": "discovery-only; relevance not established",
+      "code_paths": [],
+      "execution": "not bundled or activated",
+      "runtime": "unverified",
+      "acquisition_proof": "not established by catalogue"
+    },
+    {
+      "id": "tool-lighthouse",
+      "repo": "GoogleChrome/lighthouse",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "kind": "pinned-upstream-cli-adapter",
+      "package": "lighthouse",
+      "version": "13.6.0",
+      "integrity": "sha512-2/HUPUpQyGm01VEgYCUjSlNZY7Zkhk1v3QI4c7UTbnaoRB7HF0qYMPzzaiidNf5iqw5wnmtm9LpGawKKqCfLmg==",
+      "requirements": [
+        "Node >=22.19",
+        "existing Chrome",
+        "POSIX for shipped audit helper"
+      ],
+      "execution": "explicit local executable, no catalogue auto-install",
+      "runtime": "one public read-only lab canary completed on macOS",
+      "acquisition_proof": "none"
+    }
+  ],
+  "git_object_semantics": "Observed hashes retain explicit blob/unclassified type. Never use an unclassified/file blob SHA as a commit/ref; resolve the owning source and object type first."
+}

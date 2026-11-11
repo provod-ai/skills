@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "site_id": "example-static",
+  "origins": [
+    "https://example.com"
+  ],
+  "source_selectors": {
+    "kind": "unknown",
+    "revision": null,
+    "fixture_only": true
+  },
+  "allowed_targets": [
+    "https://example.com"
+  ],
+  "publisher": {
+    "name": "Static configuration example; not an audited production site"
+  },
+  "templates": [
+    "static-page"
+  ],
+  "locale_market_facts": {
+    "locales": [
+      "en"
+    ],
+    "basis": "example configuration, not observed HTML"
+  },
+  "capability_facts": {},
+  "action_scope": {
+    "read_only": true,
+    "fixture_only": true,
+    "network": false,
+    "writes": false,
+    "paid_spend_usd": 0
+  },
+  "input_locators": {},
+  "account_property_locators": {},
+  "coverage_policy": {
+    "units": {}
+  },
+  "issue_refs": [],
+  "memory_locator": null,
+  "source_config_binding": {
+    "site_id": "example-static",
+    "source": {
+      "kind": "unknown",
+      "revision": null
+    },
+    "config_sha256": null,
+    "serving": {
+      "origin": "https://example.com",
+      "revision": null
+    }
+  },
+  "fixture_only": true
+}

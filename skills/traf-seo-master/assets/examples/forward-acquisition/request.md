@@ -1,0 +1,1 @@
+Use the installed skill to produce a one-week acquisition plan and one complete editorial/technical brief from case.json. Prioritize actual progress toward the stated traffic goal. Inputs are synthetic fixtures, not real site measurements. Work only from the case; no external calls or publication.

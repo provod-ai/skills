@@ -7,8 +7,9 @@ Versioned, auditable instructions for agents using the Provod provider and hoste
 - [Provider selection](skills/provod-provider/SKILL.md)
 - [Hosted MCP routing](skills/provod-mcp/SKILL.md)
 - [Media outcome retrieval](skills/provod-media/SKILL.md)
+- [TRAF SEO Master](skills/traf-seo-master/SKILL.md)
 
-Model availability is live data. These skills tell clients to discover models through the CLI or `models_explore`; they intentionally contain no static model catalog. The canonical Markdown is client-neutral, so this release does not generate duplicate Claude, Codex, Hermes, or OpenCode rule fragments.
+The Provod skills use the CLI or `models_explore` to discover live model availability. TRAF SEO Master provides a separate, site-neutral registry of 145 SEO criteria, release checks and evidence helpers. Each skill has a canonical Markdown entry point.
 
 ## Validate and package
 
